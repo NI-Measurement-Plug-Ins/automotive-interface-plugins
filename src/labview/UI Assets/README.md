@@ -10,16 +10,16 @@ Each control and indicator is:
 ---
 
 ## Recommended sizes for well alignment
-24
-48
-72
-96
-120
-144
-168
-192
-216
-240
+24   
+48   
+72  
+96  
+120  
+144  
+168  
+192  
+216  
+240  
 
 ---
 
@@ -46,19 +46,23 @@ Each control and indicator is:
 | Monospaced          | Droid Sans Mono   | Regular    | 14/18    | Sentence    | NIBlack         | Numeric readbacks                      |
 
 ### Color Palette
-InstrumentStudio style guide colors
-RED _   NIErrorBrush 		#C42126
-ORANGE  NIWarningBrush 		#FF8900
-GREEN   NISuccessBrush 		#20B25B
-BLUE    NIProbeBrush 		#006A93
-?       NIGuidelineBrush 	#FC9500
-Grey    NIButtonFillBrush 	#E9EBEC (Offset: 0%)
-                                #D9DEE1 (Offset: 40%)
+
+InstrumentStudio Style Guide Colors  
+
+| **Color Name** | **Brush Name**        | **Hex Code**           | **Notes**            |
+|-----------------|------------------------|-------------------------|-----------------------|
+| Red            | NIErrorBrush          | `#C42126`              | Error state          |
+| Orange         | NIWarningBrush        | `#FF8900`              | Warning state        |
+| Green          | NISuccessBrush        | `#20B25B`              | Success state        |
+| Blue           | NIProbeBrush          | `#006A93`              | Probe/Info           |
+| Orange      | NIGuidelineBrush      | `#FC9500`              | Guideline highlight  |
+| Grey           | NIButtonFillBrush     | `#E9EBEC` (Offset: 0%) | Button fill (default)|
+|                |                        | `#D9DEE1` (Offset: 40%)| Button fill (hover)  |
 ### Compatibility
 
 LabVIEW Versions: Tested with LV 2025 (64‑bit).
 
 ### Dependency
-NI-IMAQdx
-NI-RIO 
-NI-SWITCH
+NI-IMAQdx  
+NI-RIO   
+NI-SWITCH  
