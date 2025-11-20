@@ -1108,7 +1108,7 @@ PXIe_Clk100ResourceName=PXIe_Clk100;TopSignalConnect=PxieClk100;ClockSignalName=
             <RelativeToLabVIEW>..\Shared\FlexRIO\FlexRIO IO Sockets\FlexRIOIoSocketType4\NI-148X\23.8\ni1487_03_32\NI1487_03.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files\National Instruments\Shared\FlexRIO\FlexRIO IO Sockets\FlexRIOIoSocketType4\NI-148X\23.8\ni1487_03_32\NI1487_03.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\FlexRIO IO Sockets\FlexRIOIoSocketType4\NI-148X\23.8\ni1487_03_32\NI1487_03.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\Program Files\National Instruments\Shared\FlexRIO\FlexRIO IO Sockets\FlexRIOIoSocketType4\NI-148X\23.8\ni1487_03_32\NI1487_03.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\..\..\Program Files\National Instruments\Shared\FlexRIO\FlexRIO IO Sockets\FlexRIOIoSocketType4\NI-148X\23.8\ni1487_03_32\NI1487_03.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>The NI 1487 4 In 4 Out CLIP exposes serial input and serial output CSI-2 data as AXI Stream interfaces, provides read and write access to SerDes MFPs, and provides read-only status indicators for Power Over Coax and other signals.</Description>
@@ -5901,7 +5901,7 @@ PXIe_Clk100ResourceName=PXIe_Clk100;TopSignalConnect=PxieClk100;ClockSignalName=
             <RelativeToLabVIEW>..\..\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>..\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\Program Files\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\..\..\Program Files\NI\LVAddons\flexrioii\1\Targets\NI\FPGA\RIO\79XXR\Common\CLIP\Routing\v1\MacallanDefaultRouting.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description></Description>
@@ -12785,7 +12785,7 @@ PXIe_Clk100ResourceName=PXIe_Clk100;TopSignalConnect=PxieClk100;ClockSignalName=
 				<Property Name="NI.SortType" Type="Int">0</Property>
 			</Item>
 			<Item Name="Routing" Type="FPGA Component Level IP">
-				<Property Name="NI.FPGA.79XXR.NormalizeCLIPPath" Type="Str">true</Property>
+				<Property Name="NI.FPGA.79XXR.NormalizeCLIPPath" Type="Str">false</Property>
 				<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
 <CLIPConnections>
    <CLIPSignal name="DataClk">
