@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="lvwpcap.lvlib" Type="Library" URL="../lvwpcap Folder/lvwpcap.lvlib"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 	<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
 </Library>
