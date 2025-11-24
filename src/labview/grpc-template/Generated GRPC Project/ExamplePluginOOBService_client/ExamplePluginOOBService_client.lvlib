@@ -9,30 +9,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="RPC Messages" Type="Folder">
-		<Item Name="google_protobuf_Any" Type="Folder">
-			<Item Name="google_protobuf_Any.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any.ctl"/>
-			<Item Name="FlatToRichgoogle_protobuf_Any.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_Any.vi">
+		<Item Name="hwval_BoolRequest" Type="Folder">
+			<Item Name="hwval_BoolRequest.ctl" Type="VI" URL="../RPC Messages/hwval_BoolRequest.ctl"/>
+			<Item Name="FlatToRichhwval_BoolRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichhwval_BoolRequest.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
-			<Item Name="RichToFlatgoogle_protobuf_Any.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_Any.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
-		<Item Name="hwval_GenericRequest" Type="Folder">
-			<Item Name="hwval_GenericRequest.ctl" Type="VI" URL="../RPC Messages/hwval_GenericRequest.ctl"/>
-			<Item Name="FlatToRichhwval_GenericRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichhwval_GenericRequest.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="RichToFlathwval_GenericRequest.vi" Type="VI" URL="../RPC Messages/RichToFlathwval_GenericRequest.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
-		<Item Name="hwval_EmptyRequest" Type="Folder">
-			<Item Name="hwval_EmptyRequest.ctl" Type="VI" URL="../RPC Messages/hwval_EmptyRequest.ctl"/>
-			<Item Name="FlatToRichhwval_EmptyRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichhwval_EmptyRequest.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="RichToFlathwval_EmptyRequest.vi" Type="VI" URL="../RPC Messages/RichToFlathwval_EmptyRequest.vi">
+			<Item Name="RichToFlathwval_BoolRequest.vi" Type="VI" URL="../RPC Messages/RichToFlathwval_BoolRequest.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
@@ -54,18 +36,8 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
-		<Item Name="google_protobuf_Any_Flat" Type="Folder">
-			<Item Name="google_protobuf_Any_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any_Flat.ctl">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
-		<Item Name="hwval_GenericRequest_Flat" Type="Folder">
-			<Item Name="hwval_GenericRequest_Flat.ctl" Type="VI" URL="../RPC Messages/hwval_GenericRequest_Flat.ctl">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
-		<Item Name="hwval_EmptyRequest_Flat" Type="Folder">
-			<Item Name="hwval_EmptyRequest_Flat.ctl" Type="VI" URL="../RPC Messages/hwval_EmptyRequest_Flat.ctl">
+		<Item Name="hwval_BoolRequest_Flat" Type="Folder">
+			<Item Name="hwval_BoolRequest_Flat.ctl" Type="VI" URL="../RPC Messages/hwval_BoolRequest_Flat.ctl">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
@@ -85,14 +57,8 @@
 	</Item>
 	<Item Name="RPC Service" Type="Folder">
 		<Item Name="ExamplePluginOOBService" Type="Folder">
-			<Item Name="ExamplePluginOOBService Execute" Type="Folder">
-				<Item Name="ExamplePluginOOBService Execute.vi" Type="VI" URL="../RPC Service/ExamplePluginOOBService/ExamplePluginOOBService Execute.vi"/>
-			</Item>
-			<Item Name="ExamplePluginOOBService Pause" Type="Folder">
-				<Item Name="ExamplePluginOOBService Pause.vi" Type="VI" URL="../RPC Service/ExamplePluginOOBService/ExamplePluginOOBService Pause.vi"/>
-			</Item>
-			<Item Name="ExamplePluginOOBService Resume" Type="Folder">
-				<Item Name="ExamplePluginOOBService Resume.vi" Type="VI" URL="../RPC Service/ExamplePluginOOBService/ExamplePluginOOBService Resume.vi"/>
+			<Item Name="ExamplePluginOOBService PauseResume" Type="Folder">
+				<Item Name="ExamplePluginOOBService PauseResume.vi" Type="VI" URL="../RPC Service/ExamplePluginOOBService/ExamplePluginOOBService PauseResume.vi"/>
 			</Item>
 			<Item Name="ExamplePluginOOBService Export" Type="Folder">
 				<Item Name="ExamplePluginOOBService Export.vi" Type="VI" URL="../RPC Service/ExamplePluginOOBService/ExamplePluginOOBService Export.vi"/>

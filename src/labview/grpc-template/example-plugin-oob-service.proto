@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package hwval;
+
+service ExamplePluginOOBService {
+	// Add plugin-specific service methods here. //TODO remove comment
+	// Here are some example service methods using example request and response messages: //TODO remove comment
+	rpc PauseResume (BoolRequest) returns (StatusResponse) {}
+	rpc Export (ExportRequest) returns (StatusResponse) {}
+}
+
+// ---Request Messages---
+
+// Add plugin-specific request messages here. //TODO remove comment
+
+message BoolRequest {
+	bool BooleanData = 1;
+}
+
+message ExportRequest {
+	string FileType = 1;
+}
+
+// ---Response Messages---
+
+// Status message is intended to be used to return status/error codes
+message StatusResponse {
+	bool Status = 1;
+	int32 Code = 2;
+	string Message = 3;
+}

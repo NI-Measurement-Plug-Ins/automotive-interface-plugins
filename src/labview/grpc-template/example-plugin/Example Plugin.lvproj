@@ -15,11 +15,13 @@
 		<Item Name="deps" Type="Folder">
 			<Item Name="ExamplePluginOOBService_client.lvlib" Type="Library" URL="../Example Plugin UI/ExamplePluginOOBService_client/ExamplePluginOOBService_client.lvlib"/>
 			<Item Name="ExamplePluginOOBService_server.lvlib" Type="Library" URL="../Example Plugin/ExamplePluginOOBService_server/ExamplePluginOOBService_server.lvlib"/>
+			<Item Name="labview_grpc_server.dll" Type="Document" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Libraries/Win64/labview_grpc_server.dll"/>
 		</Item>
 		<Item Name="Example Plugin UI.lvlib" Type="Library" URL="../Example Plugin UI/Example Plugin UI.lvlib"/>
 		<Item Name="Example Plugin.lvclass" Type="LVClass" URL="../Example Plugin/Example Plugin.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Example Plugin" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{82E06DCA-7845-4E2E-B65D-F5B717B89308}</Property>
@@ -37,6 +39,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Example Plugin.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{901B2325-E39A-4080-80A4-9267F27E92AD}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ExamplePlugin.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Example Plugin/ExamplePlugin.exe</Property>
@@ -75,6 +78,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F0A12EB-11EF-49F4-89E0-3E24D6F801BC}</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Example Plugin UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Example Plugin UI.lvlibp</Property>
@@ -105,6 +109,41 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0B8B61E8-4FAA-43E5-B0F6-266B2FDC8D81}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Example Plugin UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Copy gRPC DLL to BuiltUI folder" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{430FAF67-0B6C-4D07-B457-AEC05ED2AF0E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Copy gRPC DLL to BuiltUI folder</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/25.0</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">/C/Users/Admin/Documents/LabVIEW Data/2025(64-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Libraries/Win64</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D6F7B41A-D34B-469E-A365-AB34D75930ED}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Libraries/Win64</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Libraries/Win64/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2CFA8427-0765-4EF2-913F-345C318013B2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/deps/labview_grpc_server.dll</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
