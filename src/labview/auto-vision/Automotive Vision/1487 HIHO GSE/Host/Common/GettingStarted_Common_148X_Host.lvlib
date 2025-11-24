@@ -78,5 +78,6 @@
 	<Item Name="SerDes Configuration Script Example.vi" Type="VI" URL="../SerDes Configuration Script Example.vi"/>
 	<Item Name="TDMS File Converter.vi" Type="VI" URL="../TDMS File Converter.vi"/>
 	<Item Name="TDMS File Viewer.vi" Type="VI" URL="../TDMS File Viewer.vi"/>
+	<Item Name="Wrap Data for UI Update.vi" Type="VI" URL="../../../../subVI/Wrap Data for UI Update.vi"/>
 	<Item Name="Wrap Image Dat.vi" Type="VI" URL="../../../../Wrap Image Dat.vi"/>
 </Library>
