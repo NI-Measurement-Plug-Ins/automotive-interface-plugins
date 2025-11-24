@@ -17,6 +17,7 @@
 		<Item Name="Configure Serial Output Reference Clock Frequency.vi" Type="VI" URL="../API/Configure Serial Output Reference Clock Frequency.vi"/>
 		<Item Name="Configure User Timestamp DMA FIFO.vi" Type="VI" URL="../API/Configure User Timestamp DMA FIFO.vi"/>
 		<Item Name="Display Images.vi" Type="VI" URL="../API/Display Images.vi"/>
+		<Item Name="Display Images_.vi" Type="VI" URL="../API/Display Images_.vi"/>
 		<Item Name="Dispose Images.vi" Type="VI" URL="../API/Dispose Images.vi"/>
 		<Item Name="Format GPIO Data for Display.vi" Type="VI" URL="../API/Format GPIO Data for Display.vi"/>
 		<Item Name="Format I2C Data for Display.vi" Type="VI" URL="../API/Format I2C Data for Display.vi"/>
