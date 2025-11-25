@@ -7,7 +7,7 @@ The template is provided through a manual instruction steps in this README and a
 
 ### Example Proto File 
 `src\labview\grpc-template\example-plugin\proto\example-plugin-oob-service.proto`  
-Provides a starting point for the plugin proto files.
+Provides a starting point for the plugins' proto files.
 
 ### Generated GRPC Project
 `src\labview\grpc-template\Generated GRPC Project`  
@@ -25,7 +25,7 @@ Provides an example on how to implement the OOB gRPC Service.
 1. Create plugin proto file
     - Create a folder named `proto` under your plugin directory.
     - Copy the example proto file to this folder.
-    - Change the file to: `your-plugin-name-oob-service.proto`  
+    - Change the name to: `your-plugin-name-oob-service.proto`  
     For a plugin named `Example Plugin` it would look like this:  
     ![image](README%20images/001.png)
 2. Modify the proto file
