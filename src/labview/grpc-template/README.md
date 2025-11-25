@@ -1,7 +1,7 @@
 # GRPC Tempate
-This folder provides a template for the plugins to implement an OOB gRPC service to pass data from Measurement UI to Measurement Logic.
+This folder provides a template for plugins to implement an OOB gRPC service to pass data from Measurement UI to Measurement Logic.
 
-The template is provided through manual instruction steps in this README and an example plugin that demonstrates the implementation.
+The template is provided through a manual instruction steps in this README and an example plugin that demonstrates the implementation.
 
 ## Intro
 
@@ -20,6 +20,8 @@ This is here for demonstration purposes.
 Provides an example on how to implement the OOB gRPC Service.
 
 ## Instructions
+0. If you don't have a plugin generated yet, create a blank project, save it with your plugin name and generate a plugin using the Measurement Plug-in SDK's `Create Measurement Plug-in` tool:
+![image](README%20images/000.png)
 1. Create plugin proto file
     - Create a folder named `proto` under your plugin directory.
     - Copy the example proto file to this folder.
@@ -36,6 +38,26 @@ Provides an example on how to implement the OOB gRPC Service.
     - Open the gRPC Server-Client Code Generator tool:  
     ![image](README%20images/004.png)
     - Configure gRPC tool according to your plugin:  
-    NOTE: The `Target Project` path can be a project of your choice this can be deleted later, as we will going to move the server and client folders to the plugin directory.  
+    NOTES:  
+    The `Target Project` path can be a project of your choice in a folder of your choice. This can be deleted later, as we will be moving the server and client folders under the plugin directory.  
+    We are selecting `Both` for `Generate Server or Client?` and leaving library suffix as default, this simplifies the generation process, but you can generate the server and client separately with better names, and library name containing spaces to feel more consistent with other plugin folders.  
     ![image](README%20images/005.png)
-    - placeholder
+    - Move the client folder to plugin UI folder:  
+    from  
+    ![image](README%20images/006.png)  
+    to  
+    ![image](README%20images/007.png)
+    - Move the server folder to plugin folder:
+    from  
+    ![image](README%20images/008.png)  
+    to  
+    ![image](README%20images/009.png)
+    - You can now delete the folder you used to generate the gRPC code.
+4. Copy and Rename OOB Data Transfer library  
+    - Copy `C:\dev\hardware-validation\src\labview\grpc-template\example-plugin\Example Plugin\Example Plugin OOB Data Transfer` to your plugin folder:  
+    ![image](README%20images/010.png)
+    - Rename the folder and library names according to your plugin name.
+5. Modify plugin project 
+    - Add the gRPC server, gRPC client, and OOB Data Transfer LVLIBs under `deps` virtual folder:  
+    ![image](README%20images/011.png)
+    - 
