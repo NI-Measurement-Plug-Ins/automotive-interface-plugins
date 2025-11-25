@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="1BF3C30B8EBD431B844A71B5A9F87C1C2CD38E288D7A8E0E6067806F328E8C0955D86B41A8166D62F798CE398FF945CDAB5C8484244803C93BBA38C44DD3C8EA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E4EE211613C3F80D488B927FAB9EA1BF69CE45740A67F6758C17B38B7D0A847BE7AD13EBDB018B441D87F3315126374E31129CF393F59D16C1E54977BF8B2390" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.18.1.49696" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="25.8.1.49696" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="25.8.1.49696" />
@@ -17,6 +17,7 @@
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">
 		<p.ProjectProperties>
 			<Kind Name="plugin.reference">
+				<Item Name="CAN-LIN Frame Generator_LabVIEW" Value="1.0.0" />
 				<Item Name="Count Edges_LabVIEW" Value="1.0.0" />
 			</Kind>
 		</p.ProjectProperties>
