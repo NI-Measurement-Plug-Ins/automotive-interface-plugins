@@ -21,91 +21,91 @@ Provides an example on how to implement the OOB gRPC Service.
 
 ## Instructions
 0. If you don't have a plugin generated yet, create a blank project, save it with your plugin name and generate a plugin using the Measurement Plug-in SDK's `Create Measurement Plug-in` tool:
-![image](README%20images/000.png)
+![image](<README images/000.png>)
 1. Create plugin proto file
     - Create a folder named `proto` under your plugin directory.
     - Copy the example proto file to this folder.
     - Change the name to: `your-plugin-name-oob-service.proto`  
     For a plugin named `Example Plugin` it would look like this:  
-    ![image](README%20images/001.png)
+    ![image](<README images/001.png>)
 2. Modify the proto file
     - Please follow UpperCamelCase (PascalCase) naming convention for `service`, `rpc` (service method), and `message` names.
     - Make sure to perform the TODOs.
-    ![image](README%20images/002.png)
+    ![image](<README images/002.png>)
 3. Generate gRPC server and client
     - Make sure that you have this package installed via VIPM:  
-    ![image](README%20images/003.png)
+    ![image](<README images/003.png>)
     - Open the gRPC Server-Client Code Generator tool:  
-    ![image](README%20images/004.png)
+    ![image](<README images/004.png>)
     - Configure gRPC tool according to your plugin:  
     NOTES:  
     The `Target Project` path can be a project of your choice in a folder of your choice. This can be deleted later, as we will be moving the server and client folders under the plugin directory.  
     We are selecting `Both` for `Generate Server or Client?` and leaving library suffix as default, this simplifies the generation process, but you can generate the server and client separately with better names, and library name containing spaces to feel more consistent with other plugin folders.  
-    ![image](README%20images/005.png)
+    ![image](<README images/005.png>)
     - Move the client folder to plugin UI folder:  
     from  
-    ![image](README%20images/006.png)  
+    ![image](<README images/006.png>)  
     to  
-    ![image](README%20images/007.png)
+    ![image](<README images/007.png>)
     - Move the server folder to plugin folder:  
     from  
-    ![image](README%20images/008.png)  
+    ![image](<README images/008.png>)  
     to  
-    ![image](README%20images/009.png)
+    ![image](<README images/009.png>)
     - You can now delete the folder you used to generate the gRPC code.
 4. Copy and Rename OOB Data Transfer library  
     - This library can serve as a starting point for plugin OOB data transfer API; the data transfer mechanism between the server loop and logic loop.  
     You can define your own mechanism that suites your plugin's needs.
     - Copy `C:\dev\hardware-validation\src\labview\grpc-template\example-plugin\Example Plugin\Example Plugin OOB Data Transfer` to your plugin folder:    
-    ![image](README%20images/010.png)
+    ![image](<README images/010.png>)
     - Rename the folder and library names according to your plugin name.
 5. Copy UI Build Assets
     - Copy `"src\labview\grpc-template\example-plugin\Example Plugin UI\Build Assets` folder to your plugin's UI folder  
-    ![image](README%20images/011.png)
+    ![image](<README images/011.png>)
     - Open the `<your plugin UI folder>\Build Assets\Post-Build Action.vi`, select `Disconnect From Library`, save, and close.
 6. Modify plugin project 
     - Open your plugin project
     - Add the gRPC server, gRPC client, and OOB Data Transfer LVLIBs under `deps` virtual folder:  
-    ![image](README%20images/012.png)
+    ![image](<README images/012.png>)
     - Create a `Build Assets` virtual folder under your plugin UI library, and add the `<your plugin UI folder>\Build Assets\Post-Build Action.vi`  
-    ![image](README%20images/013.png)
+    ![image](<README images/013.png>)
     - Open `Post-Build Action.vi` and save.
     - (IMPORTANT) right-click on your plugin UI library and save.
     - Open the plugin UI build spec, and add the post-build action.  
-    ![image](README%20images/014.png)
+    ![image](<README images/014.png>)
     - Test the build spec; build the UI PPL, after build is complete, post-build action should copy the following files from gRPC program files directory to the BuiltUI folder:  
-    ![image](README%20images/015.png)
+    ![image](<README images/015.png>)
 7. Modify Measure VI
     - Taking the Example Plugin as a reference, modify your plugin's `Measure.vi` implementing these changes:  
-    ![image](README%20images/016.png)
+    ![image](<README images/016.png>)
 8. Modify gRPC OOB Server
     - Taking the Example Plugin as a reference, modify your plugin's OOB gRPC Server's `Run Server.vi` implementing these changes:  
-    ![image](README%20images/017.png)
+    ![image](<README images/017.png>)
         - tips:
         Broken wire will be resolved when modifying the next VI  
-        ![image](README%20images/018.png)
+        ![image](<README images/018.png>)
     - In the `Run Server.vi` right-click the Event Registration Refnum out and create a control, and rename it to `Event Registration Refnum in`  
-    ![image](README%20images/019.png)  
-    ![image](README%20images/020.png)
+    ![image](<README images/019.png>)  
+    ![image](<README images/020.png>)
     - Open and Modify the `Monitor for Stop.vi` replacing the original event reg refnums with the new ones  
         - Open `Monitor for Stop.vi`, and move the refnum to this VI  
-          ![image](README%20images/021.png)
+          ![image](<README images/021.png>)
         - Delete the original refnums  
-          ![image](README%20images/022.png)
+          ![image](<README images/022.png>)
         - Remove `2` from the new refnum and create an indicator named `Event Registration Refnum out`, and connect the VI connector pane correspondingly:  
-          ![image](README%20images/023.png)
+          ![image](<README images/023.png>)
         - Taking the Example Plugin as reference implement these changes to your plugin  
-          ![image](README%20images/024.png)
+          ![image](<README images/024.png>)
     - Taking the Example Plugin as a reference, modify your plugin's OOB gRPC Server's `Start Sync.vi` according to your proto file.  
     ***This where you handle the OOB gRPC requests from the OOB gRPC client.***   
     ***This is the "server loop", where OOB data gets transferred from using OOB Data Transfer api, to your Measurement Logic VI:***  
-    ![image](README%20images/025.png)
+    ![image](<README images/025.png>)
 9. Modify Measurement Logic VI
     - Taking the Example Plugin as a reference, modify your plugin's `Measurement Logic.vi` implementing these changes:  
         - Wire the Stop OOB Server User Event  
-        ![image](README%20images/026.png)
+        ![image](<README images/026.png>)
         - Make sure to add the `OOB gRPC Port` (Int32) indicator into the `Measurement Results.ctl`  
-        ![image](README%20images/027.png)
+        ![image](<README images/027.png>)
         - Pass the gRPC port to the results and pass OOB data via your data transfer api to this logic loop  
         ![image](<README images/028.png>)
 10. Modify Measurement UI
