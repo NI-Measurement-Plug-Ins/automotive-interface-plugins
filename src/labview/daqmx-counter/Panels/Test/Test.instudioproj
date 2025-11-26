@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C0816E06A82EEA6B694800174AFC11FFA1CA9B19133CC2C4DB2C39A8787D771C3143C87DFEF10E2E8832EF2085836151C9D81593D56CFF6CCB4DA2DE77988956" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0319190BF8577FB8237C5F4D5413746BAAD37D4195A70CA6310B78B98DAAAB6CBD4E8B8B3A2AE1DBA8819AA277D1DA92454CF281384EEFED48C796E30712F439" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.18.1.49696" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="25.8.1.49696" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="25.8.1.49696" />
@@ -30,6 +30,7 @@
 			<FileReference Bindings=".pdf" Id="6b39db6f01ef40b495c84620c3e64a3e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-11-25 10-08-55.pdf" StoragePath="Sequence Results\Test Report 2025-11-25 10-08-55.pdf" />
 			<FileReference Bindings=".pdf" Id="f4621ca84b44741bbbc7768d9ab5c89" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-11-25 11-09-24.pdf" StoragePath="Sequence Results\Test Report 2025-11-25 11-09-24.pdf" />
 			<SourceFileReference Bindings="EnvoyManager" Id="1adf222dcbd64f78919beee9d82cb042" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument_3.sfp" StoragePath="Instrument_3.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="b42c163198bb428183e9d56b9adf081b" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument_4.sfp" StoragePath="Instrument_4.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">
@@ -38,6 +39,8 @@
 				<Item Name="CAN-LIN Frame Generator_LabVIEW" Value="1.0.0" />
 				<Item Name="CAN-LIN Raw Bus Capture_LabVIEW" Value="1.0.0" />
 				<Item Name="Count Edges_LabVIEW" Value="1.0.0" />
+				<Item Name="Example Plugin_LabVIEW" Value="1.0.0" />
+				<Item Name="Workflow DO_LabVIEW" Value="1.0.0" />
 			</Kind>
 		</p.ProjectProperties>
 	</ProjectInformation>

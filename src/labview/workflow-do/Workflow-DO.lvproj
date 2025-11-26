@@ -14,6 +14,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="deps" Type="Folder">
 			<Item Name="CAN Write.vi" Type="VI" URL="../Workflow DO/CAN Write.vi"/>
+			<Item Name="Configure CAN Read.vi" Type="VI" URL="../Workflow DO/Configure CAN Read.vi"/>
+			<Item Name="Configure CAN.vi" Type="VI" URL="../Workflow DO/Configure CAN.vi"/>
 			<Item Name="Configure daqmx.vi" Type="VI" URL="../Workflow DO/Configure daqmx.vi"/>
 		</Item>
 		<Item Name="Workflow DO UI.lvlib" Type="Library" URL="../Workflow DO UI/Workflow DO UI.lvlib"/>
@@ -75,7 +77,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3922DC6E-32FB-4E69-BEDC-490FE4DD09AC}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Workflow DO UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Workflow DO/BuiltUI/Workflow DO UI.lvlibp</Property>
