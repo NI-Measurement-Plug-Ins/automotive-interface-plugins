@@ -12,6 +12,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="deps" Type="Folder">
+			<Item Name="CAN Write.vi" Type="VI" URL="../Workflow DO/CAN Write.vi"/>
+			<Item Name="Configure daqmx.vi" Type="VI" URL="../Workflow DO/Configure daqmx.vi"/>
+		</Item>
 		<Item Name="Workflow DO UI.lvlib" Type="Library" URL="../Workflow DO UI/Workflow DO UI.lvlib"/>
 		<Item Name="Workflow DO.lvclass" Type="LVClass" URL="../Workflow DO/Workflow DO.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
@@ -33,6 +37,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Workflow DO.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7C2F220B-D1F7-40D5-A21F-D1F84D4B3849}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WorkflowDO.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Workflow DO/WorkflowDO.exe</Property>
@@ -70,7 +75,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3922DC6E-32FB-4E69-BEDC-490FE4DD09AC}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Workflow DO UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Workflow DO/BuiltUI/Workflow DO UI.lvlibp</Property>
