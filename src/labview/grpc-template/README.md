@@ -92,7 +92,7 @@ Provides an example on how to implement the OOB gRPC Service.
           ![image](<README images/021.png>)
         - Delete the original refnums  
           ![image](<README images/022.png>)
-        - Remove `2` from the new refnum and create an indicator named `Event Registration Refnum out`, and connect the VI connector pane correspondingly:  
+        - Remove `2` from the new refnum name, right-click the refnum and create an indicator named `Event Registration Refnum out`, and connect the VI connector pane correspondingly:  
           ![image](<README images/023.png>)
         - Taking the Example Plugin as reference implement these changes to your plugin  
           ![image](<README images/024.png>)
