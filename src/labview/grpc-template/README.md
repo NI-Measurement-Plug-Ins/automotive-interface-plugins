@@ -47,7 +47,7 @@ Provides an example on how to implement the OOB gRPC Service.
     ![image](README%20images/006.png)  
     to  
     ![image](README%20images/007.png)
-    - Move the server folder to plugin folder:
+    - Move the server folder to plugin folder:  
     from  
     ![image](README%20images/008.png)  
     to  
@@ -56,23 +56,23 @@ Provides an example on how to implement the OOB gRPC Service.
 4. Copy and Rename OOB Data Transfer library  
     - This library can serve as a starting point for plugin OOB data transfer API; the data transfer mechanism between the server loop and logic loop.  
     You can define your own mechanism that suites your plugin's needs.
-    - Copy `C:\dev\hardware-validation\src\labview\grpc-template\example-plugin\Example Plugin\Example Plugin OOB Data Transfer` to your plugin folder:  
+    - Copy `C:\dev\hardware-validation\src\labview\grpc-template\example-plugin\Example Plugin\Example Plugin OOB Data Transfer` to your plugin folder:    
     ![image](README%20images/010.png)
     - Rename the folder and library names according to your plugin name.
 5. Copy UI Build Assets
-    - Copy `"src\labview\grpc-template\example-plugin\Example Plugin UI\Build Assets` folder to your plugin's UI folder
+    - Copy `"src\labview\grpc-template\example-plugin\Example Plugin UI\Build Assets` folder to your plugin's UI folder  
     ![image](README%20images/011.png)
     - Open the `<your plugin UI folder>\Build Assets\Post-Build Action.vi`, select `Disconnect From Library`, save, and close.
 6. Modify plugin project 
     - Open your plugin project
     - Add the gRPC server, gRPC client, and OOB Data Transfer LVLIBs under `deps` virtual folder:  
     ![image](README%20images/012.png)
-    - Create a `Build Assets` virtual folder under your plugin UI library, and add the `<your plugin UI folder>\Build Assets\Post-Build Action.vi`
+    - Create a `Build Assets` virtual folder under your plugin UI library, and add the `<your plugin UI folder>\Build Assets\Post-Build Action.vi`  
     ![image](README%20images/013.png)
     - Open `Post-Build Action.vi` and save.
     - (IMPORTANT) right-click on your plugin UI library and save.
-    - Open the plugin UI build spec, and add the post-build action.
+    - Open the plugin UI build spec, and add the post-build action.  
     ![image](README%20images/014.png)
-    - Test the build spec; build the UI PPL, after build is complete, post-build action should copy the following files from gRPC program files directory to the BuiltUI folder:
+    - Test the build spec; build the UI PPL, after build is complete, post-build action should copy the following files from gRPC program files directory to the BuiltUI folder:  
     ![image](README%20images/015.png)
 7. Modify Measure VI
