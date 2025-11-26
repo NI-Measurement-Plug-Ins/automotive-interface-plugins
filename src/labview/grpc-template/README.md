@@ -76,3 +76,48 @@ Provides an example on how to implement the OOB gRPC Service.
     - Test the build spec; build the UI PPL, after build is complete, post-build action should copy the following files from gRPC program files directory to the BuiltUI folder:  
     ![image](README%20images/015.png)
 7. Modify Measure VI
+    - Taking the Example Plugin as a reference, modify your plugin's `Measure.vi` implementing these changes:  
+    ![image](README%20images/016.png)
+8. Modify gRPC OOB Server
+    - Taking the Example Plugin as a reference, modify your plugin's OOB gRPC Server's `Run Server.vi` implementing these changes:  
+    ![image](README%20images/017.png)
+        - tips:
+        Broken wire will be resolved when modifying the next VI  
+        ![image](README%20images/018.png)
+    - In the `Run Server.vi` right-click the Event Registration Refnum out and create a control, and rename it to `Event Registration Refnum in`  
+    ![image](README%20images/019.png)  
+    ![image](README%20images/020.png)
+    - Open and Modify the `Monitor for Stop.vi` replacing the original event reg refnums with the new ones  
+        - Open `Monitor for Stop.vi`, and move the refnum to this VI  
+          ![image](README%20images/021.png)
+        - Delete the original refnums  
+          ![image](README%20images/022.png)
+        - Remove `2` from the new refnum and create an indicator named `Event Registration Refnum out`, and connect the VI connector pane correspondingly:  
+          ![image](README%20images/023.png)
+        - Taking the Example Plugin as reference implement these changes to your plugin  
+          ![image](README%20images/024.png)
+    - Taking the Example Plugin as a reference, modify your plugin's OOB gRPC Server's `Start Sync.vi` according to your proto file.  
+    ***This where you handle the OOB gRPC requests from the OOB gRPC client.***   
+    ***This is the "server loop", where OOB data gets transferred from using OOB Data Transfer api, to your Measurement Logic VI:***  
+    ![image](README%20images/025.png)
+9. Modify Measurement Logic VI
+    - Taking the Example Plugin as a reference, modify your plugin's `Measurement Logic.vi` implementing these changes:  
+        - Wire the Stop OOB Server User Event  
+        ![image](README%20images/026.png)
+        - Make sure to add the `OOB gRPC Port` (Int32) indicator into the `Measurement Results.ctl`  
+        ![image](README%20images/027.png)
+        - Pass the gRPC port to the results and pass OOB data via your data transfer api to this logic loop  
+        ![image](<README images/028.png>)
+10. Modify Measurement UI
+    - Taking the Example Plugin as a reference, modify your plugin's `Measurement UI.vi` implementing these changes:
+    ![image](<README images/029.png>)  
+        - Add a `OOB gRPC Port` (Int32) control and hide it  
+        ![image](<README images/030.png>)
+        - Here are the highlights of changes needed to be done:  
+        ![image](<README images/031.png>)  
+        ![image](<README images/032.png>)  
+        ![image](<README images/033.png>)  
+        look through this code:  
+        ![image](<README images/034.png>)
+
+
