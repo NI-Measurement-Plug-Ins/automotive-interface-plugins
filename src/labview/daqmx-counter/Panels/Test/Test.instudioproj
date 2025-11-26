@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0319190BF8577FB8237C5F4D5413746BAAD37D4195A70CA6310B78B98DAAAB6CBD4E8B8B3A2AE1DBA8819AA277D1DA92454CF281384EEFED48C796E30712F439" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7308CB76E6FFE58486FC2DA7539782F3C0830BEEC7B32EC6086B86EE30ED99EC8ADCE5B17021ACE1D1FB128A31E2BE6F9E86DDA9E14479220694CF4A37DFB1F0" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.18.1.49696" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="25.8.1.49696" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="25.8.1.49696" />
@@ -13,7 +13,7 @@
 			<DefaultTarget />
 			<SourceFileReference Bindings="EnvoyManager" Id="e1d06f35da66402989bd16336eab5ff7" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument.sfp" StoragePath="Instrument.sfp" />
 			<FileReference Bindings=".seq" Id="36ec779fcd6c467d8d9d0a2151633b06" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test.seq" StoragePath="Test.seq" />
-			<SourceFileReference Bindings="EnvoyManager" Id="3d706b4e20214c17844426f0892ae220" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument_2.sfp" StoragePath="Instrument_2.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="3d706b4e20214c17844426f0892ae220" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Monitor.sfp" StoragePath="Monitor.sfp" />
 			<FileReference Bindings=".pdf" Id="139d31e299634e418adfb4e4a452f4a0" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-11-25 09-47-01.pdf" StoragePath="Sequence Results\Test Report 2025-11-25 09-47-01.pdf" />
 			<FileReference Bindings=".pdf" Id="1117cf0061d440e5965d901fb0efcdac" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-11-25 09-47-42.pdf" StoragePath="Sequence Results\Test Report 2025-11-25 09-47-42.pdf" />
 			<FileReference Bindings=".pdf" Id="df0e92bfdbf245568cc14748f4c564e6" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-11-25 09-49-48.pdf" StoragePath="Sequence Results\Test Report 2025-11-25 09-49-48.pdf" />
@@ -29,8 +29,8 @@
 			<FileReference Bindings=".pdf" Id="d3a4c366886b4a0d9dafb1c8983195d2" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-11-25 10-08-39.pdf" StoragePath="Sequence Results\Test Report 2025-11-25 10-08-39.pdf" />
 			<FileReference Bindings=".pdf" Id="6b39db6f01ef40b495c84620c3e64a3e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-11-25 10-08-55.pdf" StoragePath="Sequence Results\Test Report 2025-11-25 10-08-55.pdf" />
 			<FileReference Bindings=".pdf" Id="f4621ca84b44741bbbc7768d9ab5c89" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-11-25 11-09-24.pdf" StoragePath="Sequence Results\Test Report 2025-11-25 11-09-24.pdf" />
-			<SourceFileReference Bindings="EnvoyManager" Id="1adf222dcbd64f78919beee9d82cb042" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument_3.sfp" StoragePath="Instrument_3.sfp" />
-			<SourceFileReference Bindings="EnvoyManager" Id="b42c163198bb428183e9d56b9adf081b" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument_4.sfp" StoragePath="Instrument_4.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="1adf222dcbd64f78919beee9d82cb042" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Generator.sfp" StoragePath="Generator.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="b42c163198bb428183e9d56b9adf081b" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Workflow All One.sfp" StoragePath="Workflow All One.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">

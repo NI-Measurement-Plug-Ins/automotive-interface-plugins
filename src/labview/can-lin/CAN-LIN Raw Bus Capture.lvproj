@@ -12,6 +12,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="deps" Type="Folder">
+			<Item Name="Check for CAN Error Gen.vi" Type="VI" URL="../../can-lin-generator/CAN-LIN Frame Generator/Check for CAN Error Gen.vi"/>
+			<Item Name="Configure CAN Read Gen.vi" Type="VI" URL="../../can-lin-generator/CAN-LIN Frame Generator/Configure CAN Read Gen.vi"/>
+			<Item Name="Format CAN Data Gen.vi" Type="VI" URL="../../can-lin-generator/CAN-LIN Frame Generator/Format CAN Data Gen.vi"/>
+		</Item>
 		<Item Name="CAN-LIN Raw Bus Capture UI.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture UI/CAN-LIN Raw Bus Capture UI.lvlib"/>
 		<Item Name="CAN-LIN Raw Bus Capture.lvclass" Type="LVClass" URL="../CAN-LIN Raw Bus Capture/CAN-LIN Raw Bus Capture.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
@@ -27,7 +32,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AAE4981C-3794-4063-BD2D-49426FE4E5B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CAN-LIN Raw Bus Capture UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/CAN-LIN Raw Bus Capture UI.lvlibp</Property>
