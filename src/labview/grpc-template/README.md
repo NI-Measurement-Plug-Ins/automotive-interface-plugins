@@ -30,6 +30,7 @@ Provides an example on how to implement the OOB gRPC Service.
     ![image](<README images/001.png>)
 2. Modify the proto file
     - Please follow UpperCamelCase (PascalCase) naming convention for `service`, `rpc` (service method), and `message` names.
+    - Recommend naming the Service `YourPluginNameOOBService`
     - Make sure to perform the TODOs.
     ![image](<README images/002.png>)
 3. Generate gRPC server and client
