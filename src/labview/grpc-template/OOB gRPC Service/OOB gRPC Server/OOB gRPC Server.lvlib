@@ -7,6 +7,7 @@
 
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Generated Descriptors" Type="Folder">
 		<Item Name="Generated Descriptors.vi" Type="VI" URL="../Generated Descriptors/Generated Descriptors.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -111,6 +112,6 @@
 	<Item Name="Get Service Class Instances.vi" Type="VI" URL="../Get Service Class Instances.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="OOBgRPCService.lvclass" Type="LVClass" URL="../RPC Service/OOBgRPCService/OOBgRPCService.lvclass"/>
 	<Item Name="Run Server.vi" Type="VI" URL="../Run Server.vi"/>
+	<Item Name="OOBgRPCService.lvclass" Type="LVClass" URL="../RPC Service/OOBgRPCService/OOBgRPCService.lvclass"/>
 </Library>
