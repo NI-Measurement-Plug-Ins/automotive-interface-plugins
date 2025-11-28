@@ -47,7 +47,8 @@ Example Plugin that uses the template.
     ![image](<README images/014.png>)
     - Test the build spec; build the UI PPL, after build is complete, post-build action should copy the following files from gRPC program files directory to the BuiltUI folder:  
     ![image](<README images/015.png>)
-6. In your project, go to View -> Bookmark Manager and follow the #OOBToDo list, in the order that is indicated by the number next to the TODO mark.
+6. Follow **#OOBToDo** list:  
+In your project, go to View -> Bookmark Manager and follow the **#OOBToDo** list, in the order that is indicated by the number next to the TODO mark.
 7. Hide the `OOB gRPC Port` (Int32) control  
 ![image](<README images/030.png>)
 8. You can also copy the Post-Build Action Helper.vi and add it to your plugin's Post-Build Action (see example plugin for reference), this is for convenience, it helps copy the exe build to the Measurement directory.
