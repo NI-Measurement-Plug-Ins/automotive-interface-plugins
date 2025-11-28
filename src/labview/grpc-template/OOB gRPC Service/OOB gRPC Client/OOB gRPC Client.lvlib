@@ -100,4 +100,5 @@
 		<Item Name="Create Client.vi" Type="VI" URL="../Client API/Create Client.vi"/>
 		<Item Name="Destroy Client.vi" Type="VI" URL="../Client API/Destroy Client.vi"/>
 	</Item>
+	<Item Name="Client Template.vi" Type="VI" URL="../Client Template.vi"/>
 </Library>
