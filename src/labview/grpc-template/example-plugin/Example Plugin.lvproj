@@ -14,9 +14,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="deps" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="ExamplePluginOOBService_client.lvlib" Type="Library" URL="../Example Plugin UI/ExamplePluginOOBService_client/ExamplePluginOOBService_client.lvlib"/>
-			<Item Name="ExamplePluginOOBService_server.lvlib" Type="Library" URL="../Example Plugin/ExamplePluginOOBService_server/ExamplePluginOOBService_server.lvlib"/>
-			<Item Name="Example Plugin OOB Data Transfer.lvlib" Type="Library" URL="../Example Plugin/Example Plugin OOB Data Transfer/Example Plugin OOB Data Transfer.lvlib"/>
+			<Item Name="OOB gRPC Client.lvlib" Type="Library" URL="../Example Plugin UI/OOB gRPC Client/OOB gRPC Client.lvlib"/>
+			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../Example Plugin/OOB gRPC Server/OOB gRPC Server.lvlib"/>
+			<Item Name="OOB Data Transfer.lvlib" Type="Library" URL="../Example Plugin/OOB Data Transfer/OOB Data Transfer.lvlib"/>
 		</Item>
 		<Item Name="Example Plugin UI.lvlib" Type="Library" URL="../Example Plugin UI/Example Plugin UI.lvlib"/>
 		<Item Name="Example Plugin.lvclass" Type="LVClass" URL="../Example Plugin/Example Plugin.lvclass"/>
@@ -40,7 +40,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Example Plugin.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{901B2325-E39A-4080-80A4-9267F27E92AD}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ExamplePlugin.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Example Plugin/ExamplePlugin.exe</Property>
@@ -80,7 +80,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Example Plugin UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F0A12EB-11EF-49F4-89E0-3E24D6F801BC}</Property>
-				<Property Name="Bld_version.build" Type="Int">70</Property>
+				<Property Name="Bld_version.build" Type="Int">72</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Example Plugin UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Example Plugin UI.lvlibp</Property>
