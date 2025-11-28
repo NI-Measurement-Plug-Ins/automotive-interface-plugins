@@ -1,5 +1,4 @@
-# GRPC Tempate
-[DO NOT USE THIS README FOR NOW]  
+# GRPC Tempate 
 This folder provides a template for plugins to implement an OOB gRPC service to pass data from Measurement UI to Measurement Logic.
 
 ## Intro 
