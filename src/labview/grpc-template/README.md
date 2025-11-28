@@ -35,7 +35,7 @@ Example Plugin that uses the template.
 `src\labview\grpc-template\OOB gRPC Client` to your plugin UI directory. For Example, for the Example Plugin this would go to:  
 `src\labview\grpc-example\Example Plugin UI\OOB gRPC Client`  
 4. Copy UI Build Assets
-    - Copy `"src\labview\grpc-example\Example Plugin UI\Build Assets` folder to your plugin's UI folder  
+    - Copy `src\labview\grpc-example\Example Plugin UI\Build Assets` folder to your plugin's UI folder  
     - Open the `<your plugin UI folder>\Build Assets\Post-Build Action.vi`, select `Disconnect From Library`, save, and close.
 5. Modify plugin project 
     - Open your plugin project
