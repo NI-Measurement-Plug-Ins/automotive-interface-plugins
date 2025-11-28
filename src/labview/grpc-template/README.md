@@ -21,7 +21,7 @@ This was used to generate the template files.
 `src\labview\grpc-template\OOB Data Transfer`
 
 ### Example Plugin
-`C:\dev\hardware-validation\src\labview\grpc-example`  
+`src\labview\grpc-example`  
 Example Plugin that uses the template.
 
 ## Instructions
