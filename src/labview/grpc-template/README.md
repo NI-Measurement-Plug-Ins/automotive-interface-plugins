@@ -44,7 +44,7 @@ Example Plugin that implements the template.
     | To        | `src\labview\grpc-example\Example Plugin UI\OOB gRPC Client`     |   
 4. Modify your plugin project:  
     - Open your plugin project,
-    - Create a `deps` virtual folder in your project under "My Computer", if you don't have already,
+    - Create a `deps` virtual folder in your project under "My Computer", if you don't have it created already,
     - Add the `OOB gRPC Server.lvlib`, `OOB gRPC Client.lvlib`, and `OOB gRPC Client.lvlib` under `deps` virtual folder:  
     For Example, for the Example Plugin this would be adding them from the following locations correspondingly:
     `src\labview\grpc-example\Example Plugin\OOB gRPC Server\OOB gRPC Server.lvlib`,  
@@ -53,10 +53,10 @@ Example Plugin that implements the template.
     ![image](<README images/001.png>)
     - Copy `Post-Build Action.vi` from Example Plugin UI:  
         - Copy `Build Assets` **folder**:   
-        From: `src\labview\grpc-example\Example Plugin UI\Build Assets`,  
-        To your plugin's UI folder: `src\labview\your-plugin\Your Plugin UI`.
+            - From: `src\labview\grpc-example\Example Plugin UI\Build Assets`,  
+            - To your plugin's UI folder: `src\labview\your-plugin\Your Plugin UI`.
         - Open `Your Plugin.lvproj`, create a `Build Assets` virtual folder under `Your Plugin UI.lvlib`, and add the `src\labview\your-plugin\Your Plugin UI\Build Assets\Post-Build Action.vi`, under this virtual folder. Open `Post-Build Action.vi` and save, making sure that it is part of `Your Plugin UI.lvlib` now.
-        - (IMPORTANT) in `Your Plugin.lvproj`, right-click on `Your Plugin UI.lvlib` and save.
+        - **[IMPORTANT]** in `Your Plugin.lvproj`, right-click on `Your Plugin UI.lvlib` and save.
         - Open the `Your Plugin UI` PPL build specification, and add the post-build action:  
          For Example, for the Example Plugin this would look like this:  
         ![image](<README images/014.png>)
