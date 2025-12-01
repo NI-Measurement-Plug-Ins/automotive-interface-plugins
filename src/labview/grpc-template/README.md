@@ -46,7 +46,7 @@ Example Plugin that implements the template.
     - Open your plugin project,
     - Create a `deps` virtual folder in your project under "My Computer", if you don't have it created already,
     - Add the `OOB gRPC Server.lvlib`, `OOB gRPC Client.lvlib`, and `OOB gRPC Client.lvlib` under `deps` virtual folder:  
-    For Example, for the Example Plugin this would be adding them from the following locations correspondingly:
+    For Example, for the Example Plugin this would be adding them from the following locations correspondingly:  
     `src\labview\grpc-example\Example Plugin\OOB gRPC Server\OOB gRPC Server.lvlib`,  
     `src\labview\grpc-example\Example Plugin UI\OOB gRPC Client\OOB gRPC Client.lvlib`,  
     `src\labview\grpc-example\Example Plugin\OOB Data Transfer\OOB Data Transfer.lvlib`,  
