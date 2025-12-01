@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FEFC3F8CD43D4051480331342A2931775647BB6444140C626A60417B18E39E23D32E16812A4B2796F61B05EFC339711E8642C0DECE0377A07F097DD089A7F3BB" Timestamp="1DC5F5C5C1FF885" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6B14D7DF98A3AB46A463DEFBC5E5F29CE550132B77A8AF1F77ED7AE06349E30E3092385154724C6D76F16D8EDFDC20638B05ED5CA142EB650461A231CE8411CE" Timestamp="1DC62EB1A82ECBC" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.18.1.49696" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.15.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="25.8.1.49696" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="830a8450251449ed972fb192a6f2815f" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="535b56a21b5d440ab026db81c8ba421e" Name="Generator.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="7fd1d3d4dfd8459daa481d59727b57dc" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="CAN-LIN Frame Generator 1">
-			<Screen ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;fd baudrate&quot;:0,&quot;baudrate&quot;:125000,&quot;fd iso mode&quot;:2,&quot;io mode&quot;:0,&quot;termination can&quot;:false,&quot;identifier&quot;:1034,&quot;type&quot;:0,&quot;payload&quot;:[0,1,2,3,4,5,6,7]}" DisplayName="CAN-LIN Frame Generator" Id="3aa3b0887dec4ab6beac1ad20a42f52f" PanelPresentation="ConfigurationWithVisualization" ServiceClass="CAN-LIN Frame Generator_LabVIEW" Version="1.0.0" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;fd baudrate&quot;:0,&quot;baudrate&quot;:250000,&quot;fd iso mode&quot;:2,&quot;io mode&quot;:0,&quot;termination can&quot;:true,&quot;identifier&quot;:42,&quot;type&quot;:0,&quot;payload&quot;:[65,65,1,20,0,0,0,0]}" DisplayName="CAN-LIN Frame Generator" Id="3aa3b0887dec4ab6beac1ad20a42f52f" PanelPresentation="ConfigurationWithVisualization" ServiceClass="CAN-LIN Frame Generator_LabVIEW" Version="1.0.0" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="57d28352b3ee46f188542431e352c335" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>
