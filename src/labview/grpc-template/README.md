@@ -6,7 +6,7 @@ This folder provides a template for plugins to implement an OOB (Out-Of-Band) gR
 ### The Template consists of the following: 
 
 ### Proto File 
-`src\labview\grpc-template\proto\oob-grpc-service.proto`  
+File path: `src\labview\grpc-template\proto\oob-grpc-service.proto`  
 This was used to generate the template gRPC server and client.
 
 ### OOB gRPC Server
