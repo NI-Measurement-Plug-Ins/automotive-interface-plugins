@@ -68,7 +68,7 @@ Folder path: `src\labview\grpc-example`
 In your project, go to View -> Bookmark Manager and follow the **#OOBToDo** list, in the order that is indicated by the number next to the TODO mark.  
 ![image](<README images/016.png>)
 ![image](<README images/0017.png>)
-6. Hide the `OOB gRPC Port` control in your **Measurement UI.vi**  
+6. Hide the **OOB gRPC Port** control on your `Measurement UI.vi`'s Front Panel:  
 ![image](<README images/030.png>)
 7. You can also copy the Post-Build Action Helper.vi and add it to your plugin's Post-Build Action (see example plugin for reference), this is for convenience, it helps copy the exe build to the Measurement directory.
 
