@@ -59,16 +59,26 @@ Folder path: `src\labview\grpc-example`
         - **[IMPORTANT]** in `Your Plugin.lvproj`, right-click on `Your Plugin UI.lvlib` and save.
         - Open the `Your Plugin UI` PPL build specification, and add the post-build action:  
          For Example, for the Example Plugin this would look like this:  
-        ![image](<README images/014.png>)
+        ![image](<README images/002.png>)
         - Test the build spec: 
             - Build the UI PPL, 
             - After the build is complete, post-build action should copy the following files from the program files directory the gRPC installed libraries to the BuiltUI folder:  
-            ![image](<README images/015.png>)
+            ![image](<README images/003.png>)
 5. Follow **#OOBToDo** list:  
 In your project, go to View -> Bookmark Manager and follow the **#OOBToDo** list, in the order that is indicated by the number next to the TODO mark.  
-![image](<README images/016.png>)
-![image](<README images/0017.png>)
+![image](<README images/004.png>)
+![image](<README images/005.png>)
 6. Hide the **OOB gRPC Port** control on your `Measurement UI.vi`'s Front Panel:  
-![image](<README images/030.png>)
-7. You can also copy the Post-Build Action Helper.vi and add it to your plugin's Post-Build Action (see example plugin for reference), this is for convenience, it helps copy the exe build to the Measurement directory.
-
+![image](<README images/006.png>)
+7. [OPTIONAL] Copy the `Post-Build Action Helper.vi` to your plugin:
+    - Copy `Post-Build Action Helper.vi` file:   
+        - From: `src\labview\grpc-example\Example Plugin\Build Assets\Post-Build Action Helper.vi`,  
+        - To your plugin's folder: `src\labview\your-plugin\Your Plugin\Build Assets`.
+    - Add `src\labview\your-plugin\Your Plugin\Build Assets\Post-Build Action Helper.vi` to `Your Plugin.lvproj`, under `Your Plugin.lvclass`, under`Framework Defined` virtual folder, under `Build Assets` virtual folder.  
+    ![image](<README images/007.png>)
+    - Open `Post-Build Action Helper.vi` save and close, make sure it is part of `Your Plugin.lvclass`. Right-click and save `Your Plugin.lvclass`.
+    - Open `Post-Build Action.vi` under `Your Plugin.lvclass`, under`Framework Defined` virtual folder, under `Build Assets` virtual folder, and add the `Post-Build Action Helper.vi`:  
+    ![image](<README images/008.png>)
+    - Test your plugin's exe build specification, see if it copies the built files, after build is complete, to this location: `C:\ProgramData\National Instruments\Plug-Ins\Measurements`  
+    ![image](<README images/009.png>)
+    ![image](<README images/010.png>)
