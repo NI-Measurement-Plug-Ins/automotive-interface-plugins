@@ -77,8 +77,8 @@ In your project, go to View -> Bookmark Manager and follow the **#OOBToDo** list
     - Add `src\labview\your-plugin\Your Plugin\Build Assets\Post-Build Action Helper.vi` to `Your Plugin.lvproj`, under `Your Plugin.lvclass`, under`Framework Defined` virtual folder, under `Build Assets` virtual folder.  
     ![image](<README images/007.png>)
     - Open `Post-Build Action Helper.vi` save and close, make sure it is part of `Your Plugin.lvclass`. Right-click and save `Your Plugin.lvclass`.
-    - Open `Post-Build Action.vi` under `Your Plugin.lvclass`, under`Framework Defined` virtual folder, under `Build Assets` virtual folder, and add the `Post-Build Action Helper.vi`:  
+    - Open `Post-Build Action.vi`, and add the `Post-Build Action Helper.vi`:  
     ![image](<README images/008.png>)
-    - Test your plugin's exe build specification, see if it copies the built files, after build is complete, to this location: `C:\ProgramData\National Instruments\Plug-Ins\Measurements`  
+    - Test your plugin's EXE build specification, see if it copies the built files to this location (after the build is complete): `C:\ProgramData\National Instruments\Plug-Ins\Measurements`  
     ![image](<README images/009.png>)
     ![image](<README images/010.png>)
