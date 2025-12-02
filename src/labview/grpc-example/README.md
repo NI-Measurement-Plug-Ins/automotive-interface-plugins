@@ -67,15 +67,29 @@ More details to follow.
 ![image](<README Images/024.png>)  
 
 ## Out-of-the-box `Client Template.vi` (provided by `grpc-template`)
-The `Client Template.vi` provides "code snippets" and instruct you to copy those "snippets" over to your `Measurement UI.vi` to get you started with the OOB gRPC Client implementation:
-![image](<README Images/026.png>)
+The `Client Template.vi` provides "code snippets" and instruct you to copy those "snippets" over to your `Measurement UI.vi` to get you started with the OOB gRPC Client implementation:  
+![image](<README Images/025.png>)  
+![image](<README Images/026.png>)  
 
 ## #OOBToDo 008
-![image](<README Images/025.png>)  
+![image](<README Images/027.png>)  
+![image](<README Images/028.png>)  
 
+## #OOBToDo 009
+![image](<README Images/029.png>)
+![image](<README Images/030.png>)
 
+## #OOBToDo 010
+![image](<README Images/031.png>)  
+![image](<README Images/032.png>)  
+
+## #OOBToDo 011
+![image](<README Images/033.png>)  
+![image](<README Images/034.png>)  
 
 ### Here's how the `grpc-example` adds more gRPC requests using the "generic" type of rpc provided by the `grpc-template`:
-The Client side in this case is the `Measurement UI.vi` and in there the Example Plugin adds new of gRPC requests using the "generic" rpc, which extends the default functionality provided by the `grpc-template` (the default ones are the "PauseResume" and "Export", the example also shows how to use those). 
-Those added requests are associated with the "Double" and "String" controls.
-![image](<README Images/030.png>)  
+The Client side in this case is the `Measurement UI.vi` and in there the Example Plugin adds new of gRPC requests using the "generic" rpc, which extends the default functionality provided by the `grpc-template` (the default ones are the "PauseResume" and "Export").  
+Those added requests are associated with the "Double" and "String" controls.  
+![image](<README Images/035.png>)  
+![image](<README Images/036.png>)  
+![image](<README Images/037.png>)  
