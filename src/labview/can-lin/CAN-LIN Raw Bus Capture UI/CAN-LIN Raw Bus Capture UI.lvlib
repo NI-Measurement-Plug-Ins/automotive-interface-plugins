@@ -11,4 +11,5 @@
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
 </Library>
