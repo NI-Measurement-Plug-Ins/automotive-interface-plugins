@@ -4,7 +4,7 @@ This plugin implements the gRPC Template provided under the `grpc-template` fold
 ## Implementation Details
 Here are some code highlights with red boxes in the screenshots below, showing how this plugin implements the **#OOBToDo** list from the template:
 
-NOTE: the screenshots below are from [this point of time (commit)](https://github.com/NI-Measurement-Plug-Ins/hardware-validation/pull/5/commits/42ddcb3cc11783a16523c032ad1401fcf7d3af6c) and might get changed later.
+NOTE: the screenshots below are from [this point of time](https://github.com/NI-Measurement-Plug-Ins/hardware-validation/pull/5) and might get changed later.
 
 ## #OOBToDo 001
 ![image](<README Images/001.png>)  
@@ -66,11 +66,13 @@ More details to follow.
 ![image](<README Images/023.png>)  
 ![image](<README Images/024.png>)  
 
+## Out-of-the-box `Client Template.vi` (provided by `grpc-template`)
+The `Client Template.vi` provides "code snippets" and instruct you to copy those "snippets" over to your `Measurement UI.vi` to get you started with the OOB gRPC Client implementation:
+![image](<README Images/026.png>)
+
 ## #OOBToDo 008
 ![image](<README Images/025.png>)  
 
-### Out-of-the-box `Client Template.vi` (provided by `grpc-template`):
-The `Client Template.vi` provides "code snippets" and instruct you to copy those "snippets" over to your `Measurement UI.vi` to get you started with the OOB gRPC Client implementation:
 
 
 ### Here's how the `grpc-example` adds more gRPC requests using the "generic" type of rpc provided by the `grpc-template`:
