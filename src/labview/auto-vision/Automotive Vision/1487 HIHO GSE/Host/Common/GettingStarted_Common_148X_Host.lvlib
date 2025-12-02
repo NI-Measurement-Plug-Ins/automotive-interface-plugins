@@ -75,9 +75,12 @@
 		<Item Name="Serial Channel Configuration.ctl" Type="VI" URL="../Types/Serial Channel Configuration.ctl"/>
 		<Item Name="Serial Channel Display Parameters.ctl" Type="VI" URL="../Types/Serial Channel Display Parameters.ctl"/>
 	</Item>
+	<Item Name="Initialize Image.vi" Type="VI" URL="../../../../subVI/Initialize Image.vi"/>
+	<Item Name="Save Image to png.vi" Type="VI" URL="../../../../subVI/Save Image to png.vi"/>
 	<Item Name="SerDes Configuration Script Example.vi" Type="VI" URL="../SerDes Configuration Script Example.vi"/>
 	<Item Name="TDMS File Converter.vi" Type="VI" URL="../TDMS File Converter.vi"/>
 	<Item Name="TDMS File Viewer.vi" Type="VI" URL="../TDMS File Viewer.vi"/>
+	<Item Name="Untitled 55 (SubVI).vi" Type="VI" URL="../Untitled 55 (SubVI).vi"/>
 	<Item Name="Wrap Data for UI Update.vi" Type="VI" URL="../../../../subVI/Wrap Data for UI Update.vi"/>
 	<Item Name="Wrap Image Dat.vi" Type="VI" URL="../../../../Wrap Image Dat.vi"/>
 </Library>
