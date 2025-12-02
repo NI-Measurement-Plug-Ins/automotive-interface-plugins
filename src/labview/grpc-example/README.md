@@ -87,7 +87,7 @@ The `Client Template.vi` provides "code snippets" and instruct you to copy those
 ![image](<README Images/033.png>)  
 ![image](<README Images/034.png>)  
 
-### Here's how the `grpc-example` adds more gRPC requests using the "generic" type of rpc provided by the `grpc-template`:
+## Here's how the `grpc-example` adds more gRPC requests using the "generic" type of rpc provided by the `grpc-template`:
 The Client side in this case is the `Measurement UI.vi` and in there the Example Plugin adds new of gRPC requests using the "generic" rpc, which extends the default functionality provided by the `grpc-template` (the default ones are the "PauseResume" and "Export").  
 Those added requests are associated with the "Double" and "String" controls.  
 ![image](<README Images/035.png>)  
