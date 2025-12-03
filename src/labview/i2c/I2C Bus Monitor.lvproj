@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="deps" Type="Folder">
+			<Item Name="Table_Filtering.lvlib" Type="Library" URL="../I2C Bus Monitor UI/Table_Filtering/Table_Filtering.lvlib"/>
+		</Item>
 		<Item Name="I2C Bus Monitor UI.lvlib" Type="Library" URL="../I2C Bus Monitor UI/I2C Bus Monitor UI.lvlib"/>
 		<Item Name="I2C Bus Monitor.lvclass" Type="LVClass" URL="../I2C Bus Monitor/I2C Bus Monitor.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
