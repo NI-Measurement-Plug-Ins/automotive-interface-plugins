@@ -12,7 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering.lvlib"/>
+		<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table/Table_Filtering.lvlib"/>
 		<Item Name="UI elements.vi" Type="VI" URL="../UI elements.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
