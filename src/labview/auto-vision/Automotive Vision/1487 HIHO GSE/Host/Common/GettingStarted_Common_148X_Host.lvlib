@@ -77,6 +77,7 @@
 	</Item>
 	<Item Name="Initialize Image.vi" Type="VI" URL="../../../../subVI/Initialize Image.vi"/>
 	<Item Name="Save Image to png.vi" Type="VI" URL="../../../../subVI/Save Image to png.vi"/>
+	<Item Name="Send Data for UI.vi" Type="VI" URL="../../../../subVI/Send Data for UI.vi"/>
 	<Item Name="SerDes Configuration Script Example.vi" Type="VI" URL="../SerDes Configuration Script Example.vi"/>
 	<Item Name="TDMS File Converter.vi" Type="VI" URL="../TDMS File Converter.vi"/>
 	<Item Name="TDMS File Viewer.vi" Type="VI" URL="../TDMS File Viewer.vi"/>
