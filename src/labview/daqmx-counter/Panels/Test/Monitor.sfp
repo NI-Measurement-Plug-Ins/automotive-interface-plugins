@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="CA2C995055E461752CC54405B3B0F90D0C1A6505B5E6A3F9FF8C56B6575BEBE60B07FD342C04826617E1F9B22F5E41AB4FB0F62902C0D699D5A2113C41EC3219" Timestamp="1DC62EB2B4095DA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7A000CED1C505CEE3538018E3F3B8B6F12E5AC31AD05EE80F19D913961DC83CEFDCEA165D507FE4C39106E4E9AC2EA238269DE5CF197B28CBDCC7E178FFE4648" Timestamp="1DC6490041171D4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.18.1.49696" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.15.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="25.8.1.49696" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="5055fb2b95441289dd6fe962d953174" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9c2b6eb777214047bcd7aa79a8f10ff4" Name="Monitor.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="51b7d34981e1485381dc81bf510652ac" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="CAN-LIN Raw Bus Capture 1">
-			<Screen ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;interface name can&quot;:&quot;CAN1&quot;,&quot;termination can&quot;:true,&quot;fd baudrate&quot;:0,&quot;baudrate&quot;:250000,&quot;fd iso mode&quot;:0,&quot;io mode&quot;:0,&quot;sortbyid&quot;:false,&quot;filter&quot;:&quot;&quot;,&quot;interface name lin&quot;:&quot;&quot;,&quot;termination lin&quot;:false,&quot;can interface&quot;:&quot;CAN1&quot;}" DisplayName="CAN-LIN Raw Bus Capture" Id="23ee2a5478de4666aa9dd39f62a41e5a" PanelPresentation="ConfigurationWithVisualization" ServiceClass="CAN-LIN Raw Bus Capture_LabVIEW" Version="1.0.0" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;termination can&quot;:true,&quot;fd baudrate&quot;:0,&quot;baudrate&quot;:250000,&quot;fd iso mode&quot;:0,&quot;io mode&quot;:0,&quot;termination lin&quot;:false,&quot;can interface&quot;:&quot;CAN1&quot;,&quot;lin interface&quot;:&quot;&quot;,&quot;bus type&quot;:&quot;&quot;}" DisplayName="CAN-LIN Raw Bus Capture" Id="23ee2a5478de4666aa9dd39f62a41e5a" PanelPresentation="ConfigurationWithVisualization" ServiceClass="CAN-LIN Raw Bus Capture_LabVIEW" Version="1.0.0" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="53f579c3a47144088781bcc185958ab9" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>

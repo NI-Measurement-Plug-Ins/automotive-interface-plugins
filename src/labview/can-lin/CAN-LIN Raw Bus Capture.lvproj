@@ -13,56 +13,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="deps" Type="Folder">
-			<Item Name="Check for CAN Error Gen.vi" Type="VI" URL="../../can-lin-generator/CAN-LIN Frame Generator/Check for CAN Error Gen.vi"/>
-			<Item Name="Configure CAN Read Gen.vi" Type="VI" URL="../../can-lin-generator/CAN-LIN Frame Generator/Configure CAN Read Gen.vi"/>
-			<Item Name="Format CAN Data Gen.vi" Type="VI" URL="../../can-lin-generator/CAN-LIN Frame Generator/Format CAN Data Gen.vi"/>
+			<Item Name="OOB Data Transfer.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture/OOB Data Transfer/OOB Data Transfer.lvlib"/>
+			<Item Name="OOB gRPC Client.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture UI/OOB gRPC Client/OOB gRPC Client.lvlib"/>
+			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture/OOB gRPC Server/OOB gRPC Server.lvlib"/>
+		</Item>
+		<Item Name="LIN Tester" Type="Folder">
+			<Item Name="LIN frame Generator for Test.vi" Type="VI" URL="../Tester VIs/LIN frame Generator for Test.vi"/>
 		</Item>
 		<Item Name="CAN-LIN Raw Bus Capture UI.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture UI/CAN-LIN Raw Bus Capture UI.lvlib"/>
 		<Item Name="CAN-LIN Raw Bus Capture.lvclass" Type="LVClass" URL="../CAN-LIN Raw Bus Capture/CAN-LIN Raw Bus Capture.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="CAN-LIN Raw Bus Capture UI" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C829D803-E04B-4091-8C9A-0ADE6473E173}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{AAE4981C-3794-4063-BD2D-49426FE4E5B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">52</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">CAN-LIN Raw Bus Capture UI.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/CAN-LIN Raw Bus Capture UI.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9457A28E-6313-490A-8A46-968B5B026B71}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CAN-LIN Raw Bus Capture UI.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
-				<Property Name="TgtF_internalName" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
-				<Property Name="TgtF_productName" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{7F424A73-0CE2-4BCF-B785-26DB9E697388}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">CAN-LIN Raw Bus Capture UI.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
 			<Item Name="CAN-LIN Raw Bus Capture" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{78615943-8E9A-4FC0-A6BA-A3B8AFBF5A30}</Property>
@@ -80,7 +41,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CAN-LIN Raw Bus Capture.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3C48AFDD-CDCF-4B08-852B-3EF2FA384FCD}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CAN-LINRawBusCapture.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/CAN-LIN Raw Bus Capture/CAN-LINRawBusCapture.exe</Property>
@@ -106,6 +67,48 @@
 				<Property Name="TgtF_productName" Type="Str">CAN-LIN Raw Bus Capture</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C6CF867E-19DD-4EC9-BD47-3DB553E9BB4C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CAN-LINRawBusCapture.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="CAN-LIN Raw Bus Capture UI" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C829D803-E04B-4091-8C9A-0ADE6473E173}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CAN-LIN Raw Bus Capture UI.lvlib/Build Assets/Post-Build Action.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{AAE4981C-3794-4063-BD2D-49426FE4E5B4}</Property>
+				<Property Name="Bld_version.build" Type="Int">89</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">CAN-LIN Raw Bus Capture UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/CAN-LIN Raw Bus Capture UI.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4A264581-636B-4174-81DF-97E7FFA30763}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CAN-LIN Raw Bus Capture UI.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
+				<Property Name="TgtF_productName" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7F424A73-0CE2-4BCF-B785-26DB9E697388}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CAN-LIN Raw Bus Capture UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

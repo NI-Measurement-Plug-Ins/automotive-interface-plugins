@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="98750D7ACA854D96D511E9433B8C468D4DCE5CCC541408F6A0636E1DDF871561B790422C579271B434AD33C94C9F357595068CB8C9F47D27EFAB969F9415EB14" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="057AB0AAD8AC7813B7696DC40ECA840AE2CE3DA3204FE8960BC6C0D0655210D0A02A04B0F4AB888055CCB2050A8570579A39B344A360F14550E9341684C72FDE" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.18.1.49696" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="25.8.1.49696" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="25.8.1.49696" />
@@ -24,6 +24,7 @@
 			<FileReference Bindings=".pdf" Id="af8abe8ebcba4b9cb17731c1e8930489" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-12-01 12-02-35.pdf" StoragePath="Sequence Results\Test Report 2025-12-01 12-02-35.pdf" />
 			<FileReference Bindings=".pdf" Id="482221bc06e348b78479b8865a2e1842" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-12-01 17-15-50.pdf" StoragePath="Sequence Results\Test Report 2025-12-01 17-15-50.pdf" />
 			<FileReference Bindings=".pdf" Id="9d70a1f98e854d568b28af93f0c6d3eb" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2025-12-01 17-17-43.pdf" StoragePath="Sequence Results\Test Report 2025-12-01 17-17-43.pdf" />
+			<SourceFileReference Bindings="EnvoyManager" Id="db581e7528ee4e7e948b8015949a6474" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Counter_Writer.sfp" StoragePath="Counter_Writer.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">
