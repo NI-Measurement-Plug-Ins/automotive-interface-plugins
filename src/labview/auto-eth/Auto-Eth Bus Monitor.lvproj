@@ -73,7 +73,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2959493-5D8F-4929-BC9E-774498B45590}</Property>
-				<Property Name="Bld_version.build" Type="Int">84</Property>
+				<Property Name="Bld_version.build" Type="Int">90</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Automotive Ethernet Bus Monitor UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Automotive Ethernet Bus Monitor/BuiltUI/Automotive Ethernet Bus Monitor UI.lvlibp</Property>
