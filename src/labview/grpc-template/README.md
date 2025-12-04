@@ -1,4 +1,4 @@
-# GRPC Tempate 
+# GRPC Template 
 This folder provides a template for plugins to implement an OOB (Out-Of-Band) gRPC Service to pass data from Measurement UI to Measurement Logic.
 
 ## Intro 
