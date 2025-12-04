@@ -81,6 +81,14 @@
 	</Item>
 	<Item Name="User Defined" Type="Folder">
 		<Item Name="subVI" Type="Folder">
+			<Item Name="Convert Image pixel.vi" Type="VI" URL="../subVI/Convert Image pixel.vi">
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107821073</Property>
+			</Item>
 			<Item Name="CreateCaptureFileName.vi" Type="VI" URL="../subVI/CreateCaptureFileName.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -111,7 +119,7 @@
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 			</Item>
 			<Item Name="Send Data for UI.vi" Type="VI" URL="../subVI/Send Data for UI.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
