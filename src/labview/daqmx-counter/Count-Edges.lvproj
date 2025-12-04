@@ -27,7 +27,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E546F0F-7159-4FD5-AFE5-6972F869735B}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Count Edges UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Count Edges/BuiltUI/Count Edges UI.lvlibp</Property>
