@@ -16,5 +16,5 @@ ProcessingStage/
 # Executables
 *.exe
 
-# Executables
-*.pdf
+# Test Results
+**.pdf
