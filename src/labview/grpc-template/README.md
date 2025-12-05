@@ -22,9 +22,9 @@ Folder path: `src\labview\grpc-template\OOB Data Transfer`
 Example Plugin that implements the template.  
 Folder path: `src\labview\grpc-example`  
 
-After completing the instructions below,  
-please refer to this plugin's README: `src\labview\grpc-example\README.md`   
-
+In the instructions below, in step 5 (the TODO list),  
+You can refer to the Example Plugin's README to see implementation details:  
+Location: `src\labview\grpc-example\README.md`  
 
 ## Instructions
  
@@ -70,6 +70,8 @@ please refer to this plugin's README: `src\labview\grpc-example\README.md`
             ![image](<README Images/003.png>)
 5. Follow **#OOBToDo** list:  
 In your project, go to View -> Bookmark Manager and follow the **#OOBToDo** list, in the order that is indicated by the number next to the TODO mark.  
+(**NOTE**: You can refer to the Example Plugin's README to see implementation details.  
+Location: `src\labview\grpc-example\README.md`)  
 ![image](<README Images/004.png>)
 ![image](<README Images/005.png>)
 6. Hide the **OOB gRPC Port** control on your `Measurement UI.vi`'s Front Panel:  
@@ -85,7 +87,5 @@ In your project, go to View -> Bookmark Manager and follow the **#OOBToDo** list
     ![image](<README Images/008.png>)
     - Test your plugin's EXE build specification, see if it copies the built files to this location (after the build is complete): `C:\ProgramData\National Instruments\Plug-Ins\Measurements`  
     ![image](<README Images/009.png>)
-    ![image](<README Images/010.png>)
-8. Refer to the Example Plugin's README to see more implementation details.  
-Location: `src\labview\grpc-example\README.md`,   
+    ![image](<README Images/010.png>) 
 
