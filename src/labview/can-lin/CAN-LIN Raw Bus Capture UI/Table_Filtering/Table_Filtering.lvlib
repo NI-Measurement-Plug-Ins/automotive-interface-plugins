@@ -13,5 +13,6 @@
 	<Item Name="Filter_String_Parser.vi" Type="VI" URL="../Filter_String_Parser.vi"/>
 	<Item Name="Filter_Table_Test.vi" Type="VI" URL="../Filter_Table_Test.vi"/>
 	<Item Name="Filter_test.vi" Type="VI" URL="../Filter_test.vi"/>
+	<Item Name="Table_Sort.vi" Type="VI" URL="../Table_Sort.vi"/>
 	<Item Name="Table_UI.vi" Type="VI" URL="../Table_UI.vi"/>
 </Library>
