@@ -16,6 +16,7 @@
 			<Item Name="OOB Data Transfer.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture/OOB Data Transfer/OOB Data Transfer.lvlib"/>
 			<Item Name="OOB gRPC Client.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture UI/OOB gRPC Client/OOB gRPC Client.lvlib"/>
 			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture/OOB gRPC Server/OOB gRPC Server.lvlib"/>
+			<Item Name="Table_Filtering.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture UI/Table_Filtering/Table_Filtering.lvlib"/>
 		</Item>
 		<Item Name="LIN Tester" Type="Folder">
 			<Item Name="LIN frame Generator for Test.vi" Type="VI" URL="../Tester VIs/LIN frame Generator for Test.vi"/>
