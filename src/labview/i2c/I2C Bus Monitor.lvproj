@@ -13,7 +13,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="deps" Type="Folder">
-			<Item Name="Table_Filtering.lvlib" Type="Library" URL="../I2C Bus Monitor UI/Table_Filtering/Table_Filtering.lvlib"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="OOB gRPC Client.lvlib" Type="Library" URL="../I2C Bus Monitor UI/OOB gRPC Client/OOB gRPC Client.lvlib"/>
+			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../I2C Bus Monitor/OOB gRPC Server/OOB gRPC Server.lvlib"/>
+			<Item Name="OOB Data Transfer.lvlib" Type="Library" URL="../I2C Bus Monitor/OOB Data Transfer/OOB Data Transfer.lvlib"/>
 		</Item>
 		<Item Name="I2C Bus Monitor UI.lvlib" Type="Library" URL="../I2C Bus Monitor UI/I2C Bus Monitor UI.lvlib"/>
 		<Item Name="I2C Bus Monitor.lvclass" Type="LVClass" URL="../I2C Bus Monitor/I2C Bus Monitor.lvclass"/>
@@ -36,6 +39,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/I2C Bus Monitor.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{082E089C-2286-4E88-A9EC-832E35DE7363}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">I2CBusMonitor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/I2C Bus Monitor/I2CBusMonitor.exe</Property>
@@ -74,7 +78,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7077C49F-E0C1-4F1B-BB61-DF3497472ECD}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">I2C Bus Monitor UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/I2C Bus Monitor UI.lvlibp</Property>
