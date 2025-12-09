@@ -81,14 +81,6 @@
 	</Item>
 	<Item Name="User Defined" Type="Folder">
 		<Item Name="subVI" Type="Folder">
-			<Item Name="Convert Image pixel.vi" Type="VI" URL="../subVI/Convert Image pixel.vi">
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1107821073</Property>
-			</Item>
 			<Item Name="Convert Image pixel_v2.vi" Type="VI" URL="../subVI/Convert Image pixel_v2.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -112,14 +104,6 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1342710275</Property>
-			</Item>
-			<Item Name="Get AutoVision Device Bitfilepath.vi" Type="VI" URL="../subVI/Get AutoVision Device Bitfilepath.vi">
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
 			</Item>
 			<Item Name="Initialize Image.vi" Type="VI" URL="../subVI/Initialize Image.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
