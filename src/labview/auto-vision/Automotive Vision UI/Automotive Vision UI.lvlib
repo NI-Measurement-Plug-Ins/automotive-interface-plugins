@@ -7,5 +7,11 @@
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 	</Item>
+	<Item Name="subVI" Type="Folder">
+		<Item Name="Coerce to 8-Bit Data Type.vi" Type="VI" URL="../Coerce to 8-Bit Data Type.vi"/>
+		<Item Name="DisplayImage.vi" Type="VI" URL="../DisplayImage.vi"/>
+		<Item Name="GetChimeraResources.vi" Type="VI" URL="../GetChimeraResources.vi"/>
+		<Item Name="InitImageDisplay.vi" Type="VI" URL="../InitImageDisplay.vi"/>
+	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
