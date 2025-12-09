@@ -24,6 +24,9 @@
 		<Item Name="Open FPGA Ref.vi" Type="VI" URL="../Open FPGA Ref.vi"/>
 		<Item Name="Close FPGA Ref.vi" Type="VI" URL="../Close FPGA Ref.vi"/>
 		<Item Name="Config User Timestamps FIFO.vi" Type="VI" URL="../Config User Timestamps FIFO.vi"/>
+		<Item Name="Read User Timestamps FIFO.vi" Type="VI" URL="../Read User Timestamps FIFO.vi"/>
+		<Item Name="Serial Channel to Timestamp ID.vi" Type="VI" URL="../Serial Channel to Timestamp ID.vi"/>
+		<Item Name="Parse I2C Messages.vi" Type="VI" URL="../Parse I2C Messages.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
