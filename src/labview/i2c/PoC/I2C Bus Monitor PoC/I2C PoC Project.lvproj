@@ -15,6 +15,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../VIs/Error Strings Global Internal.vi"/>
+			<Item Name="I2C Transaction.vi" Type="VI" URL="../VIs/I2C Transaction.vi"/>
 			<Item Name="Get Bitfile Path.vi" Type="VI" URL="../VIs/Get Bitfile Path.vi"/>
 			<Item Name="Get Device Info.vi" Type="VI" URL="../VIs/Get Device Info.vi"/>
 			<Item Name="Open FPGA Ref.vi" Type="VI" URL="../VIs/Open FPGA Ref.vi"/>
@@ -24,6 +25,7 @@
 			<Item Name="Serial Channel to Timestamp ID.vi" Type="VI" URL="../VIs/Serial Channel to Timestamp ID.vi"/>
 			<Item Name="Parse I2C Messages.vi" Type="VI" URL="../VIs/Parse I2C Messages.vi"/>
 			<Item Name="Check User Timestamps FIFO Overflow.vi" Type="VI" URL="../VIs/Check User Timestamps FIFO Overflow.vi"/>
+			<Item Name="Check &amp; Reset Timestamp.vi" Type="VI" URL="../VIs/Check &amp; Reset Timestamp.vi"/>
 		</Item>
 		<Item Name="I2C Bus Monitor.vi" Type="VI" URL="../I2C Bus Monitor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
