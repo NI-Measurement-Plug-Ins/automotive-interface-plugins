@@ -12,6 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Create DI dictionary.vi" Type="VI" URL="../../Tools/Create DI dictionary.vi"/>
 		<Item Name="Daqmx-Display UI.lvlib" Type="Library" URL="../Daqmx-Display UI/Daqmx-Display UI.lvlib"/>
 		<Item Name="Daqmx-Display.lvclass" Type="LVClass" URL="../Daqmx-Display/Daqmx-Display.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
@@ -71,7 +72,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D3766866-E8C0-491C-B996-0EDFDF1AF452}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Daqmx-Display UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Daqmx-Display/BuiltUI/Daqmx-Display UI.lvlibp</Property>
