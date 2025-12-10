@@ -73,6 +73,16 @@ Select the bus type
 
 *Note: The plugin connects to the LIN bus as a slave node with 128 kpbs baudrate.
 
+## How to deploy the plugin (local only)
+
+Build the **CAN-LIN Raw Bus Capture** and the **CAN-LIN Raw Bus Capture UI**
+
+![image](<img/20.png>)
+
+Copy the `src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture` folder under the `C:\ProgramData\National Instruments\Plug-Ins\Measurements` location.
+
+![image](<img/21.png>)
+
 ## How to start and use the plugin
 
 Start the plugin with the **RUN** button in the Instrument Studio.
@@ -84,7 +94,7 @@ It shows the captured messages in the trace table and the bus status in the stat
 
 ![image](<img/12.png>)
 
-The user can interact with the plugin by the control are.
+The user can interact with the plugin by the control area such as sorting, filtering, pause / resume and clear the trace table.
 
 ![image](<img/13.png>)
 
