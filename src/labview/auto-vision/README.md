@@ -1,29 +1,25 @@
 # Automotive Vision Capture Plugin for Instrument Studio (PXIe‑148X)
 
-This plugin provides an easy‑to‑use **automotive camera (FPD‑Link III / GMSL) acquisition, display, logging** workflow in **Instrument Studio 2025**, powered by NI FlexRIO **PXIe‑148X** modules (e.g., **PXIe‑1486**).   
+This plugin provides an easy‑to‑use **automotive camera (FPD‑Link/ GMSL) acquisition, display, logging** workflow in **Instrument Studio 2025**, powered by NI FlexRIO **PXIe‑148X** modules (e.g., **PXIe‑1486**).   
 
 
 ***
 
 ## Contents
 
-*   **Service logic main VI**: `Automotive Vision Capture\Measurement Logic.vi`  
+*   **Service logic main VI**: `Automotive Vision\Measurement Logic.vi`  
     Implements CSI‑2 packet acquisition, image decode and logging using FlexRIO bitfiles and NI Vision VIs. 
-*   **UI VI**: `Automotive Vision Capture UI\Measurement UI.vi`  
+*   **UI VI**: `Automotive Vision UI\Measurement UI.vi`  
     Instrument Studio panel with controls for channel selection, payload/interpretation and image algorithms; includes status/telemetry (FPS, frames, PoC V/I).
 
-The plugin uses:
-
-*   **PXIe‑148X bitfiles** (per module variant) and camera **configuration scripts** from NI’s examples. [\[knowledge.ni.com\]](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000019XypSAE&l=en-US)
-*   **OOB gRPC Service** for interactive UI actions (**Pause/Resume**), mirroring the sample pattern. 
 
 ***
 
 ## Prerequisites
 
 *   **LabVIEW 2025** with:
-    *   **NI‑FlexRIO** driver (23Q1 or newer) and **PXIe‑148X** example set. [\[knowledge.ni.com\]](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000019XypSAE&l=en-US)
-    *   **Vision Development Module** (IMAQ/IMAQdx for image handling & decoding). [\[ni.github.io\]](https://ni.github.io/automotive-camera-module-reference/tutorials/gettingstartedexample/gse-acq-basic.html)
+    *   **NI‑FlexRIO** driver (23Q1 or newer) and **PXIe‑148X** example set.
+    *   **Vision Development Module** (IMAQ/IMAQdx for image handling & decoding).
 *   **Instrument Studio 2025**.
 *   Supported **PXIe‑148X** module (e.g., **PXIe‑1486 8‑In or 4‑In/4‑Out**) with camera and FAKRA coax cabling; PoC capable power as required. 
 
@@ -33,29 +29,31 @@ The plugin uses:
 
 1.  **Open project**  
     Launch `Auto-Vision.lvproj` in **LabVIEW 2025**.  
-    *image*
+![image](<docs\images\LabVIEW project.png>)
 
 2.  **Build the UI and the logic**  
     Build the `Automotive Vision UI` and `Automotive Vision` specification (Application Builder).  
-    *image*
+![image](<docs\images\Build LabVIEW project.png>)
 
 3.  **Run the service**  
     Open `Run Service.vi` in the **Automotive Vision** class and run.  
-    *image* *image*
+![image](<docs\images\Run Service.png>)
 
 4.  **Open Instrument Studio (IS) 2025**  
     Create a **Manual Layout**, add a **Large Panel** and select **Automotive Vision Capture**.  
-    *image*
+![image](<docs\images\Add AutomotiveVision Plugin to Instrument Studio.png>)
 
 5.  **UI in IS**  
     The plugin panel appears with live image, packet/trace tabs and status telemetry.  
-    *image*
+![image](<docs\images\Start Plugin.png>)
 
 ***
 
 ## Configuration
 
 > These controls map to NI’s PXIe‑148X acquisition example front panel. Use values matching the **camera configuration script**. 
+
+![image](<docs\images\Configuration.png>)
 
 ### CSI‑2 Data Source
 
@@ -126,15 +124,19 @@ Select the **CSI‑2 Virtual Channel ID** to demultiplex multiple streams sharin
     *   **Capture type**: can be PNG or RAW.
     *   **Capture path**: a folder to save the capture - .bin or .png file.
 
+    ![image](<docs\images\Interactive Control.png>)
 ***
 
 ## Indicators (Status Telemetry)
 
+![image](<docs\images\Status Indicators.png>)
 *   **Source rate (FPS)** – current frame rate per channel.
 *   **Bytes acquired** – total data captured this session.
 *   **Acquisition duration (s)** – elapsed time.
 *   **Frame count** – total frames received.
 *   **PoC voltage / current** – camera power telemetry over coax.  
+*   **Acqusition in progress** – Indicates that the AutoVision device is capable of receiving frames.
+*   **Error** – Indicates error in measurement logic.  
 
 ***
 
@@ -145,22 +147,4 @@ Select the **CSI‑2 Virtual Channel ID** to demultiplex multiple streams sharin
 *   **Display channel count**: Default host/FPGA code displays up to **one** channels; more requires code edits. 
 *   **Displaying performance**: Displaying **very large resolution or high FPS**  may cause the VI to appear unresponsive while processing. Displayed FPS are reduced in these case.
 *   **PoC safety**: Monitor **PoC V/I**; ensure proper termination and power budgets for the sensor.
-***
-
-
-## Screenshots
-
-> Replace with your actual build and run images.
-
-*   Project open & UI build  
-    *image*
-*   Run Service / Service started  
-    *image* *image*
-*   Instrument Studio layout & large panel selection  
-    *image*
-*   Live UI with image, packets, telemetry  
-    *image*
-*   Configuration tabs (Serial Channel / Resource / Board)  
-    *image*
-
 ***
