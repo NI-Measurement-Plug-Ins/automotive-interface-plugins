@@ -12,6 +12,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="deps" Type="Folder">
+			<Item Name="OOB Data Transfer.lvlib" Type="Library" URL="../CAN-LIN Frame Generator/OOB Data Transfer/OOB Data Transfer.lvlib"/>
+			<Item Name="OOB gRPC Client.lvlib" Type="Library" URL="../CAN-LIN Frame Generator UI/OOB gRPC Client/OOB gRPC Client.lvlib"/>
+			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../CAN-LIN Frame Generator/OOB gRPC Server/OOB gRPC Server.lvlib"/>
+		</Item>
 		<Item Name="CAN-LIN Frame Generator UI.lvlib" Type="Library" URL="../CAN-LIN Frame Generator UI/CAN-LIN Frame Generator UI.lvlib"/>
 		<Item Name="CAN-LIN Frame Generator.lvclass" Type="LVClass" URL="../CAN-LIN Frame Generator/CAN-LIN Frame Generator.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
@@ -69,8 +74,9 @@
 				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CAN-LIN Frame Generator UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A2B7F29A-FA20-41D9-885F-E0B6499AC5B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">64</Property>
+				<Property Name="Bld_version.build" Type="Int">70</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CAN-LIN Frame Generator UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/CAN-LIN Frame Generator UI.lvlibp</Property>
@@ -82,7 +88,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2EC561FD-61AC-43FC-B0FF-B2EA1980CDB5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B6B4B767-2575-4AE8-B6F0-5574763A05EC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CAN-LIN Frame Generator UI.lvlib</Property>
