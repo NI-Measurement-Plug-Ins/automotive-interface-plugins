@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="25008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">CAN-LIN Raw Bus Capture UI.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../CAN-LIN Raw Bus Capture UI.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">*1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)\!!!*Q(C=\&gt;7^=6J"&amp;-8R)Y]$J84AI13@&amp;MA=/;#&amp;7Q!*-YZE%J%KP)%&lt;I!5CZ&lt;=&amp;7K#&amp;Z`]O;WR*-U+"Z0&amp;YN%],P,.@0`9^HK2?LK70GC[6V&lt;0FV.[\H7J\_:7=WU@5X[@4S90RKX04\`&amp;0WFP&lt;S]:0U_0VH`&amp;@+(IP\_8`,D=8@Q2P`DOY5HM159O;V+";&lt;&gt;GJS)O]S)O]S)M]S:-]S:-]S:-]S)-]S)-]S)0=Z#9XO=F.&lt;P*_E)N=Z#+(6#R?,&amp;2-7ER1&gt;);CYK8Q&amp;*\#5XAY6?%J0)7H]"1?OKDQ&amp;*\#5XA+$].5?!J0Y3E]B9?JOK4[19[H]$#^%E`C34S**`'QJ"*0!EA73S:/*I'BJ$(ZE(A34_,BIR*0YEE]C3@RU+T%EXA34_**0!TJOZ*&gt;UQZS0%SDQ".Y!E`A#4R-L=!4?!*0Y!E],+@!%XA#2,"A-$E%"9/#$M&amp;*Y!E]P#HQ"*\!%XA#$UX^#E8@G;:J"TE?YT%?YT%?YW%+'9`R')`R'!`4SHC-RXC-RXB93M:D0-:D)':2FJ?:T!QUH5RA00TVO]8^+G78O"`3O(EV&lt;EK.GUXD*N+Y/41OOM&lt;&amp;V,B)'JOPM;E;G[7R#2J@4A/NA&gt;&amp;92'.Q[[ADLQ@KHLKD&lt;KFL[J+[I-[JMT&lt;UF4M?DU=&gt;$A@N^XPN&gt;DNNNVONVWMNFUMN&amp;AP.ZX0.:L0T9_!4R`G"=(IOX@$ZVH@XG]^@LT:@\LZPPL8X(`=N`QP`H`_":[-_[-]VW+/@&amp;O7&amp;'1!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -13,5 +11,6 @@
 	<Item Name="Filter_String_Parser.vi" Type="VI" URL="../Filter_String_Parser.vi"/>
 	<Item Name="Filter_Table_Test.vi" Type="VI" URL="../Filter_Table_Test.vi"/>
 	<Item Name="Filter_test.vi" Type="VI" URL="../Filter_test.vi"/>
+	<Item Name="Table_Sort.vi" Type="VI" URL="../Table_Sort.vi"/>
 	<Item Name="Table_UI.vi" Type="VI" URL="../Table_UI.vi"/>
 </Library>
