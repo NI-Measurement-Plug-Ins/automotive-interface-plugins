@@ -16,11 +16,11 @@
 		<Item Name="deps" Type="Folder">
 			<Item Name="GettingStarted_Common_148X_Host.lvlib" Type="Library" URL="../../../../../../../../Program Files/NI/LVAddons/flexrioii/1/ProjectTemplates/Source/FlexRIO/NI148X/Getting Started/Host/Common/GettingStarted_Common_148X_Host.lvlib"/>
 		</Item>
+		<Item Name="i2c bus monitor.vi" Type="VI" URL="../i2c bus monitor.vi"/>
 		<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../Error Strings Global Internal.vi"/>
 		<Item Name="Get Bitfile Path.vi" Type="VI" URL="../Get Bitfile Path.vi"/>
 		<Item Name="FPGA Dynamic Ref PoC.vi" Type="VI" URL="../FPGA Dynamic Ref PoC.vi"/>
 		<Item Name="Get Device Info.vi" Type="VI" URL="../Get Device Info.vi"/>
-		<Item Name="i2c bus monitor.vi" Type="VI" URL="../i2c bus monitor.vi"/>
 		<Item Name="Open FPGA Ref.vi" Type="VI" URL="../Open FPGA Ref.vi"/>
 		<Item Name="Close FPGA Ref.vi" Type="VI" URL="../Close FPGA Ref.vi"/>
 		<Item Name="Config User Timestamps FIFO.vi" Type="VI" URL="../Config User Timestamps FIFO.vi"/>
