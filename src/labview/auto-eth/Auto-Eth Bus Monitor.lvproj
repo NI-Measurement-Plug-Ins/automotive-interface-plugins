@@ -13,6 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="deps" Type="Folder">
+			<Item Name="Ethernet.lvlib" Type="Library" URL="../../../../../../../../../Program Files/NI/LVAddons/nixnet/1/examples/nixnet/projects/NI-XNET Ethernet/subVI/Ethernet.lvlib"/>
 			<Item Name="OOB Data Transfer.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor/OOB Data Transfer/OOB Data Transfer.lvlib"/>
 			<Item Name="OOB gRPC Client.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor UI/OOB gRPC Client/OOB gRPC Client.lvlib"/>
 			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor/OOB gRPC Server/OOB gRPC Server.lvlib"/>
