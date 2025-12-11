@@ -13,7 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="deps" Type="Folder">
-			<Item Name="Ethernet.lvlib" Type="Library" URL="../../../../../../../../../Program Files/NI/LVAddons/nixnet/1/examples/nixnet/projects/NI-XNET Ethernet/subVI/Ethernet.lvlib"/>
 			<Item Name="OOB Data Transfer.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor/OOB Data Transfer/OOB Data Transfer.lvlib"/>
 			<Item Name="OOB gRPC Client.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor UI/OOB gRPC Client/OOB gRPC Client.lvlib"/>
 			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor/OOB gRPC Server/OOB gRPC Server.lvlib"/>
@@ -21,7 +20,6 @@
 		<Item Name="Automotive Ethernet Bus Monitor UI.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor UI/Automotive Ethernet Bus Monitor UI.lvlib"/>
 		<Item Name="Automotive Ethernet Bus Monitor.lvclass" Type="LVClass" URL="../Automotive Ethernet Bus Monitor/Automotive Ethernet Bus Monitor.lvclass"/>
 		<Item Name="EthernetWriterTest.vi" Type="VI" URL="../EthernetWriterTest.vi"/>
-		<Item Name="Extract Ethernet Protocol.vi" Type="VI" URL="../Automotive Ethernet Bus Monitor UI/Extract Ethernet Protocol.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Automotive Ethernet Bus Monitor" Type="EXE">
