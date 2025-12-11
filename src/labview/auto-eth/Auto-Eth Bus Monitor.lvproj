@@ -39,7 +39,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Automotive Ethernet Bus Monitor.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8429D1F9-B56A-4A6A-BFDA-65F7BF722A8B}</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">67</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutomotiveEthernetBusMonitor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Automotive Ethernet Bus Monitor/AutomotiveEthernetBusMonitor.exe</Property>
@@ -48,7 +48,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Automotive Ethernet Bus Monitor/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{997BB9CB-63CD-4E57-91B0-CA5563C8F98E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{92E4006C-D24B-46B8-A6F9-9D014A04D5F3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Automotive Ethernet Bus Monitor.lvclass/Run Service.vi</Property>
@@ -78,7 +78,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Automotive Ethernet Bus Monitor UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2959493-5D8F-4929-BC9E-774498B45590}</Property>
-				<Property Name="Bld_version.build" Type="Int">170</Property>
+				<Property Name="Bld_version.build" Type="Int">182</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Automotive Ethernet Bus Monitor UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Automotive Ethernet Bus Monitor/BuiltUI/Automotive Ethernet Bus Monitor UI.lvlibp</Property>

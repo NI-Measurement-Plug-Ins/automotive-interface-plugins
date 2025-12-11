@@ -9,10 +9,10 @@
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 	</Item>
 	<Item Name="Packet Formatters" Type="Folder">
-		<Item Name="Format MAC ADDRESS.vi" Type="VI" URL="../Format MAC ADDRESS.vi"/>
 		<Item Name="UnFormat Packet Bytes.vi" Type="VI" URL="../UnFormat Packet Bytes.vi"/>
+		<Item Name="Decode frame.vi" Type="VI" URL="../Decode frame.vi"/>
+		<Item Name="Format MAC ADDRESS.vi" Type="VI" URL="../Format MAC ADDRESS.vi"/>
 	</Item>
-	<Item Name="Decode frame.vi" Type="VI" URL="../Decode frame.vi"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 	<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
 </Library>
