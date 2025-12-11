@@ -12,42 +12,42 @@ The plugin uses the **Tables and Filtering** library for sorting and filtering, 
 ## How to run this plugin
 
 Open the `CAN-LIN Raw Bus Capture.lvproj` project in **LabVIEW 2025**.
-![image](<README Images/00.png>)
+![image](<img/00.png>)
 
 Build the **CAN-LIN Raw Bus Capture UI**.
 
-![image](<README Images/01.png>)
+![image](<img/01.png>)
 
 Open **Run Service.vi** from the **CAN-LIN Raw Bus Capture** class
 
-![image](<README Images/02.png>)
-![image](<README Images/03.png>)
+![image](<img/02.png>)
+![image](<img/03.png>)
 
 Run the VI
 
-![image](<README Images/04.png>)
+![image](<img/04.png>)
 
 Open **Instrument Studio 2025** and create **Manual Layout**
 
-![image](<README Images/05.png>)
+![image](<img/05.png>)
 
 Select **CAN-LIN Raw Bus Capture** as a large Panel
 
-![image](<README Images/06.png>)
+![image](<img/06.png>)
 
 The plugin UI will shown in the Instrument Studio like this:
 
-![image](<README Images/07.png>)
+![image](<img/07.png>)
 
 ## How to configure the plugin
 
 Select the bus type
 
-![image](<README Images/08.png>)
+![image](<img/08.png>)
 
 ### CAN configuration
 
-![image](<README Images/09.png>)
+![image](<img/09.png>)
 
 1. Select the CAN interface
 2. Select the IO Mode:
@@ -66,39 +66,49 @@ Select the bus type
 
 ### LIN configuration
 
-![image](<README Images/10.png>)
+![image](<img/10.png>)
 
 1. Select the LIN(Local Interconnect Network) interface
 2. Turn on the termination resistor if it is needed for the bus.
 
 *Note: The plugin connects to the LIN bus as a slave node with 128 kpbs baudrate.
 
+## How to deploy the plugin (local only)
+
+Build the **CAN-LIN Raw Bus Capture** and the **CAN-LIN Raw Bus Capture UI**
+
+![image](<img/20.png>)
+
+Copy the `src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture` folder under the `C:\ProgramData\National Instruments\Plug-Ins\Measurements` location.
+
+![image](<img/21.png>)
+
 ## How to start and use the plugin
 
 Start the plugin with the **RUN** button in the Instrument Studio.
 
-![image](<README Images/11.png>)
+![image](<img/11.png>)
 
 It connects to the selected bus and starts listening. The service updates the UI every 250ms. The connection LED turns on.
 It shows the captured messages in the trace table and the bus status in the status area at the bottom.
 
-![image](<README Images/12.png>)
+![image](<img/12.png>)
 
-The user can interact with the plugin by the control are.
+The user can interact with the plugin by the control area such as sorting, filtering, pause / resume and clear the trace table.
 
-![image](<README Images/13.png>)
+![image](<img/13.png>)
 
 ### Sorting
 The default order of the messages is by timestamp, it can change by the **Sort by ID** checkbox.
 
-![image](<README Images/14.png>)
+![image](<img/14.png>)
 
 ### Filter
 Use the headers of the trace table to set conditions what to filter an show.
 
-![image](<README Images/15.png>)
+![image](<img/15.png>)
 
-![image](<README Images/16.png>)
+![image](<img/16.png>)
 
 ### Save trace to CSV file
 
