@@ -12,6 +12,7 @@
 		<Item Name="Format MAC ADDRESS.vi" Type="VI" URL="../Format MAC ADDRESS.vi"/>
 		<Item Name="UnFormat Packet Bytes.vi" Type="VI" URL="../UnFormat Packet Bytes.vi"/>
 	</Item>
+	<Item Name="Decode frame.vi" Type="VI" URL="../Decode frame.vi"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 	<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
 </Library>
