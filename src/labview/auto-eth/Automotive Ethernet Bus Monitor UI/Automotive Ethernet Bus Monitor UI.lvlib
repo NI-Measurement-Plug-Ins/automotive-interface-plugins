@@ -11,7 +11,6 @@
 	<Item Name="Packet Formatters" Type="Folder">
 		<Item Name="Format MAC ADDRESS.vi" Type="VI" URL="../Format MAC ADDRESS.vi"/>
 		<Item Name="UnFormat Packet Bytes.vi" Type="VI" URL="../UnFormat Packet Bytes.vi"/>
-		<Item Name="Build_Row.vi" Type="VI" URL="../../Automotive Ethernet Bus Monitor/Build_Row.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 	<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
