@@ -49,19 +49,19 @@ Set the ETHERNET MODE IN to Automotive Ethernet
 ![image](<img/06.png>)
 
 Press the Run Button
-When the first packet is recieved, the 'Capturing Stream' Icon should light up
+When the first packet is received, the 'Capturing Stream' icon should light up
 
 ## How to control the plugin
 
-The packets should be collecting and displaying in the table as they come in through the bus.  
+Packets should be collected and displayed in the table as they come in through the bus
 
  ![image](<img/07.png>)
 
-A scrollbar exists on the sides of the table so the user can scroll vertically or horizontally
+Scrollbars exist on the sides of the table so the user can scroll vertically or horizontally
 
 The control panel is displayed at the top of the UI
 
-This Control panel allows the user to do the following:
+This control panel allows the user to do the following:
 1. Pause/Resume the data stream
 2. Save the table output to a csv
 3. Sort the table by the column headers
@@ -70,7 +70,7 @@ This Control panel allows the user to do the following:
 Some additional tools are built in to help the user understand the state of the plugin
 
 Inside the control panel, pressing the 'Pause' Button will cause the color and text to change, indicating the plugin is paused
-Likewise, hitting the 'resume' button will unpause the plugin
+Likewise, pressing the 'Resume' button will unpause the plugin
  ![image](<img/08.png>)
 
 The Status field at the bottom of the UI displays the latest status reported by the plugin.  This will indicate if the stream is paused, when a file is saved to disk, connection status, or when an error occurs in the plugin
@@ -82,8 +82,7 @@ If there is no new data, "Waiting For Data' is displayed instead
 
 ## Packet Focus
 
-To focus in on a packet, a row in the table can be selected by clicking anywhere on the row
-
+To focus on a packet, select a row in the table by clicking anywhere on the row
 When a row is selected, the protocol layer, data layer, and payload will be displayed below the table
  ![image](<img/10.png>)
 
