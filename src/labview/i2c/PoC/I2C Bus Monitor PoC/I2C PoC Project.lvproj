@@ -13,11 +13,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="deps" Type="Folder">
+			<Item Name="I2C Bus Monitor UI.lvlib" Type="Library" URL="../../../I2C Bus Monitor UI/I2C Bus Monitor UI.lvlib"/>
+		</Item>
 		<Item Name="VIs" Type="Folder">
-			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../VIs/Error Strings Global Internal.vi"/>
 			<Item Name="I2C Transaction.vi" Type="VI" URL="../VIs/I2C Transaction.vi"/>
-			<Item Name="Get Bitfile Path.vi" Type="VI" URL="../VIs/Get Bitfile Path.vi"/>
-			<Item Name="Get Device Info.vi" Type="VI" URL="../VIs/Get Device Info.vi"/>
 			<Item Name="Open FPGA Ref.vi" Type="VI" URL="../VIs/Open FPGA Ref.vi"/>
 			<Item Name="Close FPGA Ref.vi" Type="VI" URL="../VIs/Close FPGA Ref.vi"/>
 			<Item Name="Config User Timestamps FIFO.vi" Type="VI" URL="../VIs/Config User Timestamps FIFO.vi"/>
