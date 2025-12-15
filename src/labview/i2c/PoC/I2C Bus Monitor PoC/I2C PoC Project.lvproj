@@ -26,6 +26,8 @@
 			<Item Name="Parse I2C Messages.vi" Type="VI" URL="../VIs/Parse I2C Messages.vi"/>
 			<Item Name="Check User Timestamps FIFO Overflow.vi" Type="VI" URL="../VIs/Check User Timestamps FIFO Overflow.vi"/>
 			<Item Name="Check &amp; Reset Timestamp.vi" Type="VI" URL="../VIs/Check &amp; Reset Timestamp.vi"/>
+			<Item Name="Update I2C Messages Table.vi" Type="VI" URL="../VIs/Update I2C Messages Table.vi"/>
+			<Item Name="Update Message Count.vi" Type="VI" URL="../VIs/Update Message Count.vi"/>
 		</Item>
 		<Item Name="I2C Bus Monitor.vi" Type="VI" URL="../I2C Bus Monitor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
