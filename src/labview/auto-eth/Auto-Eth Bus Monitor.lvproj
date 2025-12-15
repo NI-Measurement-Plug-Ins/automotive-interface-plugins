@@ -18,7 +18,7 @@
 			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor/OOB gRPC Server/OOB gRPC Server.lvlib"/>
 		</Item>
 		<Item Name="Test Writer" Type="Folder">
-			<Item Name="EthernetWriterTest.vi" Type="VI" URL="../EthernetWriterTest.vi"/>
+			<Item Name="Ethernet Packet Generator for Testing.vi" Type="VI" URL="../Ethernet Packet Generator for Testing.vi"/>
 		</Item>
 		<Item Name="Automotive Ethernet Bus Monitor UI.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor UI/Automotive Ethernet Bus Monitor UI.lvlib"/>
 		<Item Name="Automotive Ethernet Bus Monitor.lvclass" Type="LVClass" URL="../Automotive Ethernet Bus Monitor/Automotive Ethernet Bus Monitor.lvclass"/>
