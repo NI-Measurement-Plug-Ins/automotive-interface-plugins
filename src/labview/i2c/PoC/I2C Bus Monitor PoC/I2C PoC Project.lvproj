@@ -15,21 +15,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="deps" Type="Folder">
 			<Item Name="I2C Bus Monitor UI.lvlib" Type="Library" URL="../../../I2C Bus Monitor UI/I2C Bus Monitor UI.lvlib"/>
-		</Item>
-		<Item Name="VIs" Type="Folder">
-			<Item Name="I2C Transaction.vi" Type="VI" URL="../VIs/I2C Transaction.vi"/>
-			<Item Name="Open FPGA Ref.vi" Type="VI" URL="../VIs/Open FPGA Ref.vi"/>
-			<Item Name="Close FPGA Ref.vi" Type="VI" URL="../VIs/Close FPGA Ref.vi"/>
-			<Item Name="Config User Timestamps FIFO.vi" Type="VI" URL="../VIs/Config User Timestamps FIFO.vi"/>
-			<Item Name="Read User Timestamps FIFO.vi" Type="VI" URL="../VIs/Read User Timestamps FIFO.vi"/>
-			<Item Name="Serial Channel to Timestamp ID.vi" Type="VI" URL="../VIs/Serial Channel to Timestamp ID.vi"/>
-			<Item Name="Parse Serial Channel String.vi" Type="VI" URL="../VIs/Parse Serial Channel String.vi"/>
-			<Item Name="Parse I2C Messages.vi" Type="VI" URL="../VIs/Parse I2C Messages.vi"/>
-			<Item Name="Check User Timestamps FIFO Overflow.vi" Type="VI" URL="../VIs/Check User Timestamps FIFO Overflow.vi"/>
-			<Item Name="Check &amp; Reset Timestamp.vi" Type="VI" URL="../VIs/Check &amp; Reset Timestamp.vi"/>
-			<Item Name="Update I2C Messages Table.vi" Type="VI" URL="../VIs/Update I2C Messages Table.vi"/>
-			<Item Name="Update Message Count.vi" Type="VI" URL="../VIs/Update Message Count.vi"/>
-			<Item Name="Run Configuration Script.vi" Type="VI" URL="../VIs/Run Configuration Script.vi"/>
+			<Item Name="I2C Bus Monitor.lvclass" Type="LVClass" URL="../../../I2C Bus Monitor/I2C Bus Monitor.lvclass"/>
 		</Item>
 		<Item Name="I2C Bus Monitor.vi" Type="VI" URL="../I2C Bus Monitor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
