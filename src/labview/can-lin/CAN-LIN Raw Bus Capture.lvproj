@@ -23,7 +23,6 @@
 		</Item>
 		<Item Name="CAN-LIN Raw Bus Capture UI.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture UI/CAN-LIN Raw Bus Capture UI.lvlib"/>
 		<Item Name="CAN-LIN Raw Bus Capture.lvclass" Type="LVClass" URL="../CAN-LIN Raw Bus Capture/CAN-LIN Raw Bus Capture.lvclass"/>
-		<Item Name="Filter Processes.vi" Type="VI" URL="../../Tools/Filter Processes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CAN-LIN Raw Bus Capture" Type="EXE">
