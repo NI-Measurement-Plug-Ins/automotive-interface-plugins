@@ -14,7 +14,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="I2C UI Error Strings Global.vi" Type="VI" URL="../SubVIs/I2C UI Error Strings Global.vi"/>
-		<Item Name="Convert I2C Messages.vi" Type="VI" URL="../SubVIs/Convert I2C Messages.vi"/>
+		<Item Name="Convert I2C Messages &amp; Buffer.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer.vi"/>
 		<Item Name="Get Bitfile Path.vi" Type="VI" URL="../SubVIs/Get Bitfile Path.vi"/>
 		<Item Name="Get Device Info.vi" Type="VI" URL="../SubVIs/Get Device Info.vi"/>
 		<Item Name="Get Device Names.vi" Type="VI" URL="../SubVIs/Get Device Names.vi"/>
@@ -26,6 +26,13 @@
 		<Item Name="Update Serial Input.vi" Type="VI" URL="../SubVIs/Update Serial Input.vi"/>
 		<Item Name="Update I2C Messages Table.vi" Type="VI" URL="../SubVIs/Update I2C Messages Table.vi"/>
 		<Item Name="Update Message Count.vi" Type="VI" URL="../SubVIs/Update Message Count.vi"/>
+		<Item Name="Pause I2C Messages.vi" Type="VI" URL="../SubVIs/Pause I2C Messages.vi"/>
+		<Item Name="Update Table Buffer Pressure.vi" Type="VI" URL="../SubVIs/Update Table Buffer Pressure.vi"/>
+		<Item Name="Create Table Buffer.vi" Type="VI" URL="../SubVIs/Create Table Buffer.vi"/>
+		<Item Name="Enqueue Table Buffer.vi" Type="VI" URL="../SubVIs/Enqueue Table Buffer.vi"/>
+		<Item Name="Check Table Buffer.vi" Type="VI" URL="../SubVIs/Check Table Buffer.vi"/>
+		<Item Name="Dequeue Table Buffer.vi" Type="VI" URL="../SubVIs/Dequeue Table Buffer.vi"/>
+		<Item Name="Destroy Table Buffer.vi" Type="VI" URL="../SubVIs/Destroy Table Buffer.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
