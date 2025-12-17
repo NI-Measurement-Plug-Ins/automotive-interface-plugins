@@ -9,13 +9,9 @@
 	</Item>
 	<Item Name="subVI" Type="Folder">
 		<Item Name="Coerce to 8-Bit Data Type.vi" Type="VI" URL="../Coerce to 8-Bit Data Type.vi"/>
-		<Item Name="Config to JSON.vi" Type="VI" URL="../Config to JSON.vi"/>
 		<Item Name="DisplayImage.vi" Type="VI" URL="../DisplayImage.vi"/>
 		<Item Name="GetChimeraResources.vi" Type="VI" URL="../GetChimeraResources.vi"/>
 		<Item Name="InitImageDisplay.vi" Type="VI" URL="../InitImageDisplay.vi"/>
-	</Item>
-	<Item Name="typedef" Type="Folder">
-		<Item Name="auto vision config.ctl" Type="VI" URL="../auto vision config.ctl"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>

@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <project path="[lvdir]\ProjectTemplates\Source\FlexRIO\NI148X\Getting Started\Getting Started PXIe-1488 (8 In - KU11P).lvproj">
+
+        <copyDepsToFullPath>
+            <depRoot>ProjectTemplates\Source\FlexRIO\NI148X\Getting Started</depRoot>
+            <dep>[lvdir]\[depRoot]\FPGA\Acq</dep>
+            <dep>[lvdir]\[depRoot]\FPGA\Common</dep>
+            <dep>[lvdir]\[depRoot]\Host\Acq</dep>
+            <dep>[lvdir]\[depRoot]\Host\Common</dep>
+            <dep>[lvdir]\[depRoot]\Host\Scripts\DS90UB9702\Acq</dep>
+            <dep>[lvdir]\[depRoot]\Host\Scripts\DS90UB9702\scripts_common</dep>
+            <dep>[lvdir]\[depRoot]\FPGA Bitfiles\PXIe_1488_8_In.lvbitx</dep>
+        </copyDepsToFullPath>
+
+        <items>
+            <item>Host\Acq\GettingStarted_Acq_148X_Host.lvlib</item>
+            <item>Host\Common\GettingStarted_Common_148X_Host.lvlib</item>
+        </items>
+
+        <fpgaTarget name="PXIe-1488 (8 In - KU11P)">
+
+            <folder name="Clocks">
+               <baseClock name="80 MHz Clock"/>
+               <baseClock name="PXIe_Clk100"/>
+               <baseClock name="DRAM Clock"/>
+            </folder>
+
+            <targetIO>
+               <modIO name="Source31">
+                  <display name="SyncPulseSource"/>
+               </modIO>
+               <modIO name="Destination31">
+                  <display name="SyncPulseDestination"/>
+               </modIO>
+            </targetIO>
+
+            <folder name="PXI">
+                <targetIO>
+                    <addIO>
+                        <resource name="PXI/Sync100"/>
+                    </addIO>
+                </targetIO>
+            </folder>
+
+            <folder name="FIFOs">
+               <folder name="Display FIFOs">
+                  <FIFO name="Display 0 Image Metadata">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>1023</requestedNumElems>
+                     <dataType>U64</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>2</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 0 Image Pixel Data">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>8</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 1 Image Metadata">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>1023</requestedNumElems>
+                     <dataType>U64</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>2</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 1 Image Pixel Data">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>8</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 2 Image Metadata">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>1023</requestedNumElems>
+                     <dataType>U64</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>2</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 2 Image Pixel Data">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>8</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 3 Image Metadata">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>1023</requestedNumElems>
+                     <dataType>U64</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>2</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 3 Image Pixel Data">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>8</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 4 Image Metadata">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>1023</requestedNumElems>
+                     <dataType>U64</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>2</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 4 Image Pixel Data">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>8</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 5 Image Metadata">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>1023</requestedNumElems>
+                     <dataType>U64</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>2</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 5 Image Pixel Data">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>8</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 6 Image Metadata">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>1023</requestedNumElems>
+                     <dataType>U64</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>2</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 6 Image Pixel Data">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>8</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 7 Image Metadata">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>1023</requestedNumElems>
+                     <dataType>U64</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>2</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="Display 7 Image Pixel Data">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>8</numElemsPerRW>
+                  </FIFO>
+               </folder>
+               <FIFO name="GPIO Timestamps">
+                  <type>Target to Host - DMA</type>
+                  <requestedNumElems>1023</requestedNumElems>
+                  <dataType>U64</dataType>
+                  <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                  <numElemsPerRW>1</numElemsPerRW>
+               </FIFO>
+                <FIFO name="User Timestamps">
+                  <type>Target to Host - DMA</type>
+                  <requestedNumElems>1023</requestedNumElems>
+                  <dataType>U64</dataType>
+                  <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                  <numElemsPerRW>1</numElemsPerRW>
+               </FIFO>
+               <folder name="LLP Packet FIFOs">
+                  <FIFO name="SI 0 LLP Packets">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>4</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="SI 1 LLP Packets">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>4</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="SI 2 LLP Packets">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>4</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="SI 3 LLP Packets">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>4</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="SI 4 LLP Packets">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>4</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="SI 5 LLP Packets">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>4</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="SI 6 LLP Packets">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>4</numElemsPerRW>
+                  </FIFO>
+                  <FIFO name="SI 7 LLP Packets">
+                     <type>Target to Host - DMA</type>
+                     <requestedNumElems>4095</requestedNumElems>
+                     <dataType>U8</dataType>
+                     <arbitration>Arbitrate if Multiple Accessors Only</arbitration>
+                     <numElemsPerRW>4</numElemsPerRW>
+                  </FIFO>
+               </folder>
+            </folder>
+
+            <folder name="Memory">
+               <memory name="DRAM Bank0 67108864">
+                  <type>DRAM</type>
+                  <requestedNumElems>67108864</requestedNumElems>
+                  <customControlPath>instr.lib\_niInstr\Memory\v1\FPGA\Memory\Public</customControlPath>
+                  <customControlName>U256.ctl</customControlName>
+                  <dramSelection>DramBank0</dramSelection>
+                  <dramMaxOutstandingRequests>64</dramMaxOutstandingRequests>
+                  <persistValuesInSimulation>false</persistValuesInSimulation>
+               </memory>
+               <memory name="DRAM Bank1 67108864">
+                  <type>DRAM</type>
+                  <requestedNumElems>67108864</requestedNumElems>
+                  <customControlPath>instr.lib\_niInstr\Memory\v1\FPGA\Memory\Public</customControlPath>
+                  <customControlName>U256.ctl</customControlName>
+                  <dramSelection>DramBank1</dramSelection>
+                  <dramMaxOutstandingRequests>64</dramMaxOutstandingRequests>
+                  <persistValuesInSimulation>false</persistValuesInSimulation>
+               </memory>
+               <targetIO>
+                  <addIO>
+                     <resourceList name="DRAM">
+                     </resourceList>
+                  </addIO>
+               </targetIO>
+            </folder>
+
+            <items>
+                <item>FPGA\Acq\GettingStarted_Acq_Tap_148X_FPGA.lvlib</item>
+                <item>FPGA\Common\GettingStarted_Common_148X_FPGA.lvlib</item>
+            </items>
+
+            <conditionalSymbols>
+                <symbol name="DRAM_MANAGER_ENABLE">1</symbol>
+            </conditionalSymbols>
+
+            <buildSpecifications>
+                <VI name="GettingStarted_Acq_Tap_148X_FPGA.vi">
+                    <buildSpecification name="Getting Started PXIe-1488 (8 In - KU11P)">
+                        <default/>
+                        <bitfileName>PXIe_1488_8_In.lvbitx</bitfileName>
+                        <bitfileLocation>FPGA Bitfiles</bitfileLocation>
+                    </buildSpecification>
+                </VI>
+            </buildSpecifications>
+
+        </fpgaTarget>
+
+    </project>
+</root>
