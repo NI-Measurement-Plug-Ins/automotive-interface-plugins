@@ -41,10 +41,10 @@
 	<Pins>
 		<DUTPin name="DUTPin1" />
 		<DUTPin name="DUT_CANA" />
-		<DUTPin name="DUT_DOA" />
-		<DUTPin name="DUT_DOA_copy1" />
-		<DUTPin name="DUT_DOB" />
-		<DUTPin name="DUT_DOB_copy1" />
+		<DUTPin name="DUT_DO0" />
+		<DUTPin name="DUT_DO0_copy1" />
+		<DUTPin name="DUT_DO1" />
+		<DUTPin name="DUT_DO1_copy1" />
 	</Pins>
 	<PinGroups></PinGroups>
 	<Sites>
@@ -56,13 +56,13 @@
 		<Connection pin="DUTPin1" siteNumber="1" instrument="TestInstrumentSample" channel="myCh1" />
 		<Connection pin="DUT_CANA" siteNumber="0" instrument="CAN1" channel="CAN1" />
 		<Connection pin="DUT_CANA" siteNumber="1" instrument="CAN2" channel="CAN2" />
-		<Connection pin="DUT_DOA" siteNumber="0" instrument="PXI1Slot6/ctr0" channel="/PXI1Slot6/PFI0" />
-		<Connection pin="DUT_DOA" siteNumber="1" instrument="PXI1Slot6/ctr1" channel="/PXI1Slot6/PFI2" />
-		<Connection pin="DUT_DOA_copy1" siteNumber="0" instrument="PXISlot6_DI_Site0" channel="/PXI1Slot6/PFI0" />
-		<Connection pin="DUT_DOA_copy1" siteNumber="1" instrument="PXISlot6_DI_Site1" channel="/PXI1Slot6/PFI2" />
-		<Connection pin="DUT_DOB" siteNumber="0" instrument="PXI1Slot6/ctr0" channel="/PXI1Slot6/PFI1" />
-		<Connection pin="DUT_DOB" siteNumber="1" instrument="PXI1Slot6/ctr1" channel="/PXI1Slot6/PFI3" />
-		<Connection pin="DUT_DOB_copy1" siteNumber="0" instrument="PXISlot6_DI_Site0" channel="/PXI1Slot6/PFI1" />
-		<Connection pin="DUT_DOB_copy1" siteNumber="1" instrument="PXISlot6_DI_Site1" channel="/PXI1Slot6/PFI3" />
+		<Connection pin="DUT_DO0" siteNumber="0" instrument="PXI1Slot6/ctr0" channel="/PXI1Slot6/PFI0" />
+		<Connection pin="DUT_DO0" siteNumber="1" instrument="PXI1Slot6/ctr1" channel="/PXI1Slot6/PFI2" />
+		<Connection pin="DUT_DO0_copy1" siteNumber="0" instrument="PXISlot6_DI_Site0" channel="/PXI1Slot6/PFI0" />
+		<Connection pin="DUT_DO0_copy1" siteNumber="1" instrument="PXISlot6_DI_Site1" channel="/PXI1Slot6/PFI2" />
+		<Connection pin="DUT_DO1" siteNumber="0" instrument="PXI1Slot6/ctr0" channel="/PXI1Slot6/PFI1" />
+		<Connection pin="DUT_DO1" siteNumber="1" instrument="PXI1Slot6/ctr1" channel="/PXI1Slot6/PFI3" />
+		<Connection pin="DUT_DO1_copy1" siteNumber="0" instrument="PXISlot6_DI_Site0" channel="/PXI1Slot6/PFI1" />
+		<Connection pin="DUT_DO1_copy1" siteNumber="1" instrument="PXISlot6_DI_Site1" channel="/PXI1Slot6/PFI3" />
 	</Connections>
 </PinMap>
