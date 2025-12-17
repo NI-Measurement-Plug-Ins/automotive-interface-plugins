@@ -170,6 +170,24 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 			</Item>
 		</Item>
+		<Item Name="typedef" Type="Folder">
+			<Item Name="embedded data item.ctl" Type="VI" URL="../embedded data item.ctl">
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
+				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+			</Item>
+			<Item Name="embedded data.ctl" Type="VI" URL="../embedded data.ctl">
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
+				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+			</Item>
+		</Item>
 		<Item Name="Get Service Descriptor.vi" Type="VI" URL="../Get Service Descriptor.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
