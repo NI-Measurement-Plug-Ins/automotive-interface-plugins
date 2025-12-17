@@ -33,6 +33,7 @@
 		<Item Name="Check Table Buffer.vi" Type="VI" URL="../SubVIs/Check Table Buffer.vi"/>
 		<Item Name="Dequeue Table Buffer.vi" Type="VI" URL="../SubVIs/Dequeue Table Buffer.vi"/>
 		<Item Name="Destroy Table Buffer.vi" Type="VI" URL="../SubVIs/Destroy Table Buffer.vi"/>
+		<Item Name="Save CSV.vi" Type="VI" URL="../Save CSV.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
