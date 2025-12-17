@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1">
+	<Instruments>
+		<Instrument name="TestInstrumentSample" instrumentTypeId="myTestInst">
+			<Channel id="myCh0" />
+			<Channel id="myCh1" />
+		</Instrument>
+		<Instrument name="TestInstrumentSample2" instrumentTypeId="myTestInst">
+			<Channel id="ChX" />
+		</Instrument>
+		<Instrument name="CAN1" instrumentTypeId="xnetCAN">
+			<Channel id="CAN1" />
+		</Instrument>
+		<Instrument name="CAN2" instrumentTypeId="xnetCAN">
+			<Channel id="CAN2" />
+		</Instrument>
+		<Instrument name="CAN3" instrumentTypeId="xnetCAN">
+			<Channel id="CAN3" />
+		</Instrument>
+		<Instrument name="PXI1Slot6/ctr0" instrumentTypeId="daqmxCounter">
+			<Channel id="/PXI1Slot6/PFI0" />
+			<Channel id="/PXI1Slot6/PFI1" />
+		</Instrument>
+		<Instrument name="PXI1Slot6/ctr1" instrumentTypeId="daqmxCounter">
+			<Channel id="/PXI1Slot6/PFI2" />
+			<Channel id="/PXI1Slot6/PFI3" />
+		</Instrument>
+		<Instrument name="PXI1Slot6/ctr2" instrumentTypeId="daqmxCounter">
+			<Channel id="/PXI1Slot6/PFI4" />
+			<Channel id="/PXI1Slot6/PFI5" />
+		</Instrument>
+		<Instrument name="PXISlot6_DI_Site0" instrumentTypeId="daqmxDI">
+			<Channel id="/PXI1Slot6/PFI0" />
+			<Channel id="/PXI1Slot6/PFI1" />
+		</Instrument>
+		<Instrument name="PXISlot6_DI_Site1" instrumentTypeId="daqmxDI">
+			<Channel id="/PXI1Slot6/PFI2" />
+			<Channel id="/PXI1Slot6/PFI3" />
+		</Instrument>
+	</Instruments>
+	<Pins>
+		<DUTPin name="DUTPin1" />
+		<DUTPin name="DUT_CANA" />
+		<DUTPin name="DUT_DOA" />
+		<DUTPin name="DUT_DOA_copy1" />
+		<DUTPin name="DUT_DOB" />
+		<DUTPin name="DUT_DOB_copy1" />
+	</Pins>
+	<PinGroups></PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+		<Site siteNumber="1" />
+	</Sites>
+	<Connections>
+		<Connection pin="DUTPin1" siteNumber="0" instrument="TestInstrumentSample" channel="myCh0" />
+		<Connection pin="DUTPin1" siteNumber="1" instrument="TestInstrumentSample" channel="myCh1" />
+		<Connection pin="DUT_CANA" siteNumber="0" instrument="CAN1" channel="CAN1" />
+		<Connection pin="DUT_CANA" siteNumber="1" instrument="CAN2" channel="CAN2" />
+		<Connection pin="DUT_DOA" siteNumber="0" instrument="PXI1Slot6/ctr0" channel="/PXI1Slot6/PFI0" />
+		<Connection pin="DUT_DOA" siteNumber="1" instrument="PXI1Slot6/ctr1" channel="/PXI1Slot6/PFI2" />
+		<Connection pin="DUT_DOA_copy1" siteNumber="0" instrument="PXISlot6_DI_Site0" channel="/PXI1Slot6/PFI0" />
+		<Connection pin="DUT_DOA_copy1" siteNumber="1" instrument="PXISlot6_DI_Site1" channel="/PXI1Slot6/PFI2" />
+		<Connection pin="DUT_DOB" siteNumber="0" instrument="PXI1Slot6/ctr0" channel="/PXI1Slot6/PFI1" />
+		<Connection pin="DUT_DOB" siteNumber="1" instrument="PXI1Slot6/ctr1" channel="/PXI1Slot6/PFI3" />
+		<Connection pin="DUT_DOB_copy1" siteNumber="0" instrument="PXISlot6_DI_Site0" channel="/PXI1Slot6/PFI1" />
+		<Connection pin="DUT_DOB_copy1" siteNumber="1" instrument="PXISlot6_DI_Site1" channel="/PXI1Slot6/PFI3" />
+	</Connections>
+</PinMap>
