@@ -35,6 +35,7 @@
 		<Item Name="Destroy Table Buffer.vi" Type="VI" URL="../SubVIs/Destroy Table Buffer.vi"/>
 		<Item Name="Save CSV.vi" Type="VI" URL="../SubVIs/Save CSV.vi"/>
 		<Item Name="Save CSV (Async).vi" Type="VI" URL="../SubVIs/Save CSV (Async).vi"/>
+		<Item Name="Check VI Error.vi" Type="VI" URL="../SubVIs/Check VI Error.vi"/>
 		<Item Name="Check CSV Error.vi" Type="VI" URL="../SubVIs/Check CSV Error.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
