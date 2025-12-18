@@ -23,6 +23,7 @@
 		</Item>
 		<Item Name="Automotive Ethernet Bus Monitor UI.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor UI/Automotive Ethernet Bus Monitor UI.lvlib"/>
 		<Item Name="Automotive Ethernet Bus Monitor.lvclass" Type="LVClass" URL="../Automotive Ethernet Bus Monitor/Automotive Ethernet Bus Monitor.lvclass"/>
+		<Item Name="Programatic Scroll.vi" Type="VI" URL="../Automotive Ethernet Bus Monitor UI/Programatic Scroll.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Automotive Ethernet Bus Monitor" Type="EXE">
@@ -42,7 +43,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Automotive Ethernet Bus Monitor.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8429D1F9-B56A-4A6A-BFDA-65F7BF722A8B}</Property>
-				<Property Name="Bld_version.build" Type="Int">76</Property>
+				<Property Name="Bld_version.build" Type="Int">79</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutomotiveEthernetBusMonitor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Automotive Ethernet Bus Monitor/AutomotiveEthernetBusMonitor.exe</Property>
@@ -81,7 +82,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Automotive Ethernet Bus Monitor UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2959493-5D8F-4929-BC9E-774498B45590}</Property>
-				<Property Name="Bld_version.build" Type="Int">231</Property>
+				<Property Name="Bld_version.build" Type="Int">248</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Automotive Ethernet Bus Monitor UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Automotive Ethernet Bus Monitor/BuiltUI/Automotive Ethernet Bus Monitor UI.lvlibp</Property>
