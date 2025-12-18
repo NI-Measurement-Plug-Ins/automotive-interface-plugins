@@ -37,6 +37,8 @@
 		<Item Name="Save CSV (Async).vi" Type="VI" URL="../SubVIs/Save CSV (Async).vi"/>
 		<Item Name="Check VI Error.vi" Type="VI" URL="../SubVIs/Check VI Error.vi"/>
 		<Item Name="Check CSV Error.vi" Type="VI" URL="../SubVIs/Check CSV Error.vi"/>
+		<Item Name="Elapsed Time.vi" Type="VI" URL="../SubVIs/Elapsed Time.vi"/>
+		<Item Name="Update Busy.vi" Type="VI" URL="../SubVIs/Update Busy.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
