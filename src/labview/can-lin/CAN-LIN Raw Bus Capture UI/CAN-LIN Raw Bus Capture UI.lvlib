@@ -10,6 +10,7 @@
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 	</Item>
-	<Item Name="Convert Trace to RAW Frame.vi" Type="VI" URL="../Convert Trace to RAW Frame.vi"/>
+	<Item Name="Convert Trace to CAN Frame.vi" Type="VI" URL="../Convert Trace to CAN Frame.vi"/>
+	<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
