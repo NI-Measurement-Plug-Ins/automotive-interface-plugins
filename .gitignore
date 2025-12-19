@@ -15,3 +15,8 @@ ProcessingStage/
 
 # Executables
 *.exe
+
+# Shared Libraries
+*.dll
+*.so
+*.lvlibp
