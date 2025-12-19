@@ -14,7 +14,6 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="I2C UI Error Strings Global.vi" Type="VI" URL="../SubVIs/I2C UI Error Strings Global.vi"/>
-		<Item Name="Convert I2C Messages &amp; Buffer.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer.vi"/>
 		<Item Name="Get Bitfile Path.vi" Type="VI" URL="../SubVIs/Get Bitfile Path.vi"/>
 		<Item Name="Get Device Info.vi" Type="VI" URL="../SubVIs/Get Device Info.vi"/>
 		<Item Name="Get Device Names.vi" Type="VI" URL="../SubVIs/Get Device Names.vi"/>
@@ -24,6 +23,8 @@
 		<Item Name="Update Btifle Path.vi" Type="VI" URL="../SubVIs/Update Btifle Path.vi"/>
 		<Item Name="Update OOB gRPC Port.vi" Type="VI" URL="../SubVIs/Update OOB gRPC Port.vi"/>
 		<Item Name="Update Serial Input.vi" Type="VI" URL="../SubVIs/Update Serial Input.vi"/>
+		<Item Name="Convert I2C Messages &amp; Buffer U64.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer U64.vi"/>
+		<Item Name="Convert I2C Messages &amp; Buffer U8.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer U8.vi"/>
 		<Item Name="Update I2C Messages Table.vi" Type="VI" URL="../SubVIs/Update I2C Messages Table.vi"/>
 		<Item Name="Update Message Count.vi" Type="VI" URL="../SubVIs/Update Message Count.vi"/>
 		<Item Name="Pause I2C Messages.vi" Type="VI" URL="../SubVIs/Pause I2C Messages.vi"/>
