@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">25.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -12,6 +13,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Test" Type="Folder">
+			<Item Name="I2C Bus Monitor Test.vi" Type="VI" URL="../Test/I2C Bus Monitor Test.vi"/>
+		</Item>
 		<Item Name="deps" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="OOB gRPC Client.lvlib" Type="Library" URL="../I2C Bus Monitor UI/OOB gRPC Client/OOB gRPC Client.lvlib"/>
@@ -34,7 +38,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/I2C Bus Monitor UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7077C49F-E0C1-4F1B-BB61-DF3497472ECD}</Property>
-				<Property Name="Bld_version.build" Type="Int">110</Property>
+				<Property Name="Bld_version.build" Type="Int">142</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">I2C Bus Monitor UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/I2C Bus Monitor UI.lvlibp</Property>

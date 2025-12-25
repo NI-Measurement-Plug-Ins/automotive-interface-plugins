@@ -54,6 +54,8 @@
 		</Item>
 		<Item Name="Error Processing" Type="Folder">
 			<Item Name="Check VI Error.vi" Type="VI" URL="../SubVIs/Check VI Error.vi"/>
+			<Item Name="Update Status.vi" Type="VI" URL="../SubVIs/Update Status.vi"/>
+			<Item Name="Get Error (Logic).vi" Type="VI" URL="../SubVIs/Get Error (Logic).vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
