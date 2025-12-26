@@ -37,12 +37,14 @@
 				<Item Name="Table Buffer - Check.vi" Type="VI" URL="../SubVIs/Table Buffer - Check.vi"/>
 				<Item Name="Table Buffer - Dequeue.vi" Type="VI" URL="../SubVIs/Table Buffer - Dequeue.vi"/>
 				<Item Name="Table Buffer - Destroy.vi" Type="VI" URL="../SubVIs/Table Buffer - Destroy.vi"/>
+				<Item Name="Table Buffer - Flush.vi" Type="VI" URL="../SubVIs/Table Buffer - Flush.vi"/>
 			</Item>
 			<Item Name="Convert I2C Messages &amp; Buffer.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer.vi"/>
 			<Item Name="Pause I2C Messages.vi" Type="VI" URL="../SubVIs/Pause I2C Messages.vi"/>
 			<Item Name="Update I2C Messages Table.vi" Type="VI" URL="../SubVIs/Update I2C Messages Table.vi"/>
 			<Item Name="Update Message Count.vi" Type="VI" URL="../SubVIs/Update Message Count.vi"/>
 			<Item Name="Update Table Buffer Pressure.vi" Type="VI" URL="../SubVIs/Update Table Buffer Pressure.vi"/>
+			<Item Name="Clear I2C Messages Table.vi" Type="VI" URL="../SubVIs/Clear I2C Messages Table.vi"/>
 		</Item>
 		<Item Name="Save CSV" Type="Folder">
 			<Item Name="Save CSV.vi" Type="VI" URL="../SubVIs/Save CSV.vi"/>
@@ -52,10 +54,15 @@
 			<Item Name="Elapsed Time.vi" Type="VI" URL="../SubVIs/Elapsed Time.vi"/>
 			<Item Name="Update Busy.vi" Type="VI" URL="../SubVIs/Update Busy.vi"/>
 		</Item>
-		<Item Name="Error Processing" Type="Folder">
-			<Item Name="Check VI Error.vi" Type="VI" URL="../SubVIs/Check VI Error.vi"/>
-			<Item Name="Update Status.vi" Type="VI" URL="../SubVIs/Update Status.vi"/>
+		<Item Name="Error Handling" Type="Folder">
+			<Item Name="Async VI Error Internal Map.vi" Type="VI" URL="../SubVIs/Async VI Error Internal Map.vi"/>
+			<Item Name="Init Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Init Merge Async VI Error.vi"/>
+			<Item Name="Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Merge Async VI Error.vi"/>
 			<Item Name="Get Error (Logic).vi" Type="VI" URL="../SubVIs/Get Error (Logic).vi"/>
+			<Item Name="Update Status.vi" Type="VI" URL="../SubVIs/Update Status.vi"/>
+		</Item>
+		<Item Name="Scan" Type="Folder">
+			<Item Name="Update Scan Table.vi" Type="VI" URL="../SubVIs/Update Scan Table.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
