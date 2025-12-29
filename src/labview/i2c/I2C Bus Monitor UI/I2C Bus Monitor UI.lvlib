@@ -50,6 +50,9 @@
 			<Item Name="Save CSV.vi" Type="VI" URL="../SubVIs/Save CSV.vi"/>
 			<Item Name="Save CSV (Async).vi" Type="VI" URL="../SubVIs/Save CSV (Async).vi"/>
 		</Item>
+		<Item Name="Scan" Type="Folder">
+			<Item Name="Update Scan Table.vi" Type="VI" URL="../SubVIs/Update Scan Table.vi"/>
+		</Item>
 		<Item Name="Busy" Type="Folder">
 			<Item Name="Elapsed Time.vi" Type="VI" URL="../SubVIs/Elapsed Time.vi"/>
 			<Item Name="Update Busy.vi" Type="VI" URL="../SubVIs/Update Busy.vi"/>
@@ -60,9 +63,6 @@
 			<Item Name="Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Merge Async VI Error.vi"/>
 			<Item Name="Get Error (Logic).vi" Type="VI" URL="../SubVIs/Get Error (Logic).vi"/>
 			<Item Name="Update Status.vi" Type="VI" URL="../SubVIs/Update Status.vi"/>
-		</Item>
-		<Item Name="Scan" Type="Folder">
-			<Item Name="Update Scan Table.vi" Type="VI" URL="../SubVIs/Update Scan Table.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
