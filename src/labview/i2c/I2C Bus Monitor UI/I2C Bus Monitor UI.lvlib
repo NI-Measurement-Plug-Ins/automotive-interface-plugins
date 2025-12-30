@@ -42,7 +42,6 @@
 			<Item Name="Convert I2C Messages &amp; Buffer.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer.vi"/>
 			<Item Name="Pause I2C Messages.vi" Type="VI" URL="../SubVIs/Pause I2C Messages.vi"/>
 			<Item Name="Update I2C Messages Table.vi" Type="VI" URL="../SubVIs/Update I2C Messages Table.vi"/>
-			<Item Name="Update Message Count.vi" Type="VI" URL="../SubVIs/Update Message Count.vi"/>
 			<Item Name="Update Table Buffer Pressure.vi" Type="VI" URL="../SubVIs/Update Table Buffer Pressure.vi"/>
 			<Item Name="Clear I2C Messages Table.vi" Type="VI" URL="../SubVIs/Clear I2C Messages Table.vi"/>
 		</Item>
