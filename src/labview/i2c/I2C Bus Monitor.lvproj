@@ -38,7 +38,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/I2C Bus Monitor UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7077C49F-E0C1-4F1B-BB61-DF3497472ECD}</Property>
-				<Property Name="Bld_version.build" Type="Int">177</Property>
+				<Property Name="Bld_version.build" Type="Int">181</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">I2C Bus Monitor UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/I2C Bus Monitor UI.lvlibp</Property>
