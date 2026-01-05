@@ -18,7 +18,8 @@
 			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture/OOB gRPC Server/OOB gRPC Server.lvlib"/>
 			<Item Name="Table_Filtering.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture UI/Table_Filtering/Table_Filtering.lvlib"/>
 		</Item>
-		<Item Name="LIN Tester" Type="Folder">
+		<Item Name="Testers" Type="Folder">
+			<Item Name="CAN frame Generator for Test.vi" Type="VI" URL="../Tester VIs/CAN frame Generator for Test.vi"/>
 			<Item Name="LIN frame Generator for Test.vi" Type="VI" URL="../Tester VIs/LIN frame Generator for Test.vi"/>
 		</Item>
 		<Item Name="CAN-LIN Raw Bus Capture UI.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture UI/CAN-LIN Raw Bus Capture UI.lvlib"/>
