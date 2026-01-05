@@ -13,9 +13,6 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Error Global" Type="Folder">
-			<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi"/>
-		</Item>
 		<Item Name="OOB gRPC" Type="Folder">
 			<Item Name="Update OOB gRPC Port.vi" Type="VI" URL="../SubVIs/Update OOB gRPC Port.vi"/>
 		</Item>
@@ -54,16 +51,18 @@
 		</Item>
 		<Item Name="Status" Type="Folder">
 			<Item Name="Startup Dialog.vi" Type="VI" URL="../SubVIs/Startup Dialog.vi"/>
-			<Item Name="Elapsed Time.vi" Type="VI" URL="../SubVIs/Elapsed Time.vi"/>
-			<Item Name="Update Busy.vi" Type="VI" URL="../SubVIs/Update Busy.vi"/>
 			<Item Name="Update Status.vi" Type="VI" URL="../SubVIs/Update Status.vi"/>
+			<Item Name="Elapsed Time.vi" Type="VI" URL="../SubVIs/Elapsed Time.vi"/>
+			<Item Name="Update Busy LED.vi" Type="VI" URL="../SubVIs/Update Busy LED.vi"/>
+			<Item Name="Update Running LED.vi" Type="VI" URL="../SubVIs/Update Running LED.vi"/>
 			<Item Name="Update Streaming LED.vi" Type="VI" URL="../SubVIs/Update Streaming LED.vi"/>
 		</Item>
 		<Item Name="Error Handling" Type="Folder">
+			<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi"/>
+			<Item Name="Get Error (Logic).vi" Type="VI" URL="../SubVIs/Get Error (Logic).vi"/>
 			<Item Name="Async VI Error Internal Map.vi" Type="VI" URL="../SubVIs/Async VI Error Internal Map.vi"/>
 			<Item Name="Init Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Init Merge Async VI Error.vi"/>
 			<Item Name="Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Merge Async VI Error.vi"/>
-			<Item Name="Get Error (Logic).vi" Type="VI" URL="../SubVIs/Get Error (Logic).vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
