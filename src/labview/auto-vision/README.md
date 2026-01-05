@@ -29,23 +29,23 @@ This plugin provides an easy‑to‑use **automotive camera (FPD‑Link/ GMSL) a
 
 1.  **Open project**  
     Launch `Auto-Vision.lvproj` in **LabVIEW 2025**.  
-![image](<docs\images\LabVIEW project.png>)
+![image](<docs/images/LabVIEW project.png>)
 
 2.  **Build the UI and the logic**  
     Build the `Automotive Vision UI` and `Automotive Vision` specification (Application Builder).  
-![image](<docs\images\Build LabVIEW project.png>)
+![image](<docs/images/Build LabVIEW project.png>)
 
 3.  **Run the service**  
     Open `Run Service.vi` in the **Automotive Vision** class and run.  
-![image](<docs\images\Run Service.png>)
+![image](<docs/images/Run Service.png>)
 
 4.  **Open Instrument Studio (IS) 2025**  
     Create a **Manual Layout**, add a **Large Panel** and select **Automotive Vision Capture**.  
-![image](<docs\images\Add AutomotiveVision Plugin to Instrument Studio.png>)
+![image](<docs/images/Add AutomotiveVision Plugin to Instrument Studio.png>)
 
 5.  **UI in IS**  
     The plugin panel appears with live image, packet/trace tabs and status telemetry.  
-![image](<docs\images\Start Plugin.png>)
+![image](<docs/images/Start Plugin.png>)
 
 ***
 
@@ -53,7 +53,7 @@ This plugin provides an easy‑to‑use **automotive camera (FPD‑Link/ GMSL) a
 
 > These controls map to NI’s PXIe‑148X acquisition example front panel. Use values matching the **camera configuration script**. 
 
-![image](<docs\images\Configuration.png>)
+![image](<docs/images/Configuration.png>)
 
 ### CSI‑2 Data Source
 
@@ -124,18 +124,18 @@ Select the **CSI‑2 Virtual Channel ID** to demultiplex multiple streams sharin
     *   **Capture type**: can be PNG or RAW.
     *   **Capture path**: a folder to save the capture - .bin or .png file.
 
-    ![image](<docs\images\Interactive Control.png>)
+    ![image](<docs/images/Interactive Control.png>)
 ***
 
 ## Indicators (Status Telemetry)
 
-![image](<docs\images\Status Indicators.png>)
+![image](<docs/images/Status Indicators.png>)
 *   **Source rate (FPS)** – current frame rate per channel.
 *   **Bytes acquired** – total data captured this session.
 *   **Acquisition duration (s)** – elapsed time.
 *   **Frame count** – total frames received.
 *   **PoC voltage / current** – camera power telemetry over coax.  
-*   **Acqusition in progress** – Indicates that the AutoVision device is capable of receiving frames.
+*   **Acquisition in progress** – Indicates that the AutoVision device is capable of receiving frames.
 *   **Error** – Indicates error in measurement logic.  
 
 ***
