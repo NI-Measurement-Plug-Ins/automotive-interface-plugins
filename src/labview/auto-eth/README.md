@@ -108,13 +108,19 @@ If the table is not paused, the table will auto scroll past the selected packet.
 
 ## Testing the plugin
 
-A VI, Ethernet Packet Generator for Testing, exists for putting data into the bus, allowing the user to test the plugin.
+A VI, Ethernet Packet Generator for Testing, exists for putting data into the bus, allowing the user to test the plugin
+This VI has the functionality to read and write the TC10 status if enabled, as well as send either a single stream of packets, or 3 different streams of packets.  
+The first functionality is the multi Packet stream, allowing the user to send 3 different packets, varying protocol and message, sequentially.  
 
 ![image](<img/11.png>)
 
-Set the interface to match that of the interface specified in the Plugin UI. All the fields can be manipulated, so the user can test how packets are received and displayed in the UI.
+The next functionality is the single packet stream which sends a single packet on repeat.  
 
-Another VI, Ethernet Packet Counter for Testing, also exists for putting data into the bus, allowing the user to test the plugin. This test is used for testing the pause functionality with packets whose payload include the packet number.  This allows the user to see that no packets are missed. 
+![image](<img/20.png>)
+
+The last functionality reads and writes the TC10 status.  This will also display if the device is TC10 Enabled. 
+
+For all of the these tests, the user must first set the XNET Interface.  
 
 
 ## Troubleshooting
@@ -132,4 +138,4 @@ Copy the `hardware-validation\src\labview\builds\Auto-Eth Bus Monitor\Automotive
 
 ![image](<img/15.png>)
 
-After copying the folder above, the service will start when Instrument Studio starts, allowing the user to run the plugin independently of Labview
+After copying the folder above, the service will start when Instrument Studio starts, allowing the user to run the plugin independently of Labview. 
