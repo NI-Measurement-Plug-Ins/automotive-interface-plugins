@@ -17,6 +17,7 @@
 		<Item Name="Format MAC ADDRESS.vi" Type="VI" URL="../Format MAC ADDRESS.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="TC10 Status.vi" Type="VI" URL="../TC10 Status.vi"/>
 	<Item Name="Check Path.vi" Type="VI" URL="../Check Path.vi"/>
 	<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
 	<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
