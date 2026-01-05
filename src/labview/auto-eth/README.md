@@ -39,8 +39,13 @@ Please see troubleshooting if it does not look like the picture above.
 
 ## How to configure the plugin
 
-First, select the Automotive Ethernet Interface.  
+First, select the Automotive Ethernet Interface from the drop down menu of available XNET interfaces.  
+The user can select their preferred Interface or their preferred Interface/monitor.  If it is not selected, the monitor keyword is added anyway.  
+
+![image](<img/14.png>)
+
 Set the ETHERNET MODE IN to Automotive Ethernet.
+Support is not yet available for Standard Ethernet.
 
 ![image](<img/06.png>)
 
@@ -75,16 +80,31 @@ The Status field at the bottom of the UI displays the latest status reported by 
 
 ![image](<img/09.png>)
 
+The packet table will continually display the latest data, auto scrolling so the latest data is at the bottom.  Pausing the plugin will allow the user to scroll back through the collected data.  
+
+When filtering the data, the table will only display the filtered results, as such the table will auto scroll to the top of the filtered results.  
+
 ### TC10 Functionality
 The TC10 Wake and TC10 Sleep button will set the power mode for the interface.  This only works for devices that are TC10 enabled.  The "Sleeping/Wake Field" in the bottom right exists to indicate to the user the TC10 status. Devices that are not TC10 enabled will have the default high power state and will indicate 'Wake'. Sometimes, the interface is asleep before the user starts the plugin, in which case the TC10 Wake button must be hit to allow the packets to start flowing.
 
-![image](<img/13.png>)
+![image](<img/17.png>)
+
+![image](<img/18.png>)
+
+If the device is not TC10 Enabled, an error message indicating as such will appear in the status window. 
+
+![image](<img/19.png>)
+
+There is not a running list of NI devices that are TC10 enabled.  The best way to find out if the device is TC10 Enabled is to to check the manual for the device, or pull up the properties for an existing XNET session in code.  
+Please see [TC10_Wake/Sleep](https://www.ni.com/docs/en-US/bundle/pxie-8520/page/ni-xnet-using-tc10-sleep-wake.html). 
 
 ## Packet Focus
 
 To focus on a packet, select a row in the table by clicking anywhere on the row. When a row is selected, the protocol layer, data layer, and payload will be displayed below the table.
 
 ![image](<img/10.png>)
+
+If the table is not paused, the table will auto scroll past the selected packet.  
 
 ## Testing the plugin
 
@@ -100,3 +120,16 @@ Another VI, Ethernet Packet Counter for Testing, also exists for putting data in
 ## Troubleshooting
 
 If part of the UI is getting cut off, please open the Measurement UI.vi and scroll down so the top of the screen is lined up just above the letters in the UI, then save and rebuild.
+
+
+## How to deploy the plugin locally
+
+Build the **Automotive Ethernet Bus Monitor** and the **Automotive Ethernet Bus Monitor UI**
+
+![image](<img/16.png>)
+
+Copy the `hardware-validation\src\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor` folder to the `C:\ProgramData\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor` location.
+
+![image](<img/15.png>)
+
+After copying the folder above, the service will start when Instrument Studio starts, allowing the user to run the plugin independently of Labview
