@@ -1,0 +1,120 @@
+# CAN/LIN Raw Bus Capture Measurement Plugin for Instrument Studio in LabVIEW
+
+This plugin is an easy-to-use CAN/LIN Bus capture with sorting and filtering option. It uses the Measurement Plugin SDK.
+
+## Contents
+
+1. The service logic main file is the **CAN-LIN Raw Bus Capture\Measurement Logic.vi**.
+2. The UI part is implemented in the  **CAN-LIN Raw Bus Capture UI\Measurement UI.vi** file.
+
+The plugin uses the **Tables and Filtering** library for sorting and filtering, and the OOB (Out-Of-Band) gRPC Service for interactive UI part (Pause / Resume)
+
+## How to run this plugin
+
+Open the `CAN-LIN Raw Bus Capture.lvproj` project in **LabVIEW 2025**.
+![image](<img/00.png>)
+
+Build the **CAN-LIN Raw Bus Capture UI**.
+
+![image](<img/01.png>)
+
+Open **Run Service.vi** from the **CAN-LIN Raw Bus Capture** class
+
+![image](<img/02.png>)
+![image](<img/03.png>)
+
+Run the VI
+
+![image](<img/04.png>)
+
+Open **Instrument Studio 2025** and create **Manual Layout**
+
+![image](<img/05.png>)
+
+Select **CAN-LIN Raw Bus Capture** as a large Panel
+
+![image](<img/06.png>)
+
+The plugin UI will shown in the Instrument Studio like this:
+
+![image](<img/07.png>)
+
+## How to configure the plugin
+
+Select the bus type
+
+![image](<img/08.png>)
+
+### CAN configuration
+
+![image](<img/09.png>)
+
+1. Select the CAN interface
+2. Select the IO Mode:
+    - CAN (Standard Controller Area Network)
+    - CAN FD (Flexible Data-Rate)
+    - CAN FD+BRS (Flexible Data-Rate and Bit Rate Switch)
+3. Set baudrate (hexadecimal value)
+    - 1E848 for 125 kbps
+4. Set FD ISO Mode (optional when IO Mode is set to CAN FD or CAN FD+BRS)
+    - ISO
+    - Non ISO
+    - Legacy ISO
+5. Set FD baudrate (hexadecimal value) (optional when IO Mode is set to CAN FD or CAN FD+BRS)
+    - F4240 for 1 mbps
+6. Turn on the termination resistor if it is needed for the bus.
+
+### LIN configuration
+
+![image](<img/10.png>)
+
+1. Select the LIN(Local Interconnect Network) interface
+2. Turn on the termination resistor if it is needed for the bus.
+
+*Note: The plugin connects to the LIN bus as a slave node with 128 kpbs baudrate.
+
+## How to deploy the plugin (local only)
+
+Build the **CAN-LIN Raw Bus Capture** and the **CAN-LIN Raw Bus Capture UI**
+
+![image](<img/20.png>)
+
+Copy the `src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture` folder under the `C:\ProgramData\National Instruments\Plug-Ins\Measurements` location.
+
+![image](<img/21.png>)
+
+## How to start and use the plugin
+
+Start the plugin with the **RUN** button in the Instrument Studio.
+
+![image](<img/11.png>)
+
+It connects to the selected bus and starts listening. The service updates the UI every 250ms. The connection LED turns on.
+It shows the captured messages in the trace table and the bus status in the status area at the bottom.
+
+![image](<img/12.png>)
+
+The user can interact with the plugin by the control area such as sorting, filtering, pause / resume and clear the trace table.
+
+![image](<img/13.png>)
+
+### Sorting
+The default order of the messages is by timestamp, it can change by the **Sort by ID** checkbox.
+
+![image](<img/14.png>)
+
+### Filter
+Use the headers of the trace table to set conditions what to filter an show.
+
+![image](<img/15.png>)
+
+![image](<img/16.png>)
+
+### Save trace to CSV file
+
+The user can set a file in the control area and save the trace data to CSV file with the **SAVE** button.
+When the user does not set the file before clicks the SAVE button, a dialog will open to set one.
+
+### Pause / Resume capture
+
+With this button the user can pause (suspend) the trace table update.
