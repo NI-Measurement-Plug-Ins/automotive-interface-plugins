@@ -13,26 +13,57 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="I2C UI Error Strings Global.vi" Type="VI" URL="../SubVIs/I2C UI Error Strings Global.vi"/>
-		<Item Name="Convert I2C Messages &amp; Buffer.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer.vi"/>
-		<Item Name="Get Bitfile Path.vi" Type="VI" URL="../SubVIs/Get Bitfile Path.vi"/>
-		<Item Name="Get Device Info.vi" Type="VI" URL="../SubVIs/Get Device Info.vi"/>
-		<Item Name="Get Device Names.vi" Type="VI" URL="../SubVIs/Get Device Names.vi"/>
-		<Item Name="Populate Device Names.vi" Type="VI" URL="../SubVIs/Populate Device Names.vi"/>
-		<Item Name="Populate Serial Channels.vi" Type="VI" URL="../SubVIs/Populate Serial Channels.vi"/>
-		<Item Name="Update Alias Name.vi" Type="VI" URL="../SubVIs/Update Alias Name.vi"/>
-		<Item Name="Update Btifle Path.vi" Type="VI" URL="../SubVIs/Update Btifle Path.vi"/>
-		<Item Name="Update OOB gRPC Port.vi" Type="VI" URL="../SubVIs/Update OOB gRPC Port.vi"/>
-		<Item Name="Update Serial Input.vi" Type="VI" URL="../SubVIs/Update Serial Input.vi"/>
-		<Item Name="Update I2C Messages Table.vi" Type="VI" URL="../SubVIs/Update I2C Messages Table.vi"/>
-		<Item Name="Update Message Count.vi" Type="VI" URL="../SubVIs/Update Message Count.vi"/>
-		<Item Name="Pause I2C Messages.vi" Type="VI" URL="../SubVIs/Pause I2C Messages.vi"/>
-		<Item Name="Update Table Buffer Pressure.vi" Type="VI" URL="../SubVIs/Update Table Buffer Pressure.vi"/>
-		<Item Name="Create Table Buffer.vi" Type="VI" URL="../SubVIs/Create Table Buffer.vi"/>
-		<Item Name="Enqueue Table Buffer.vi" Type="VI" URL="../SubVIs/Enqueue Table Buffer.vi"/>
-		<Item Name="Check Table Buffer.vi" Type="VI" URL="../SubVIs/Check Table Buffer.vi"/>
-		<Item Name="Dequeue Table Buffer.vi" Type="VI" URL="../SubVIs/Dequeue Table Buffer.vi"/>
-		<Item Name="Destroy Table Buffer.vi" Type="VI" URL="../SubVIs/Destroy Table Buffer.vi"/>
+		<Item Name="OOB gRPC" Type="Folder">
+			<Item Name="Update OOB gRPC Port.vi" Type="VI" URL="../SubVIs/Update OOB gRPC Port.vi"/>
+		</Item>
+		<Item Name="Device Management" Type="Folder">
+			<Item Name="Populate Device Names.vi" Type="VI" URL="../SubVIs/Populate Device Names.vi"/>
+			<Item Name="Get Device Names.vi" Type="VI" URL="../SubVIs/Get Device Names.vi"/>
+			<Item Name="Update Alias Name.vi" Type="VI" URL="../SubVIs/Update Alias Name.vi"/>
+			<Item Name="Get Device Info.vi" Type="VI" URL="../SubVIs/Get Device Info.vi"/>
+			<Item Name="Get Bitfile Path.vi" Type="VI" URL="../SubVIs/Get Bitfile Path.vi"/>
+			<Item Name="Update Btifle Path.vi" Type="VI" URL="../SubVIs/Update Btifle Path.vi"/>
+			<Item Name="Populate Serial Channels.vi" Type="VI" URL="../SubVIs/Populate Serial Channels.vi"/>
+			<Item Name="Update Serial Input.vi" Type="VI" URL="../SubVIs/Update Serial Input.vi"/>
+		</Item>
+		<Item Name="I2C Bus Monitor" Type="Folder">
+			<Item Name="Table Buffer" Type="Folder">
+				<Item Name="Table Buffer.vi" Type="VI" URL="../SubVIs/Table Buffer.vi"/>
+				<Item Name="Table Buffer - Create.vi" Type="VI" URL="../SubVIs/Table Buffer - Create.vi"/>
+				<Item Name="Table Buffer - Enqueue.vi" Type="VI" URL="../SubVIs/Table Buffer - Enqueue.vi"/>
+				<Item Name="Table Buffer - Check.vi" Type="VI" URL="../SubVIs/Table Buffer - Check.vi"/>
+				<Item Name="Table Buffer - Dequeue.vi" Type="VI" URL="../SubVIs/Table Buffer - Dequeue.vi"/>
+				<Item Name="Table Buffer - Destroy.vi" Type="VI" URL="../SubVIs/Table Buffer - Destroy.vi"/>
+				<Item Name="Table Buffer - Flush.vi" Type="VI" URL="../SubVIs/Table Buffer - Flush.vi"/>
+			</Item>
+			<Item Name="Convert I2C Messages &amp; Buffer.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer.vi"/>
+			<Item Name="Pause I2C Messages.vi" Type="VI" URL="../SubVIs/Pause I2C Messages.vi"/>
+			<Item Name="Update I2C Messages Table.vi" Type="VI" URL="../SubVIs/Update I2C Messages Table.vi"/>
+			<Item Name="Update Table Buffer Pressure.vi" Type="VI" URL="../SubVIs/Update Table Buffer Pressure.vi"/>
+			<Item Name="Clear I2C Messages Table.vi" Type="VI" URL="../SubVIs/Clear I2C Messages Table.vi"/>
+		</Item>
+		<Item Name="Save CSV" Type="Folder">
+			<Item Name="Save CSV.vi" Type="VI" URL="../SubVIs/Save CSV.vi"/>
+			<Item Name="Save CSV (Async).vi" Type="VI" URL="../SubVIs/Save CSV (Async).vi"/>
+		</Item>
+		<Item Name="Scan" Type="Folder">
+			<Item Name="Update Scan Table.vi" Type="VI" URL="../SubVIs/Update Scan Table.vi"/>
+		</Item>
+		<Item Name="Status" Type="Folder">
+			<Item Name="Startup Dialog.vi" Type="VI" URL="../SubVIs/Startup Dialog.vi"/>
+			<Item Name="Update Status.vi" Type="VI" URL="../SubVIs/Update Status.vi"/>
+			<Item Name="Elapsed Time.vi" Type="VI" URL="../SubVIs/Elapsed Time.vi"/>
+			<Item Name="Update Busy LED.vi" Type="VI" URL="../SubVIs/Update Busy LED.vi"/>
+			<Item Name="Update Running LED.vi" Type="VI" URL="../SubVIs/Update Running LED.vi"/>
+			<Item Name="Update Streaming LED.vi" Type="VI" URL="../SubVIs/Update Streaming LED.vi"/>
+		</Item>
+		<Item Name="Error Handling" Type="Folder">
+			<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi"/>
+			<Item Name="Get Error (Logic).vi" Type="VI" URL="../SubVIs/Get Error (Logic).vi"/>
+			<Item Name="Async VI Error Internal Map.vi" Type="VI" URL="../SubVIs/Async VI Error Internal Map.vi"/>
+			<Item Name="Init Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Init Merge Async VI Error.vi"/>
+			<Item Name="Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Merge Async VI Error.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
