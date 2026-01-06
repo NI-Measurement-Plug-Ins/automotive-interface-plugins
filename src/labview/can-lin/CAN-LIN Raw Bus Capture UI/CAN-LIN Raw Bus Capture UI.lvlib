@@ -10,7 +10,35 @@
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 	</Item>
-	<Item Name="Convert Trace to CAN Frame.vi" Type="VI" URL="../Convert Trace to CAN Frame.vi"/>
+	<Item Name="deps" Type="Folder">
+		<Item Name="XNET Frame&amp;Log" Type="Folder">
+			<Item Name="NI-XNET Frame&amp;Log - CAN Frame to Table.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - CAN Frame to Table.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Configure TDMS Channel for Read.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Configure TDMS Channel for Read.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Configure TDMS Channel for Write.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Configure TDMS Channel for Write.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Frames (CAN to Raw).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Frames (CAN to Raw).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Frames (FlexRay to Raw).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Frames (FlexRay to Raw).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Frames (LIN to Raw).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Frames (LIN to Raw).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Frames (Raw to CAN).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Frames (Raw to CAN).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Frames (Raw to FlexRay).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Frames (Raw to FlexRay).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Frames (Raw to LIN).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Frames (Raw to LIN).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Frames.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Frames.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (CAN to Raw).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Single Frame (CAN to Raw).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (FlexRay to Raw).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Single Frame (FlexRay to Raw).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (LIN to Raw).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Single Frame (LIN to Raw).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Single Frame (Raw to CAN).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (Raw to FlexRay).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Single Frame (Raw to FlexRay).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Convert Single Frame (Raw to LIN).vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Convert Single Frame (Raw to LIN).vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Converter.ctl" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Converter.ctl"/>
+			<Item Name="NI-XNET Frame&amp;Log - FlexRay Frame to Table.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - FlexRay Frame to Table.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Get Frame Size.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Get Frame Size.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Get Native Endian.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Get Native Endian.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - LIN Frame to Table.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - LIN Frame to Table.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Payload Bytes to String.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Payload Bytes to String.vi"/>
+			<Item Name="NI-XNET Frame&amp;Log - Swap Endian Raw.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Swap Endian Raw.vi"/>
+		</Item>
+	</Item>
+	<Item Name="Convert CAN Trace to Raw Frame.vi" Type="VI" URL="../Convert CAN Trace to Raw Frame.vi"/>
+	<Item Name="Convert LIN Trace to Raw Frame.vi" Type="VI" URL="../Convert LIN Trace to Raw Frame.vi"/>
 	<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>

@@ -82,7 +82,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CAN-LIN Raw Bus Capture UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AAE4981C-3794-4063-BD2D-49426FE4E5B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">132</Property>
+				<Property Name="Bld_version.build" Type="Int">136</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CAN-LIN Raw Bus Capture UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/CAN-LIN Raw Bus Capture UI.lvlibp</Property>
@@ -94,7 +94,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4A264581-636B-4174-81DF-97E7FFA30763}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8206F378-7613-41AA-A27D-E7B8C8A8A0D8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CAN-LIN Raw Bus Capture UI.lvlib</Property>
@@ -104,7 +104,13 @@
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CAN-LIN Raw Bus Capture UI.lvlib/deps/XNET Frame&amp;Log</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
 				<Property Name="TgtF_internalName" Type="Str">CAN-LIN Raw Bus Capture UI</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
