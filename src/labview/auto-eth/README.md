@@ -108,7 +108,7 @@ If the table is not paused, the table will auto scroll past the selected packet.
 
 ## Testing the plugin
 
-A VI, Ethernet Packet Generator for Testing, exists for putting data into the bus, allowing the user to test the plugin
+A VI, Automotive Ethernet Bus Monitor Packet Generator.vi, exists for putting data into the bus, allowing the user to test the plugin
 This VI has the functionality to read and write the TC10 status if enabled, as well as send either a single stream of packets, or 3 different streams of packets.  
 The first functionality is the multi Packet stream, allowing the user to send 3 different packets, varying protocol and message, sequentially.  
 
