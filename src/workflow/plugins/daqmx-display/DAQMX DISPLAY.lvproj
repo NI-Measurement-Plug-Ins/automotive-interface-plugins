@@ -14,7 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Session Management daqmxDI.lvlib" Type="Library" URL="../../session-management/daqmxDI/Session Management daqmxDI.lvlib"/>
-		<Item Name="Create DI dictionary.vi" Type="VI" URL="../../Tools/Create DI dictionary.vi"/>
+		<Item Name="Create DI dictionary.vi" Type="VI" URL="../../../../../../../ggonzalez/hardware-validation/src/labview/Tools/Create DI dictionary.vi"/>
 		<Item Name="Daqmx-Display UI.lvlib" Type="Library" URL="../Daqmx-Display UI/Daqmx-Display UI.lvlib"/>
 		<Item Name="Daqmx-Display.lvclass" Type="LVClass" URL="../Daqmx-Display/Daqmx-Display.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>

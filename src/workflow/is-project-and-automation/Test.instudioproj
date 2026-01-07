@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D52E84EE41D8B2F227AF5C0B78DD7B091DC9F4FEA732611FA813571AE5B0B16AE8282BF70FEE8243B055B2B6CAEC29C19B88E65ADB17C8F05425AB7410A533B6" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BC9E22EAFC7BC0ED66B91BABD93DA4CE0D127EC4AA627F4763458267AB518A903945248F17C2C6B25CD5672A6F4F3E8322C2FEB4ABC13DF620CF16E85065EAB8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="25.8.1.49696" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.18.1.49696" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="25.8.1.49696" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="25.8.1.49696" />
 	</SourceModelFeatureSet>
@@ -19,6 +20,7 @@
 			<SourceFileReference Bindings="EnvoyManager" Id="d452bd4b1adc4132a1664d48a9c54f51" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Three Plugins.sfp" StoragePath="Three Plugins.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="db581e7528ee4e7e948b8015949a6474" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Demo_Counter_Writer_Display.sfp" StoragePath="Demo_Counter_Writer_Display.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="6c58ea1a20f0447f8a53f1a0c612d78b" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Display.sfp" StoragePath="Display.sfp" />
+			<FileReference Id="9c7b53187b1141118758fbe90c77c14e" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="PinMap.pinmap" StoragePath="PinMap.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">
