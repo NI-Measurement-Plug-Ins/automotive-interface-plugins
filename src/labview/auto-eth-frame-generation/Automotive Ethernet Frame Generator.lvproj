@@ -12,6 +12,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="deps" Type="Folder">
+			<Item Name="OOB Data Transfer.lvlib" Type="Library" URL="../Automotive Ethernet Frame Generator/OOB Data Transfer/OOB Data Transfer.lvlib"/>
+			<Item Name="OOB gRPC Client.lvlib" Type="Library" URL="../Automotive Ethernet Frame Generator/OOB gRPC Client/OOB gRPC Client.lvlib"/>
+			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../Automotive Ethernet Frame Generator/OOB gRPC Server/OOB gRPC Server.lvlib"/>
+		</Item>
 		<Item Name="Automotive Ethernet Frame Generator UI.lvlib" Type="Library" URL="../Automotive Ethernet Frame Generator UI/Automotive Ethernet Frame Generator UI.lvlib"/>
 		<Item Name="Automotive Ethernet Frame Generator.lvclass" Type="LVClass" URL="../Automotive Ethernet Frame Generator/Automotive Ethernet Frame Generator.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
@@ -72,8 +77,9 @@
 				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Automotive Ethernet Frame Generator UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A6763E65-0829-473F-B537-637511C116CC}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Automotive Ethernet Frame Generator UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Automotive Ethernet Frame Generator UI.lvlibp</Property>
@@ -85,7 +91,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{33C9F68B-F279-4471-A269-E1B71EBA749A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AFF6A1FC-30B0-4FED-A788-015B16195B6E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Automotive Ethernet Frame Generator UI.lvlib</Property>
