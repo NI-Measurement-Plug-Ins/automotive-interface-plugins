@@ -12,6 +12,8 @@ The plugin uses the OOB (Out-Of-Band) gRPC Service for interactive UI part (CONT
 ## How to run this plugin
 
 Open the `CAN-LIN Frame Generator.lvproj` project in **LabVIEW 2025**.
+
+
 ![image](<img/00.png>)
 
 Build the **CAN-LIN Frame Generator UI**.
@@ -60,13 +62,13 @@ Select the bus type
     - CAN FD (Flexible Data-Rate)
     - CAN FD+BRS (Flexible Data-Rate and Bit Rate Switch)
 3. Set baudrate (in hexadecimal form)
-    - 1E848 for 125 kbps
+    - The default value is 1E848 for 125 kbps
 4. Set FD ISO Mode (optional when IO Mode is set to CAN FD or CAN FD+BRS)
     - ISO
     - Non ISO
     - Legacy ISO
 5. Set FD baudrate (in hexadecimal form) (optional when IO Mode is set to CAN FD or CAN FD+BRS)
-    - F4240 for 1 Mbps
+    - The default value is F4240 for 1 Mbps
 6. Turn "ON" the Termination CAN if it is needed for the bus.
 
 
@@ -78,20 +80,12 @@ Select the bus type
 1. Select the LIN interface
     - Only valid LIN modules can be selected. The name is the same as the name specified in MAX.
 2. Set baudrate (in hexadecimal form)
-    - 4B00 for 19.2 kbps
+    - The default value is 4B00 for 19.2 kbps
 3. Turn "ON" the Termination CAN if it is needed for the bus.
 
 *Note: The plugin connects to the LIN bus as a master node. It can send single Output Stream frames.
 
-<!--## How to deploy the plugin (local only)
 
-Build the **CAN-LIN Raw Bus Capture** and the **CAN-LIN Raw Bus Capture UI**
-
-![image](<img/20.png>)
-
-Copy the `src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture` folder under the `C:\ProgramData\National Instruments\Plug-Ins\Measurements` location.
-
-![image](<img/21.png>) -->
 
 ## How to start and use the plugin
 
@@ -103,32 +97,34 @@ If the configuration was correct, the UI changes as follows:
 
 ![image](<img/11.png>)
 
-## How to set the output frame and how to send it out
 
-The user can interact with the plugin by the control area such as ID, Type, DLC and Payload.
+## How to set the output frame and how to send it out
+After filling in the CONTROL fields, the user can send the message by pressing the SEND CAN button.
+
+### CAN controls 
 
 ![image](<img/13.png>)
 
 - ID CAN: the identifier of the CAN frame
-- Type CAN:  
+- Type CAN: set the type of frame
+    
+- DLC CAN: set the length of the payload in bytes in decimal form
+    - In CAN I/O mode the maximum payload length is 8 bytes. For CAN FD, the range can be 0–8, 12, 16, 20, 24, 32, 48, or 64. 
+    - The default value is 8
+- Payload CAN: set the data content of the frame in hexadecimal form
 
-### Sorting
-The default order of the messages is by timestamp, it can change by the **Sort by ID** checkbox.
+You can send out the frame with the SEND CAN button
 
-![image](<img/14.png>)
+### LIN controls
+The plugin works in simple master frame stream out mode and transmits a single frame at a time. The user can interact with the plugin by the control area such as ID, DLC and Payload.
 
-### Filter
-Use the headers of the trace table to set conditions what to filter an show.
+![image](<img/17.png>)
 
-![image](<img/15.png>)
+- ID LIN: set the identifier of the CAN frame in hexadecimal form
+    - The maximum value of the LIN ID is 3F (63 in decimal)
+- DLC LIN: set the length of the payload in bytes in decimal form
+    - In LIN mode the maximum payload length is 8 bytes
+    - The default value is 8
+- Payload LIN: set the data content of the frame in hexadecimal form
 
-![image](<img/16.png>)
-
-### Save trace to CSV file
-
-The user can set a file in the control area and save the trace data to CSV file with the **SAVE** button.
-When the user does not set the file before clicks the SAVE button, a dialog will open to set one.
-
-### Pause / Resume capture
-
-With this button the user can pause (suspend) the trace table update.
+You can send out the frame with the SEND LIN button
