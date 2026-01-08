@@ -162,10 +162,10 @@ It checks the received message array (Message Buffer) size and
 
 #### Events
 - Interface Name CAN: Set string value for "CAN interface" when user changes CAN interface.
-- Interface Name LIN: Set string value for "LIN interface" when user changes CAN interface.
+- Interface Name LIN: Set string value for "LIN interface" when user changes LIN interface.
 - Settings: Set int value for "Bus Type" when user changes Configuration tab.
 - Clear Trace: Remove data from Trace table and from "Captured Data" array.
-- SortByID, Filter change: Updates the Trace table based on the filer and the SortByID value.
+- SortByID, Filter change: Updates the Trace table based on the filter and the SortByID value.
 - PauseResume:
   - When user clicks on **PAUSE**, it clears the "Buffer for pause" array.
   - When user clicks on **RESUME**, it append the "Buffer for pause" array to the "Captured Data" array, check the new size and keep the latest 10.000 element, than filter and order the data and updates the Trace table. At the end it removes each element from the "Buffer for pause" array.
