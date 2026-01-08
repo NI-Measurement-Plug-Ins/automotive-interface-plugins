@@ -19,6 +19,8 @@
 		<Item Name="Device Management" Type="Folder">
 			<Item Name="Populate Device Names.vi" Type="VI" URL="../SubVIs/Populate Device Names.vi"/>
 			<Item Name="Get Device Names.vi" Type="VI" URL="../SubVIs/Get Device Names.vi"/>
+			<Item Name="Supported Devices.vi" Type="VI" URL="../SubVIs/Supported Devices.vi"/>
+			<Item Name="Resource Name Empty Check.vi" Type="VI" URL="../SubVIs/Resource Name Empty Check.vi"/>
 			<Item Name="Update Alias Name.vi" Type="VI" URL="../SubVIs/Update Alias Name.vi"/>
 			<Item Name="Get Device Info.vi" Type="VI" URL="../SubVIs/Get Device Info.vi"/>
 			<Item Name="Get Bitfile Path.vi" Type="VI" URL="../SubVIs/Get Bitfile Path.vi"/>
@@ -28,13 +30,14 @@
 		</Item>
 		<Item Name="I2C Bus Monitor" Type="Folder">
 			<Item Name="Table Buffer" Type="Folder">
+				<Item Name="Obtain Table Buffer.vi" Type="VI" URL="../SubVIs/Obtain Table Buffer.vi"/>
 				<Item Name="Table Buffer.vi" Type="VI" URL="../SubVIs/Table Buffer.vi"/>
 				<Item Name="Table Buffer - Create.vi" Type="VI" URL="../SubVIs/Table Buffer - Create.vi"/>
 				<Item Name="Table Buffer - Enqueue.vi" Type="VI" URL="../SubVIs/Table Buffer - Enqueue.vi"/>
 				<Item Name="Table Buffer - Check.vi" Type="VI" URL="../SubVIs/Table Buffer - Check.vi"/>
 				<Item Name="Table Buffer - Dequeue.vi" Type="VI" URL="../SubVIs/Table Buffer - Dequeue.vi"/>
-				<Item Name="Table Buffer - Destroy.vi" Type="VI" URL="../SubVIs/Table Buffer - Destroy.vi"/>
 				<Item Name="Table Buffer - Flush.vi" Type="VI" URL="../SubVIs/Table Buffer - Flush.vi"/>
+				<Item Name="Table Buffer - Destroy.vi" Type="VI" URL="../SubVIs/Table Buffer - Destroy.vi"/>
 			</Item>
 			<Item Name="Convert I2C Messages &amp; Buffer.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer.vi"/>
 			<Item Name="Pause I2C Messages.vi" Type="VI" URL="../SubVIs/Pause I2C Messages.vi"/>
