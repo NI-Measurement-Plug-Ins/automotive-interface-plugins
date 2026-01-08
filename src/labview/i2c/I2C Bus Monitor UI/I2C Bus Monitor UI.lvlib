@@ -17,9 +17,10 @@
 			<Item Name="Update OOB gRPC Port.vi" Type="VI" URL="../SubVIs/Update OOB gRPC Port.vi"/>
 		</Item>
 		<Item Name="Device Management" Type="Folder">
+			<Item Name="FlexRIO GSE Bitfile Directory.vi" Type="VI" URL="../SubVIs/FlexRIO GSE Bitfile Directory.vi"/>
+			<Item Name="Supported Devices.vi" Type="VI" URL="../SubVIs/Supported Devices.vi"/>
 			<Item Name="Populate Device Names.vi" Type="VI" URL="../SubVIs/Populate Device Names.vi"/>
 			<Item Name="Get Device Names.vi" Type="VI" URL="../SubVIs/Get Device Names.vi"/>
-			<Item Name="Supported Devices.vi" Type="VI" URL="../SubVIs/Supported Devices.vi"/>
 			<Item Name="Resource Name Empty Check.vi" Type="VI" URL="../SubVIs/Resource Name Empty Check.vi"/>
 			<Item Name="Update Alias Name.vi" Type="VI" URL="../SubVIs/Update Alias Name.vi"/>
 			<Item Name="Get Device Info.vi" Type="VI" URL="../SubVIs/Get Device Info.vi"/>
@@ -69,5 +70,4 @@
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
-	<Item Name="FlexRIO GSE Bitfile Directory.vi" Type="VI" URL="../SubVIs/FlexRIO GSE Bitfile Directory.vi"/>
 </Library>
