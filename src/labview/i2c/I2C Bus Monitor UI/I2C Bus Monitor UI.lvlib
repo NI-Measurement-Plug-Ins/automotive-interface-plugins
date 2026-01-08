@@ -69,4 +69,5 @@
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="FlexRIO GSE Bitfile Directory.vi" Type="VI" URL="../SubVIs/FlexRIO GSE Bitfile Directory.vi"/>
 </Library>
