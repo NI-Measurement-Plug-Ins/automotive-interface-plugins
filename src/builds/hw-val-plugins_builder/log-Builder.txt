@@ -1,0 +1,543 @@
+[10:07:22.56 PM] Solution log file opened: C:\Users\Admin\Documents\builds\hardware-validation\src\builds\hw-val-plugins_1.0.0.1\log-Builder.txt
+[10:07:22.56 PM] System summary
+   Date               01/09/2026 22:07:22
+   NIPB version       25.3.0.1879
+   NIPB bitness       64-bit
+   NIPM version       25.8.0.49290
+   Operating System   Windows 11 64-bit
+[10:08:02.48 PM] ======= Build Packages: Started =======
+[10:08:02.49 PM] Hardware Validation Plugins: Discover started.
+[10:08:02.54 PM] Hardware Validation Plugins: Discover successful
+[10:08:02.54 PM] Hardware Validation Plugins: Analyze started.
+[10:08:02.57 PM] Hardware Validation Plugins: Analyze successful.
+[10:08:02.58 PM] Hardware Validation Plugins: Clean started.
+[10:08:02.63 PM] Hardware Validation Plugins: Clean successful.
+[10:08:02.63 PM] Hardware Validation Plugins: Build Packages started.
+[10:08:02.71 PM] Initializing LabVIEW distribution interface...
+[10:08:02.73 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:08:02.92 PM] LabVIEW distribution interface initialization time: 0.20 s
+   Initialize Package Builder support for LabVIEW:    0.18 s
+[10:08:02.92 PM]    LabVIEW distribution interface version:            1.0
+[10:08:04.65 PM] Copying file
+"C:\ProgramData\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp"
+[10:08:04.67 PM] Reading link information from top-level VIs...
+[10:08:04.67 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:08:05.46 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:08:05.88 PM] Finished reading link information from top-level VIs
+[10:08:12.09 PM] Hardware Validation Plugins: Build Packages successful.
+[10:08:12.10 PM] ======= Build Packages: Summary =======
+[10:08:12.10 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:08:12.10 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.0_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.0
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:08:12.10 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:09.61) =======
+[10:08:51.36 PM] ======= Build Packages: Started =======
+[10:08:51.36 PM] Hardware Validation Plugins: Discover started.
+[10:08:51.38 PM] Hardware Validation Plugins: Discover successful
+[10:08:51.38 PM] Hardware Validation Plugins: Analyze started.
+[10:08:51.38 PM] Hardware Validation Plugins: Analyze successful.
+[10:08:51.38 PM] Hardware Validation Plugins: Clean started.
+[10:08:51.42 PM] Hardware Validation Plugins: Clean successful.
+[10:08:51.42 PM] Hardware Validation Plugins: Build Packages started.
+[10:08:51.48 PM] Initializing LabVIEW distribution interface...
+[10:08:51.48 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:08:51.66 PM] LabVIEW distribution interface initialization time: 0.18 s
+   Initialize Package Builder support for LabVIEW:    0.18 s
+[10:08:51.66 PM]    LabVIEW distribution interface version:            1.0
+[10:08:52.81 PM] Copying file
+"C:\ProgramData\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp"
+[10:08:52.82 PM] Reading link information from top-level VIs...
+[10:08:52.82 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:08:53.60 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:08:53.99 PM] Finished reading link information from top-level VIs
+[10:09:00.04 PM] Hardware Validation Plugins: Build Packages successful.
+[10:09:00.04 PM] ======= Build Packages: Summary =======
+[10:09:00.04 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:09:00.04 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.5_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.5
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:09:00.04 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:08.68) =======
+[10:09:25.12 PM] ======= Build Packages: Started =======
+[10:09:25.12 PM] Hardware Validation Plugins: Discover started.
+[10:09:25.14 PM] Hardware Validation Plugins: Discover successful
+[10:09:25.14 PM] Hardware Validation Plugins: Analyze started.
+[10:09:25.14 PM] Hardware Validation Plugins: Analyze successful.
+[10:09:25.14 PM] Hardware Validation Plugins: Clean started.
+[10:09:25.18 PM] Hardware Validation Plugins: Clean successful.
+[10:09:25.18 PM] Hardware Validation Plugins: Build Packages started.
+[10:09:25.23 PM] Initializing LabVIEW distribution interface...
+[10:09:25.23 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:09:25.42 PM] LabVIEW distribution interface initialization time: 0.19 s
+   Initialize Package Builder support for LabVIEW:    0.18 s
+[10:09:25.42 PM]    LabVIEW distribution interface version:            1.0
+[10:09:26.58 PM] Copying file
+"C:\ProgramData\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp"
+[10:09:26.59 PM] Reading link information from top-level VIs...
+[10:09:26.59 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:09:27.37 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:09:27.76 PM] Finished reading link information from top-level VIs
+[10:09:33.83 PM] Hardware Validation Plugins: Build Packages successful.
+[10:09:33.83 PM] ======= Build Packages: Summary =======
+[10:09:33.83 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:09:33.83 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.8_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.8
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:09:33.83 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:08.70) =======
+[10:20:32.56 PM] ======= Build Packages: Started =======
+[10:20:32.56 PM] Hardware Validation Plugins: Discover started.
+[10:20:32.58 PM] Hardware Validation Plugins: Discover successful
+[10:20:32.58 PM] Hardware Validation Plugins: Analyze started.
+[10:20:32.58 PM] Hardware Validation Plugins: Analyze successful.
+[10:20:32.58 PM] Hardware Validation Plugins: Clean started.
+[10:20:32.63 PM] Hardware Validation Plugins: Clean successful.
+[10:20:32.63 PM] Hardware Validation Plugins: Build Packages started.
+[10:20:32.68 PM] Initializing LabVIEW distribution interface...
+[10:20:32.68 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:20:32.90 PM] LabVIEW distribution interface initialization time: 0.22 s
+   Initialize Package Builder support for LabVIEW:    0.22 s
+[10:20:32.90 PM]    LabVIEW distribution interface version:            1.0
+[10:20:34.11 PM] Copying file
+"C:\ProgramData\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp"
+[10:20:34.12 PM] Reading link information from top-level VIs...
+[10:20:34.12 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:20:34.91 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:20:35.33 PM] Finished reading link information from top-level VIs
+[10:20:41.44 PM] Hardware Validation Plugins: Build Packages successful.
+[10:20:41.44 PM] ======= Build Packages: Summary =======
+[10:20:41.44 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:20:41.44 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.8_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.8
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:20:41.44 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:08.88) =======
+[10:23:46.27 PM] Added input file: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds
+[10:23:46.28 PM] ======= Discover: Started =======
+[10:23:46.50 PM] Discovery found 19 new dependencies.
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds                                                                     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\Auto-Eth Bus Monitor
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\Auto-Eth Bus Monitor                                                New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds                                                                     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture                                             New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture                     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.aliases
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture                     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.exe
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture                     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.ini
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture                     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.serviceconfig
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture                     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI             New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture                     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries           New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Linux
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Linux     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Linux\liblabview_grpc_server.so
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries           New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\LinuxRT
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\LinuxRT   New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\LinuxRT\liblabview_grpc_server.so
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries           New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win32
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win32     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win32\labview_grpc_server.dll
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries           New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win64
+   Parent: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win64     New dependency: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win64\labview_grpc_server.dll
+[10:23:46.50 PM] ======= Discover: Summary =======
+[10:23:46.50 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:23:46.50 PM] ======= Discover: Complete (elapsed time 00:00.21) =======
+[10:24:00.63 PM] Removed input item: C:\ProgramData\National Instruments\Plug-Ins\Measurements
+[10:24:02.46 PM] Removed input item: C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor
+[10:25:22.48 PM] ======= Build Packages: Started =======
+[10:25:22.48 PM] Hardware Validation Plugins: Discover started.
+[10:25:22.49 PM] Hardware Validation Plugins: Discover successful
+[10:25:22.49 PM] Hardware Validation Plugins: Analyze started.
+[10:25:22.49 PM] Hardware Validation Plugins: Analyze successful.
+[10:25:22.49 PM] Hardware Validation Plugins: Clean started.
+[10:25:22.53 PM] Hardware Validation Plugins: Clean successful.
+[10:25:22.53 PM] Hardware Validation Plugins: Build Packages started.
+[10:25:22.58 PM] Initializing LabVIEW distribution interface...
+[10:25:22.58 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:25:22.80 PM] LabVIEW distribution interface initialization time: 0.22 s
+   Initialize Package Builder support for LabVIEW:    0.22 s
+[10:25:22.80 PM]    LabVIEW distribution interface version:            1.0
+[10:25:23.97 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp"
+[10:25:23.98 PM] Reading link information from top-level VIs...
+[10:25:23.98 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:25:24.78 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:25:25.18 PM] Finished reading link information from top-level VIs
+[10:25:28.94 PM] Hardware Validation Plugins: Build Packages successful.
+[10:25:28.94 PM] ======= Build Packages: Summary =======
+[10:25:28.94 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:25:28.94 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.8_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.8
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:25:28.94 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:06.46) =======
+[10:27:46.93 PM] ======= Build Packages: Started =======
+[10:27:46.93 PM] Hardware Validation Plugins: Discover started.
+[10:27:46.94 PM] Hardware Validation Plugins: Discover successful
+[10:27:46.94 PM] Hardware Validation Plugins: Analyze started.
+[10:27:46.94 PM] Hardware Validation Plugins: Analyze successful.
+[10:27:46.94 PM] Hardware Validation Plugins: Clean started.
+[10:27:46.99 PM] Hardware Validation Plugins: Clean successful.
+[10:27:46.99 PM] Hardware Validation Plugins: Build Packages started.
+[10:27:47.03 PM] Initializing LabVIEW distribution interface...
+[10:27:47.03 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:27:47.24 PM] LabVIEW distribution interface initialization time: 0.21 s
+   Initialize Package Builder support for LabVIEW:    0.21 s
+[10:27:47.24 PM]    LabVIEW distribution interface version:            1.0
+[10:27:48.43 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp"
+[10:27:48.43 PM] Reading link information from top-level VIs...
+[10:27:48.44 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:27:49.26 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:27:49.67 PM] Finished reading link information from top-level VIs
+[10:27:53.42 PM] Hardware Validation Plugins: Build Packages successful.
+[10:27:53.42 PM] ======= Build Packages: Summary =======
+[10:27:53.42 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:27:53.42 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.8_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.8
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:27:53.42 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:06.48) =======
+[10:29:07.92 PM] ======= Build Packages: Started =======
+[10:29:07.92 PM] Hardware Validation Plugins: Discover started.
+[10:29:07.94 PM] Hardware Validation Plugins: Discover successful
+[10:29:07.94 PM] Hardware Validation Plugins: Analyze started.
+[10:29:07.94 PM] Hardware Validation Plugins: Analyze successful.
+[10:29:07.94 PM] Hardware Validation Plugins: Clean started.
+[10:29:07.96 PM] Hardware Validation Plugins: Clean successful.
+[10:29:07.96 PM] Hardware Validation Plugins: Build Packages started.
+[10:29:08.00 PM] Initializing LabVIEW distribution interface...
+[10:29:08.02 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:29:08.24 PM] LabVIEW distribution interface initialization time: 0.24 s
+   Initialize LabVIEW:                                0.01 s
+   Initialize Package Builder support for LabVIEW:    0.22 s
+[10:29:08.24 PM]    LabVIEW distribution interface version:            1.0
+[10:29:09.42 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp"
+[10:29:09.43 PM] Reading link information from top-level VIs...
+[10:29:09.43 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:29:10.22 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:29:10.62 PM] Finished reading link information from top-level VIs
+[10:29:14.37 PM] Hardware Validation Plugins: Build Packages successful.
+[10:29:14.37 PM] ======= Build Packages: Summary =======
+[10:29:14.37 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:29:14.37 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.9_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.9
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:29:14.37 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:06.44) =======
+[10:30:28.46 PM] ======= Build Packages: Started =======
+[10:30:28.46 PM] Hardware Validation Plugins: Discover started.
+[10:30:28.47 PM] Hardware Validation Plugins: Discover successful
+[10:30:28.47 PM] Hardware Validation Plugins: Analyze started.
+[10:30:28.47 PM] Hardware Validation Plugins: Analyze successful.
+[10:30:28.47 PM] Hardware Validation Plugins: Clean started.
+[10:30:28.50 PM] Hardware Validation Plugins: Clean successful.
+[10:30:28.50 PM] Hardware Validation Plugins: Build Packages started.
+[10:30:28.54 PM] Initializing LabVIEW distribution interface...
+[10:30:28.54 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:30:28.73 PM] LabVIEW distribution interface initialization time: 0.19 s
+   Initialize Package Builder support for LabVIEW:    0.18 s
+[10:30:28.73 PM]    LabVIEW distribution interface version:            1.0
+[10:30:29.92 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp"
+[10:30:29.92 PM] Reading link information from top-level VIs...
+[10:30:29.93 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:30:30.72 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:30:31.12 PM] Finished reading link information from top-level VIs
+[10:30:34.93 PM] Hardware Validation Plugins: Build Packages successful.
+[10:30:34.93 PM] ======= Build Packages: Summary =======
+[10:30:34.94 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:30:34.94 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.9_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.9
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:30:34.94 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:06.47) =======
+[10:32:43.48 PM] ======= Build Packages: Started =======
+[10:32:43.48 PM] Hardware Validation Plugins: Discover started.
+[10:32:43.49 PM] Hardware Validation Plugins: Discover successful
+[10:32:43.49 PM] Hardware Validation Plugins: Analyze started.
+[10:32:43.49 PM] Hardware Validation Plugins: Analyze successful.
+[10:32:43.49 PM] Hardware Validation Plugins: Clean started.
+[10:32:43.52 PM] Hardware Validation Plugins: Clean successful.
+[10:32:43.52 PM] Hardware Validation Plugins: Build Packages started.
+[10:32:43.65 PM] Error -16011: Copy of 1 files failed.
+   Could not find a part of the path 'C:\Users\Admin\Documents\builds\hardware-validation\src\builds\hw-val-plugins_1.0.0.1\ProcessingStage\ProgramData\National Instruments\Plug-Ins\Measurements\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so'.
+[10:32:43.65 PM] Error 0: Hardware Validation Plugins: Build Packages failed.
+[10:32:43.65 PM] ======= Build Packages: Summary =======
+[10:32:43.65 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:32:43.65 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Failed
+   Failed operation              Build Packages
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.9_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.9
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:32:43.65 PM] ======= Build Packages: 0 Succeeded, 1 Failed, 0 Canceled (elapsed time 00:00.16) =======
+[10:33:25.33 PM] ======= Build Packages: Started =======
+[10:33:25.33 PM] Hardware Validation Plugins: Discover started.
+[10:33:25.34 PM] Hardware Validation Plugins: Discover successful
+[10:33:25.34 PM] Hardware Validation Plugins: Analyze started.
+[10:33:25.34 PM] Hardware Validation Plugins: Analyze successful.
+[10:33:25.34 PM] Hardware Validation Plugins: Clean started.
+[10:33:25.37 PM] Hardware Validation Plugins: Clean successful.
+[10:33:25.37 PM] Hardware Validation Plugins: Build Packages started.
+[10:33:25.45 PM] Initializing LabVIEW distribution interface...
+[10:33:25.46 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:33:25.66 PM] LabVIEW distribution interface initialization time: 0.20 s
+   Initialize Package Builder support for LabVIEW:    0.20 s
+[10:33:25.66 PM]    LabVIEW distribution interface version:            1.0
+[10:33:26.84 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp"
+[10:33:26.85 PM] Reading link information from top-level VIs...
+[10:33:26.85 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:33:27.64 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:33:28.12 PM] Finished reading link information from top-level VIs
+[10:33:28.12 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp"
+[10:33:28.19 PM] Reading link information from top-level VIs...
+[10:33:28.19 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:33:28.97 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:33:29.39 PM] Finished reading link information from top-level VIs
+[10:33:37.91 PM] Hardware Validation Plugins: Build Packages successful.
+[10:33:37.91 PM] ======= Build Packages: Summary =======
+[10:33:37.91 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:33:37.91 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.9_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.9
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:33:37.91 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:12.58) =======
+[10:34:02.03 PM] ======= Build Packages: Started =======
+[10:34:02.03 PM] Hardware Validation Plugins: Discover started.
+[10:34:02.04 PM] Hardware Validation Plugins: Discover successful
+[10:34:02.04 PM] Hardware Validation Plugins: Analyze started.
+[10:34:02.04 PM] Hardware Validation Plugins: Analyze successful.
+[10:34:02.04 PM] Hardware Validation Plugins: Clean started.
+[10:34:02.11 PM] Hardware Validation Plugins: Clean successful.
+[10:34:02.11 PM] Hardware Validation Plugins: Build Packages started.
+[10:34:02.19 PM] Initializing LabVIEW distribution interface...
+[10:34:02.20 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:34:02.39 PM] LabVIEW distribution interface initialization time: 0.19 s
+   Initialize Package Builder support for LabVIEW:    0.19 s
+[10:34:02.39 PM]    LabVIEW distribution interface version:            1.0
+[10:34:03.58 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp"
+[10:34:03.58 PM] Reading link information from top-level VIs...
+[10:34:03.59 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:34:04.38 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:34:04.81 PM] Finished reading link information from top-level VIs
+[10:34:04.82 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp"
+[10:34:04.88 PM] Reading link information from top-level VIs...
+[10:34:04.88 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:34:05.66 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:34:06.09 PM] Finished reading link information from top-level VIs
+[10:34:14.57 PM] Hardware Validation Plugins: Build Packages successful.
+[10:34:14.57 PM] ======= Build Packages: Summary =======
+[10:34:14.57 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:34:14.57 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.9_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.9
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:34:14.57 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:12.53) =======
+[10:34:40.62 PM] ======= Build Packages: Started =======
+[10:34:40.62 PM] Hardware Validation Plugins: Discover started.
+[10:34:40.63 PM] Hardware Validation Plugins: Discover successful
+[10:34:40.63 PM] Hardware Validation Plugins: Analyze started.
+[10:34:40.63 PM] Hardware Validation Plugins: Analyze successful.
+[10:34:40.63 PM] Hardware Validation Plugins: Clean started.
+[10:34:40.69 PM] Hardware Validation Plugins: Clean successful.
+[10:34:40.69 PM] Hardware Validation Plugins: Build Packages started.
+[10:34:40.78 PM] Initializing LabVIEW distribution interface...
+[10:34:40.79 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:34:40.96 PM] LabVIEW distribution interface initialization time: 0.17 s
+   Initialize Package Builder support for LabVIEW:    0.17 s
+[10:34:40.96 PM]    LabVIEW distribution interface version:            1.0
+[10:34:42.15 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp"
+[10:34:42.16 PM] Reading link information from top-level VIs...
+[10:34:42.16 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:34:42.93 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:34:43.37 PM] Finished reading link information from top-level VIs
+[10:34:43.37 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp"
+[10:34:43.43 PM] Reading link information from top-level VIs...
+[10:34:43.44 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:34:44.21 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:34:44.66 PM] Finished reading link information from top-level VIs
+[10:34:53.16 PM] Hardware Validation Plugins: Build Packages successful.
+[10:34:53.16 PM] ======= Build Packages: Summary =======
+[10:34:53.16 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:34:53.16 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.1_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.1
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:34:53.16 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:12.53) =======
+[10:38:45.31 PM] ======= Build Packages: Started =======
+[10:38:45.31 PM] Hardware Validation Plugins: Discover started.
+[10:38:45.33 PM] Hardware Validation Plugins: Discover successful
+[10:38:45.33 PM] Hardware Validation Plugins: Analyze started.
+[10:38:45.33 PM] Hardware Validation Plugins: Analyze successful.
+[10:38:45.33 PM] Hardware Validation Plugins: Clean started.
+[10:38:45.41 PM] Hardware Validation Plugins: Clean successful.
+[10:38:45.41 PM] Hardware Validation Plugins: Build Packages started.
+[10:38:45.49 PM] Initializing LabVIEW distribution interface...
+[10:38:45.50 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:38:45.69 PM] LabVIEW distribution interface initialization time: 0.19 s
+   Initialize Package Builder support for LabVIEW:    0.18 s
+[10:38:45.69 PM]    LabVIEW distribution interface version:            1.0
+[10:38:46.89 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp"
+[10:38:46.90 PM] Reading link information from top-level VIs...
+[10:38:46.90 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:38:47.69 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:38:48.14 PM] Finished reading link information from top-level VIs
+[10:38:48.14 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp"
+[10:38:48.21 PM] Reading link information from top-level VIs...
+[10:38:48.21 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:38:48.99 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:38:49.41 PM] Finished reading link information from top-level VIs
+[10:38:57.97 PM] Hardware Validation Plugins: Build Packages successful.
+[10:38:57.97 PM] ======= Build Packages: Summary =======
+[10:38:57.97 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:38:57.97 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.1_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.1
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:38:57.97 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:12.65) =======
+[10:49:24.63 PM] ======= Build Packages: Started =======
+[10:49:24.63 PM] Hardware Validation Plugins: Discover started.
+[10:49:24.64 PM] Hardware Validation Plugins: Discover successful
+[10:49:24.64 PM] Hardware Validation Plugins: Analyze started.
+[10:49:24.64 PM] Hardware Validation Plugins: Analyze successful.
+[10:49:24.64 PM] Hardware Validation Plugins: Clean started.
+[10:49:24.72 PM] Hardware Validation Plugins: Clean successful.
+[10:49:24.72 PM] Hardware Validation Plugins: Build Packages started.
+[10:49:24.81 PM] Initializing LabVIEW distribution interface...
+[10:49:24.82 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\TestStand 2025\Components\Tools\Deployment Utility\NIPBSupport2021.lvlibp'
+[10:49:24.99 PM] LabVIEW distribution interface initialization time: 0.18 s
+   Initialize Package Builder support for LabVIEW:    0.17 s
+[10:49:24.99 PM]    LabVIEW distribution interface version:            1.0
+[10:49:26.21 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp"
+[10:49:26.22 PM] Reading link information from top-level VIs...
+[10:49:26.22 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:49:27.09 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:49:27.55 PM] Finished reading link information from top-level VIs
+[10:49:27.56 PM] Copying file
+"C:\Users\Admin\Documents\builds\hardware-validation\src\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp"
+[10:49:27.63 PM] Reading link information from top-level VIs...
+[10:49:27.64 PM] Loading distribution VIs.
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:49:28.46 PM] Calling distribution VIs
+"TestStand - Read Linker Info from File LV 8 or Above"
+[10:49:28.95 PM] Finished reading link information from top-level VIs
+[10:49:37.79 PM] Hardware Validation Plugins: Build Packages successful.
+[10:49:37.79 PM] ======= Build Packages: Summary =======
+[10:49:37.79 PM] NI applications state:
+   TestStand version:   2025 Q3 (25.0.0.49152) 64-bit
+[10:49:37.79 PM] 1) Package 'Hardware Validation Plugins' Build detailed summary
+   Hardware Validation Plugins   Succeeded
+   Output directory              C:\Users\Admin\Documents\builds
+   Filename                      plugins_1.0.0.1_windows_x64.nipkg
+   Stage directory               C:\Users\Admin\Documents\builds\Hardware Validation Plugins
+   Package version               1.0.0.1
+   Display version               1.0.0
+   Architecture                  windows_x64
+[10:49:37.79 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:13.16) =======
+[11:14:05.59 PM] Solution saved: C:\Users\Admin\Documents\builds\hardware-validation\src\builds\hw-val-plugins_1.0.0.1\Builder.pbs
