@@ -77,7 +77,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CAN-LIN Frame Generator UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A2B7F29A-FA20-41D9-885F-E0B6499AC5B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">155</Property>
+				<Property Name="Bld_version.build" Type="Int">159</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CAN-LIN Frame Generator UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/CAN-LIN Frame Generator UI.lvlibp</Property>

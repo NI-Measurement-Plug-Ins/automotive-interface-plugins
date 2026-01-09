@@ -23,6 +23,7 @@ Build the **CAN-LIN Frame Generator UI**.
 Open **Run Service.vi** from the **CAN-LIN Frame Generator** class
 
 ![image](<img/02.png>)
+
 ![image](<img/03.png>)
 
 Run the VI
@@ -42,7 +43,7 @@ Select **CAN-LIN Frame Generator** as a large Panel
 
 The plugin UI will shown in the Instrument Studio like this:
 
-![image](<img/07.png>)
+![image](<img/20.png>)
 
 ## How to configure the plugin
 
@@ -91,11 +92,11 @@ Select the bus type
 
 Start the plugin with the **RUN** button in the Instrument Studio.
 
-![image](<img/10.png>)
+![image](<img/21.png>)
 
 If the configuration was correct, the UI changes as follows:
 
-![image](<img/11.png>)
+![image](<img/22.png>)
 
 
 ## How to set the output frame and how to send it out
@@ -103,28 +104,31 @@ After filling in the CONTROL fields, the user can send the message by pressing t
 
 ### CAN controls 
 
-![image](<img/13.png>)
+![image](<img/23.png>)
 
 - ID CAN: the identifier of the CAN frame
+    - The valid CAN ID range is 0-0x7FF (Standard ID) and 0x800-0x1FFFFFFF (Extended ID). The plugin automatically switches between Standard and Extended IDs
 - Type CAN: set the type of frame
     
 - DLC CAN: set the length of the payload in bytes in decimal form
     - In CAN I/O mode the maximum payload length is 8 bytes. For CAN FD, the range can be 0–8, 12, 16, 20, 24, 32, 48, or 64. 
     - The default value is 8
 - Payload CAN: set the data content of the frame in hexadecimal form
+- The Status field indicates the validity of the settings.
 
 You can send out the frame with the SEND CAN button
 
 ### LIN controls
 The plugin works in simple master frame stream out mode and transmits a single frame at a time. The user can interact with the plugin by the control area such as ID, DLC and Payload.
 
-![image](<img/17.png>)
+![image](<img/24.png>)
 
 - ID LIN: set the identifier of the CAN frame in hexadecimal form
-    - The maximum value of the LIN ID is 3F (63 in decimal)
+    - The valid CAN ID range is 0-0x3F 
 - DLC LIN: set the length of the payload in bytes in decimal form
     - In LIN mode the maximum payload length is 8 bytes
     - The default value is 8
 - Payload LIN: set the data content of the frame in hexadecimal form
+- The Status field indicates the validity of the settings.
 
 You can send out the frame with the SEND LIN button
