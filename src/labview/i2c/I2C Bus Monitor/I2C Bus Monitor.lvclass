@@ -99,16 +99,6 @@
 	<Item Name="User Defined" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Error Global" Type="Folder">
-				<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi">
-					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-					<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
-					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-				</Item>
-			</Item>
 			<Item Name="OOB gRPC" Type="Folder">
 				<Item Name="Get OOB gRPC Port.vi" Type="VI" URL="../SubVIs/Get OOB gRPC Port.vi">
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -116,7 +106,7 @@
 					<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 				</Item>
 			</Item>
 			<Item Name="FPGA Management" Type="Folder">
@@ -174,7 +164,7 @@
 					<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 				</Item>
 				<Item Name="Scan I2C Bus.vi" Type="VI" URL="../SubVIs/Scan I2C Bus.vi">
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -291,6 +281,16 @@
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+				</Item>
+			</Item>
+			<Item Name="Error Handling" Type="Folder">
+				<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi">
+					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+					<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
+					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 				</Item>
 			</Item>
 		</Item>
