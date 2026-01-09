@@ -16,6 +16,7 @@
 	</Item>
 	<Item Name="typedef" Type="Folder">
 		<Item Name="auto vision config.ctl" Type="VI" URL="../auto vision config.ctl"/>
+		<Item Name="register.ctl" Type="VI" URL="../register.ctl"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
