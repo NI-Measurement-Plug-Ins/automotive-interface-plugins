@@ -40,11 +40,11 @@
 				<Item Name="Table Buffer - Flush.vi" Type="VI" URL="../SubVIs/Table Buffer - Flush.vi"/>
 				<Item Name="Table Buffer - Destroy.vi" Type="VI" URL="../SubVIs/Table Buffer - Destroy.vi"/>
 			</Item>
-			<Item Name="Convert I2C Messages &amp; Buffer.vi" Type="VI" URL="../SubVIs/Convert I2C Messages &amp; Buffer.vi"/>
-			<Item Name="Pause I2C Messages.vi" Type="VI" URL="../SubVIs/Pause I2C Messages.vi"/>
-			<Item Name="Update I2C Messages Table.vi" Type="VI" URL="../SubVIs/Update I2C Messages Table.vi"/>
 			<Item Name="Update Table Buffer Pressure.vi" Type="VI" URL="../SubVIs/Update Table Buffer Pressure.vi"/>
-			<Item Name="Clear I2C Messages Table.vi" Type="VI" URL="../SubVIs/Clear I2C Messages Table.vi"/>
+			<Item Name="Convert I2C Data &amp; Buffer.vi" Type="VI" URL="../SubVIs/Convert I2C Data &amp; Buffer.vi"/>
+			<Item Name="Pause I2C Data.vi" Type="VI" URL="../SubVIs/Pause I2C Data.vi"/>
+			<Item Name="Update I2C Monitor Table.vi" Type="VI" URL="../SubVIs/Update I2C Monitor Table.vi"/>
+			<Item Name="Clear I2C Monitor Table.vi" Type="VI" URL="../SubVIs/Clear I2C Monitor Table.vi"/>
 		</Item>
 		<Item Name="Save CSV" Type="Folder">
 			<Item Name="Save CSV.vi" Type="VI" URL="../SubVIs/Save CSV.vi"/>
@@ -62,11 +62,14 @@
 			<Item Name="Update Streaming LED.vi" Type="VI" URL="../SubVIs/Update Streaming LED.vi"/>
 		</Item>
 		<Item Name="Error Handling" Type="Folder">
+			<Item Name="Handle Async Errors" Type="Folder">
+				<Item Name="Internal Error Control Indices Map.vi" Type="VI" URL="../SubVIs/Internal Error Control Indices Map.vi"/>
+				<Item Name="Init Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Init Merge Async VI Error.vi"/>
+				<Item Name="Send Async Loop Error.vi" Type="VI" URL="../SubVIs/Send Async Loop Error.vi"/>
+				<Item Name="Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Merge Async VI Error.vi"/>
+			</Item>
 			<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi"/>
 			<Item Name="Get Error (Logic).vi" Type="VI" URL="../SubVIs/Get Error (Logic).vi"/>
-			<Item Name="Async VI Error Internal Map.vi" Type="VI" URL="../SubVIs/Async VI Error Internal Map.vi"/>
-			<Item Name="Init Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Init Merge Async VI Error.vi"/>
-			<Item Name="Merge Async VI Error.vi" Type="VI" URL="../SubVIs/Merge Async VI Error.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
