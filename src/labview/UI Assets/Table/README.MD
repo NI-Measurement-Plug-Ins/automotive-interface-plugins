@@ -13,7 +13,7 @@ The following files are included in the library:
 5. **Filter_Table_Test.vi** — Generates sample data and wraps the other VIs to test full functionality.
 6. **Table_UI.vi** — For importing into plugin UIs; handles the core logic for manipulating the table UI.
 
-## How to implement in a plugin.  
+## How to implement in a plugin.
 These steps can be followed to implement the table in a plugin
 
 1. Copy the table library into the UI library of the plugin inside LabVIEW. 
@@ -25,8 +25,12 @@ Additionally, copy the physical files into the plugin's directory.
 ![image](<README Images/Table_Library_Location.png>)
 
 2. Drop `Table_UI.vi` into the UI block diagram of the plugin and create the following:
-   - For the headers, create a 1D array constant of strings. The contents of this array should be the table headers.
-   - All other inputs should be controls, except for the `Table_Reference` input. 
+   - For the headers and types, create a 2D array constant of strings. The contents of this array should be the table headers and its types.
+   - Types to define how to handle the columns data (case insensitive):
+     - "STR" for string (Default)
+     - "NUM" for number
+     - "HEX" for hexadecimal number
+   - All other inputs should be controls, except for the `Table_Reference` input.
 
 3. To set up the table reference:
    - Right-click on the table indicator, select **Create → Reference**, and connect this control to the `Table_Reference` input.
@@ -37,9 +41,8 @@ This will create an empty, preformatted table in the UI.
 
 ![image](<README Images/EmptyTable_UI.png>)
 
-4. Set the "Sort By" property programmatically based on the headers, and specify the type for each enum:
+4. Set the "Sort By" property programmatically based on the headers:
    - Click on the **Sort By** enum, select **Create → Property Node → Strings[]**, and feed this into a case structure.
-   - Add the **Sort Type** constant into the case structure, with cases matching the enum.
 
 
 ![image](<README Images/Table_Sort.png>)
