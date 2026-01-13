@@ -45,6 +45,27 @@ The plugin UI will shown in the Instrument Studio like this:
 
 ![image](<img/20.png>)
 
+
+## How to deploy the plugin (local only)
+
+You can run the plugin without having to open the project file every single time.
+
+Build the **CAN-LIN Frame Generator** and the **CAN-LIN Frame Generator UI**
+
+![image](<img/27.png>)
+
+
+Check the name of the Build destination directory.
+
+![image](<img/25.png>)
+
+Copy the folder received in the previous step into the `C:\ProgramData\National Instruments\Plug-Ins\Measurements` location (it is a hidden folder).
+
+![image](<img/26.png>)
+
+Now you can run the plugin without the project files being open, just by launching Instrument Studio.
+
+
 ## How to configure the plugin
 
 Select the bus type
@@ -119,7 +140,7 @@ After filling in the CONTROL fields, the user can send the message by pressing t
 You can send out the frame with the SEND CAN button
 
 ### LIN controls
-The plugin works in simple master frame stream out mode and transmits a single frame at a time. The user can interact with the plugin by the control area such as ID, DLC and Payload.
+After filling in the CONTROL fields, the user can send the message by pressing the SEND CAN button.
 
 ![image](<img/24.png>)
 
