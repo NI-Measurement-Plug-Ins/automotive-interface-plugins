@@ -1,0 +1,2 @@
+The PXIe-148X Acquisition and Tap Configuration Script User Guides have moved online.
+Visit https://ni.com/r/automotive-camera-module-ref to find the script user guide and for related tutorials and reference material.
