@@ -3,7 +3,9 @@
 
 This plugin provides an **I2C bus monitor, scanner, and transaction tool** inside **Instrument Studio 2025**, implemented with the **Measurement Plugin SDK** in **LabVIEW 2025**.
 
-It is intended to be used as a **Small Panel** in Instrument Studio (a **Large Panel** for I2C Bus Monitor plugin can be useful for debugging). It is most useful when used alongside Automotive Vision Capture Plugin in a **Large Panel**, it is possible to use it in parallel with a FlexRIO Getting Started Example (GSE) with the instructions given in the I2C Bus Monitor startup dialog popup window.
+It is intended to be used as a **Small Panel** in Instrument Studio (a **Large Panel** for I2C Bus Monitor plugin can be useful for debugging).   
+It is most useful when used alongside Automotive Vision Capture Plugin in a **Large Panel**.  
+it is possible to use it in parallel with a FlexRIO Getting Started Example (GSE) with the instructions given in the I2C Bus Monitor startup dialog.
 
 Key capabilities:
 
@@ -25,18 +27,25 @@ Key capabilities:
 ***
 
 ## Prerequisites
-
-* **LabVIEW 2025**
-    * **NI-FlexRIO driver**
-* **Instrument Studio 2025**
-* **Measurement Plugin SDK**
-* NI PXIe GMSL/FPD-Link FlexRIO hardware:
+* **LabVIEW 2025 or newer**  
+	NI Drivers:
+    * **NI-FlexRIO with Integrated I/O 2025 Q3 or newer**
+* **Instrument Studio 2025 or newer**
+* **Measurement Plugin SDK 3.5.0.2 or newer**  (Installed through VI Package Manager)
+* A supported NI PXIe GMSL/FPD-Link FlexRIO module that has a Serial Input channel (e.g. 4in4out or 8in varinant):
 	* **PXIe-1486**
 	* **PXIe-1487**
 	* **PXIe-1488**
 	* **PXIe-1489**
 
-Note: For these PXIe-148x use cases, **I2C bus traffic is carried over the GMSL/FPD-Link link** (no separate I2C wiring is typically required).
+## Development Software Versions
+The I2C Bus Monitor plugin is developed using these versions of the following the software components:
+* **OS: Windows x64** 
+* **LabVIEW 2025 Q3**  
+	NI Drivers:
+    * **NI-FlexRIO with Integrated I/O 2025 Q3**
+* **Instrument Studio 2025 Q4**
+* **Measurement Plugin SDK 3.5.0.2**
 
 ***
 
@@ -73,26 +82,14 @@ Note: For these PXIe-148x use cases, **I2C bus traffic is carried over the GMSL/
 
 ***
 
-## Startup Dialog (Using This Plugin in Parallel With Another FPGA Session)
+## Startup Dialog
 
 On startup, the plugin displays a dialog describing how to use the plugin **in parallel** with another FPGA session.
 
 The dialog includes:
 
-* **Copy Bitfile Directory** button (copies the folder path to the clipboard)
 * **Don’t show again** button
-
-### Bitfile directory
-
-When using a parallel FPGA session, users typically need bitfiles from this directory:
-
-```
-C:\Program Files\NI\LVAddons\flexrioii\1\ProjectTemplates\Source\FlexRIO\NI148X\Getting Started\FPGA Bitfiles
-```
-
-### User Timestamps FIFO
-
-When using a parallel FPGA session, the parallel session needs to make sure it is not accessing the User Timestamps FIFO, because it is used by this plugin for monitoring the I2C Bus traffic.
+* **Copy Bitfile Directory** button (copies the folder path to the clipboard)
 
 ### “Don’t show again” persistence
 
@@ -101,6 +98,18 @@ This is primarily intended for the built EXE:
 * The EXE’s `.ini` contains a key controlling whether the startup dialog appears.
 * Default is **True** (show dialog).
 * Clicking **Don’t show again** sets it to **False**.
+
+### Bitfile directory
+
+When using a parallel FPGA session, the parallel session needs to use bitfiles from this directory:
+
+```
+C:\Program Files\NI\LVAddons\flexrioii\1\ProjectTemplates\Source\FlexRIO\NI148X\Getting Started\FPGA Bitfiles
+```
+
+### User Timestamps FIFO
+
+When using a parallel FPGA session, the parallel session needs to make sure it is not accessing the User Timestamps FIFO, because it is used by this plugin for monitoring the I2C Bus traffic.
 
 ***
 
@@ -111,27 +120,11 @@ The plugin UI populates:
 * **Device Resource Name**
 * **SI Channel** (serial channel)
 
-Select the appropriate device and channel before starting the measurement.
+Select the appropriate device and channel before starting the measurement.  
+Note that the plugin will through an error if it doesn't find supported hardware on the system.
 
 ***
 
-## I2C Bus Monitor
-
-This plugin is designed to handle I2C traffic efficiently by batching and buffering:
-
-* **Logic side** reads the FPGA FIFO **in bulk** and buffers into a **logic-side internal buffer**.
-* **UI side** fetches transactions via **gRPC in bulk** and buffers into a **UI-side internal buffer**.
-* The UI updates the monitor table by **dequeuing the UI buffer in bulk**.
-
-### Monitor indicators
-
-The UI provides:
-
-* **# TXNS IN TABLE**: number of transactions currently displayed in the monitor table
-* **# TXNS IN BUFFER**: number of transactions currently waiting in the UI-side buffer
-* **STREAMING**: turns on when a bulk of transactions is received
-
-***
 
 ## I2C Transactions
 
@@ -145,11 +138,43 @@ Send a single I2C transaction from the UI.
 
 Run a configuration script.
 
-#### Complex Script option (Python)
+#### Complex Script option (Python scripts)
 
 For Python configuration scripts (`.py`) that contain more complex function calls, enable the **Complex Script** option.
 
 If **Complex Script** is disabled, scripts are executed significantly faster than GSE.
+
+***
+## I2C Bus Monitor
+
+### Monitor Table
+
+This plugin is designed to handle I2C traffic efficiently by batching and buffering:
+
+* **Logic side** reads the FPGA FIFO **in bulk** and buffers into a **logic-side internal buffer**.
+* **UI side** fetches I2C transactions via gRPC **in bulk** and buffers into a **UI-side internal buffer**.
+* The UI updates the **monitor table** by **dequeuing the UI buffer in bulk**.
+
+### Pause / Resume
+
+Use **Pause** / **Resume** to control the *display* of captured traffic without stopping acquisition:
+
+* **Pause** suspends updates to the **monitor table** so you can inspect a stable view.
+* While paused, the plugin continues capturing; new transactions accumulate in the **UI-side buffer**.
+* **Resume** re-enables table updates and drains buffered transactions into the monitor table.
+
+Notes:
+
+* **Save CSV** exports what is currently in the **monitor table** (what’s displayed). If you are paused, buffered (not-yet-displayed) transactions are not included until you resume.
+* If the bus is very active, leaving the plugin paused for a long time can grow the buffer.
+
+### Monitor indicators
+
+The UI provides:
+
+* **# TXNS IN TABLE**: number of transactions currently displayed in the monitor table
+* **# TXNS IN BUFFER**: number of transactions currently waiting in the UI-side buffer
+* **STREAMING**: turns on when a bulk of transactions is fetched by the ui side after being acquired by the logic side
 
 ***
 
