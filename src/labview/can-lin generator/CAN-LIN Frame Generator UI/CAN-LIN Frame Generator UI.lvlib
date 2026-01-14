@@ -10,7 +10,9 @@
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 	</Item>
-	<Item Name="DLC validate.vi" Type="VI" URL="../DLC validate.vi"/>
+	<Item Name="deps" Type="Folder">
+		<Item Name="DLC validate.vi" Type="VI" URL="../DLC validate.vi"/>
+		<Item Name="Set First Val_LIN.vi" Type="VI" URL="../Set First Val_LIN.vi"/>
+	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
-	<Item Name="Set First Val_LIN.vi" Type="VI" URL="../Set First Val_LIN.vi"/>
 </Library>
