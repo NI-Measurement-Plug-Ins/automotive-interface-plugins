@@ -9,49 +9,58 @@ Please see the manual for any extra information, [NI Package Builder](https://ww
 The steps to build the plugin are below:
 
 1. Install NI Package Builder (Make sure to install LabVIEW and TestStand as well).
-2. Open up the plugins you wish to build in Labview and build them. 
+2. Open up the plugins you wish to build in Labview and build them.     
+
 ![Image](./img/01.png)
 
-    Upon building them, the built plugins and libraries should be placed here at [hardware-validation/src/labview/builds](../../labview/builds/).  
+Upon building them, the built plugins and libraries should be placed here at [hardware-validation/src/labview/builds](../../labview/builds/).
 
+&nbsp;
 3. Open up NI Package Builder 64bit. 
 
-    ![Image](./img/02.png)
+![Image](./img/02.png)
+&nbsp;
+4. Select New Package after opening on the center screen. It should now look like the following.    
 
-
-4. Select New Package after opening on the center screen. It should now look like the following. 
 ![Image](./img/03.png)
 
-    Under the packages panel on the right, select "New Package".  
-Then in the lower right 'Properties' panel, start filling in the properties for the package to be built.  
+Under the packages panel on the right, select "New Package".  
+Then in the lower right 'Properties' panel, start filling in the properties for the package to be built.    
+
 ![Image](./img/04.png)
 
-    Under Output Directory, specify a directory with a short path, such as *C:\Users\Admin\Documents\builds*
+Under Output Directory, specify a directory with a short path, such as *C:\Users\Admin\Documents\builds*
 If the directory does not exist, please create it.  
 Specify the version for the next build. 
 When the package is built, the the installer will be placed here.
 
-5. Next, go to the Inputs Panel in the top left, and add the path for hardware-validation/src/labview/builds.   
+&nbsp;
+5. Next, go to the Inputs Panel in the top left, and add the path for hardware-validation/src/labview/builds.       
+
 ![Image](./img/05.png)
 
-    Expand each of the plugins down one level.  
-
+Expand each of the plugins down one level.  
+&nbsp;
 6. Go to the center panel and ensure the following path exists, *C:\ProgramData\National Instruments\Plug-Ins\Measurements*.  
 ![Image](./img/06.png)
 
+&nbsp;
 7. Add the desired plugins into the package by dragging the plugin from the input panel into the Measurements folder in the center panel.  
     Note, select the inner folders, not the outer folders that we expanded in step 5.  If the outer folders are selected, the path is more likley to be too long. 
-    ![Image](./img/07.png)
+
+![Image](./img/07.png)
 
 
-    ![Image](./img/08.png)
-    The plugins should be inside the Measurements folder. 
+![Image](./img/08.png)
+
+The plugins should be inside the Measurements folder. 
     After installation, this is where the plugins are installed.  This location will allow the Measurement services to be found by Instrument Studio.  
 
+&nbsp;
 8. Build the package by selecting the 'Build all Packages' button on the toolbar.     
 ![Image](./img/09.png)
 
-    The built package will be located here, *C:\Users\Admin\Documents\builds*
+The built package will be located here, *C:\Users\Admin\Documents\builds*
 
 
 

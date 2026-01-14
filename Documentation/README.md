@@ -2,11 +2,11 @@
 
 This repo houses the source code for the Hardware Validation Plugins for Instrument Studio.  
 ## Use Case
-These plugins enable customers with a comprehensive workflow to automate tests for multiple DUTs using tools like TestStand. Increasing product sales for Emerson. 
-
-Creating these plugins also provides SR&D developers with hands-on experience in understanding plugin structure, supported capabilities, and the build/test workflow. 
-
-These plugins offer a reusable set of components that can be used to build and improve additional plugins.
+These plugins perform the following actions:    
+    1. Enable users with a comprehensive workflow to automate tests for multiple DUTs using tools like TestStand.
+    2. Offer a reusable set of components that can be used to build and improve additional plugins.
+    3. Enable users to learn about workflow and test life cycle
+    4. Expose users to NI Hardware and NI Software
 
 ## Architecture.  
 The below diagram lays out the architecture of the plugins.  
@@ -30,8 +30,8 @@ This document holds links to the READMEs for the various plugins as well as the 
 
 [I2C Capture Plugin](../src/labview/i2c/README.md)
 
-[NI-Switch](../src/labview/ni-switch/README.md)
+[NI-Switch](https://github.com/NI-Measurement-Plug-Ins/basic-switchexec-controller)
 
-### Build Documentation:
+### Build for Installer Documentation:
 
-[Build](../src/builds/README.md)
+[Build for Installer](../src/builds/README.md)
