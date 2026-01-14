@@ -5,22 +5,22 @@ This repo houses the source code for the Hardware Validation Plugins for Instrum
 
 These plugins perform the following actions:    
 
-1. Enable users with a comprehensive workflow to automate tests for multiple DUTs using tools like TestStand.
-2. Offer a reusable set of components that can be used to build and improve additional plugins.
-3. Enable users to learn about workflow and test life cycle
-4. Expose users to NI Hardware and NI Software
+1. Enable users to automate tests for multiple DUTs using tools like TestStand..
+2. Offer a reusable set of components for building and improving additional plugins.
+3. Help users to learn about workflow and test life cycle.
+4. Expose users to NI Hardware and NI Software.
 
 ## Architecture.  
-The below diagram lays out the architecture of the plugins.  
+The diagram below illustrates the architecture of the plugins. 
 ![image](./img/Architecture.png)
 
-The plugins have a few major components.  The first component is the GUI, which allows the user to control the inputs and receive the outputs of the plugin and handles all of the user interactions.  
+The plugins have a few major components.  The first component is the GUI, which allows the user to control the inputs, receive outputs and handles all of the user interactions.  
 The second component is the Measurement Logic which handles the backend logic for each plugin.  
-Synchronous communication transfers inputs from the GUI to the measurement logic before the measurement logic starts and transfers the outputs to the GUI after the measurement logic ends.  
+Synchronous communication transfers inputs from the GUI to the Measurement Logic before it starts, and transfers outputs to the GUI after it ends.
 A gRPC service allows for asynchronous communication between the GUI and the backend of the plugin.  
 
 ## Documentation
-This document holds links to the READMEs for the various plugins as well as the release build instructions.
+This document contains links to the READMEs for the various plugins, resources and the build for installer instructions.
 
 ### Plugin Documentation:
 
