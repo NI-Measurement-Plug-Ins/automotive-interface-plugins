@@ -51,7 +51,7 @@ The filter expression uses the following syntax:
 - Sets of three arguments separated by logical operators.
 - Spaces are used to separate keywords.
 - Each set of three arguments follows the pattern: **Field, Operator, Value**.
-- Quotations can be used when filtering for multiple words, or strings with a space.
+- Quotations must be used when filtering for multiple words, or strings with a space.
 - The hexadecimal prefix (0x) is needed when filtering for hexadecimal values.
 
 
