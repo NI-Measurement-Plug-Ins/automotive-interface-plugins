@@ -168,6 +168,10 @@ Notes:
 * **Save CSV** exports what is currently in the **monitor table** (what’s displayed). If you are paused, buffered (not-yet-displayed) transactions are not included until you resume.
 * If the bus is very active, leaving the plugin paused for a long time can grow the buffer.
 
+### Clear
+
+Clears the **monitor table** content and flushes the **UI-side buffer**.
+
 ### Monitor indicators
 
 The UI provides:
@@ -175,6 +179,10 @@ The UI provides:
 * **# TXNS IN TABLE**: number of transactions currently displayed in the monitor table
 * **# TXNS IN BUFFER**: number of transactions currently waiting in the UI-side buffer
 * **STREAMING**: turns on when a bulk of transactions is fetched by the ui side after being acquired by the logic side
+
+### Save CSV
+
+Saves the current **monitor table** content to a **CSV** file at the path specified in the UI.
 
 ***
 
@@ -187,11 +195,6 @@ The scan feature:
 
 ***
 
-## Save CSV
-
-Saves the current **monitor table** content to a **CSV** file at the path specified in the UI.
-
-***
 
 ## Status & Indicators
 
