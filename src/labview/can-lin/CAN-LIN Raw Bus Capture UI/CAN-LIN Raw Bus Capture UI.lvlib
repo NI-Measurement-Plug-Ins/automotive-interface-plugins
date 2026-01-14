@@ -39,6 +39,7 @@
 	</Item>
 	<Item Name="Convert CAN Trace to Raw Frame.vi" Type="VI" URL="../Convert CAN Trace to Raw Frame.vi"/>
 	<Item Name="Convert LIN Trace to Raw Frame.vi" Type="VI" URL="../Convert LIN Trace to Raw Frame.vi"/>
+	<Item Name="Convert to hex string.vi" Type="VI" URL="../Convert to hex string.vi"/>
 	<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
