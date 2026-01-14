@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package hwval;
+
+service ExamplePluginOOBService {
+	rpc PauseResume (BoolRequest) returns (StatusResponse) {}
+	rpc ExportPath (ExportRequest) returns (StatusResponse) {}
+	rpc ExportType (ExportTypeRequest) returns (StatusResponse) {}
+	rpc Export (BoolRequest) returns (StatusResponse) {}
+}
+
+enum ExportFileType {
+	EXPORT_PNG = 0;
+	EXPORT_RAW = 1;
+}
+
+message BoolRequest {
+	bool BooleanData = 1;
+}
+
+message ExportTypeRequest {
+	ExportFileType FileType = 1;
+}
+
+message ExportRequest {
+	string FilePath = 1;
+}
+
+// Returned status or error details.
+message StatusResponse {
+	bool Status = 1;
+	int32 Code = 2;
+	string Message = 3;
+}
