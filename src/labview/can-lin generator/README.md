@@ -9,6 +9,13 @@ This plugin is an easy-to-use CAN/LIN Bus frame generator. It uses the Measureme
 
 The plugin uses the OOB (Out-Of-Band) gRPC Service for interactive UI part (CONTROL parts of the plugin)
 
+## Prerequisites
+
+- **LabVIEW 2025 Q3**
+- **Measurement Plugin SDK 3.5.0.2**
+- **Instrument Studio 2025 Q4**.
+- **NI PXIe-8510** with NI-XNET-CAN and/or NI-XNET-LIN transceiver
+
 ## How to run this plugin
 
 Open the `CAN-LIN Frame Generator.lvproj` project in **LabVIEW 2025**.
