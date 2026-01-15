@@ -32,14 +32,14 @@ Key capabilities:
     * **NI-FlexRIO with Integrated I/O 2025 Q3 or newer**
 * **Instrument Studio 2025 or newer**
 * **Measurement Plugin SDK 3.5.0.2 or newer**  (Installed through VI Package Manager)
-* A supported NI PXIe GMSL/FPD-Link FlexRIO module that has a Serial Input channel (e.g. 4in4out or 8in varinant):
+* A supported NI PXIe GMSL/FPD-Link FlexRIO module that has a Serial Input channel (e.g. 4in4out or 8in variant):
 	* **PXIe-1486**
 	* **PXIe-1487**
 	* **PXIe-1488**
 	* **PXIe-1489**
 
 ## Development Software Versions
-The I2C Bus Monitor plugin is developed using these versions of the following the software components:
+The I2C Bus Monitor plugin is developed using these versions of the following software components:
 * **OS: Windows x64** 
 * **LabVIEW 2025 Q3**  
 	NI Drivers:
@@ -84,7 +84,7 @@ The I2C Bus Monitor plugin is developed using these versions of the following th
 
 		![I2C in Instrument Studio (Large Panel)](img/006.png)
 
-	### Workflow 2: Build + deploy for Instrument Studio (real use case)
+	### Workflow 2: Build + deploy for Instrument Studio (end-user use case)
 
 	This workflow builds the EXE and deploys the plugin so Instrument Studio can discover it.
 
@@ -149,7 +149,7 @@ The plugin UI populates:
 * **SI Channel** (serial channel)
 
 Select the appropriate device and channel before starting the measurement.  
-Note that the plugin will through an error if it doesn't find supported hardware on the system.
+Note that the plugin will throw an error if it doesn't find supported hardware on the system.
 
 ***
 
