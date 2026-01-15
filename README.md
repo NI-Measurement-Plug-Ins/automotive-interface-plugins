@@ -34,26 +34,26 @@ This document contains links to the READMEs for the various plugins, resources a
 
 ### Plugin Documentation:
 
-[Automotive Ethernet Bus monitor](../src/labview/auto-eth/README.md)
+[Automotive Ethernet Bus monitor](src/labview/auto-eth/README.md)
 
-[Automotive Vision Acquisition](../src/labview/auto-vision/README.md)
+[Automotive Vision Acquisition](src/labview/auto-vision/README.md)
 
-[CAN/LIN Raw Bus Capture](../src/labview/can-lin/README.md)
+[CAN/LIN Raw Bus Capture](src/labview/can-lin/README.md)
 
-[CAN/LIN Frame Generator](../src/labview/can-lin%20generator/README.md)
+[CAN/LIN Frame Generator](src/labview/can-lin%20generator/README.md)
 
-[I2C Capture Plugin](../src/labview/i2c/README.md)
+[I2C Capture Plugin](src/labview/i2c/README.md)
 
 [NI-Switch](https://github.com/NI-Measurement-Plug-Ins/basic-switchexec-controller)
 
 ### Resources Documentation
 
-[UI Assets](../src/labview/UI%20Assets/README.md)
+[UI Assets](src/labview/UI%20Assets/README.md)
 
-[gRPC Example](../src/labview/grpc-example/README.md)
+[gRPC Example](src/labview/grpc-example/README.md)
 
-[gRPC Template](../src/labview/grpc-template/README.md)
+[gRPC Template](src/labview/grpc-template/README.md)
 
 ### Build for Installer Documentation:
 
-[Build for Installer](../src/builds/README.md)
+[Build for Installer](src/builds/README.md)
