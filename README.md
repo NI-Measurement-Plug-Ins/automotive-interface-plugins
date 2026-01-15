@@ -1,6 +1,6 @@
 # Automotive Interface Plugins for InstrumentStudio
 
-This repo houses the source code for the Automotive Interface Plugins for InstrumentStudio for Instrument Studio.  
+This repo houses the source code for the Automotive Interface Plugins for InstrumentStudio.
 ## Use Case
 
 These plugins perform the following actions:    
