@@ -9,7 +9,7 @@ This plugin is an easy-to-use CAN/LIN Bus capture with sorting and filtering opt
 
 The plugin uses the **Tables and Filtering** library for sorting and filtering. It supports the OOB (Out-Of-Band) gRPC Service for interactive UI parts but right now the plugin does not use it. Keep it for future improvement.
 
-# Prerequisites
+## Prerequisites
 
 - **LabVIEW 2025 Q3**
 - **Measurement Plugin SDK 3.5.0.2**
