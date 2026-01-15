@@ -55,6 +55,8 @@ The I2C Bus Monitor plugin is developed using these versions of the following th
 
 	Open `I2C Bus Monitor.lvproj` in **LabVIEW 2025**.
 
+	![LabVIEW project](img/000.png)
+
 2. **Choose a workflow**
 
 	### Workflow 1: Debug from source (recommended for development)
@@ -64,11 +66,23 @@ The I2C Bus Monitor plugin is developed using these versions of the following th
 	1. Build the UI packed library:
 		* `I2C Bus Monitor UI`
 
+		![Build UI packed library](img/001.png)
+
 	2. Open and run:
 		* `I2C Bus Monitor\Run Service.vi`
 
+		![Run service](img/002.png)
+
 	3. Open **Instrument Studio 2025**, create a **Manual Layout**, add a **Small Panel**, and select **I2C Bus Monitor**.
 		(A **Large Panel** can be useful for debugging.)
+
+		![Add I2C in Small Panel](img/003.png)
+
+		![I2C in Instrument Studio (Small Panel)](img/004.png)
+
+		![Add I2C in Large Panel](img/005.png)
+
+		![I2C in Instrument Studio (Large Panel)](img/006.png)
 
 	### Workflow 2: Build + deploy for Instrument Studio (real use case)
 
@@ -78,13 +92,27 @@ The I2C Bus Monitor plugin is developed using these versions of the following th
 		* `I2C Bus Monitor UI` (packed library)
 		* `I2C Bus Monitor` (EXE)
 
+		![Build UI packed library](img/001.png)
+
+		![Build EXE](img/007.png)
+
 	2. Launch (or restart) **Instrument Studio 2025**, then add the **I2C Bus Monitor** measurement.
+
+	### Running the plugin in Instrument Studio
+
+	These screenshots show the plugin running after it has been added to a panel and shows a CSV file that has been saved and opened in notepad++:
+
+	![I2C running (Small Panel)](img/008.png)
+
+	![I2C running (Large Panel)](img/009.png)
 
 ***
 
 ## Startup Dialog
 
 On startup, the plugin displays a dialog describing how to use the plugin **in parallel** with another FPGA session.
+
+![Startup dialog](img/010.png)
 
 The dialog includes:
 
@@ -189,6 +217,8 @@ Saves the current **monitor table** content to a **CSV** file at the path specif
 ## I2C Bus Scan
 
 The scan feature:
+
+![I2C bus scan working (Small Panel)](img/011.png)
 
 * Returns **slave addresses** that respond with **ACK**.
 * Flushes the FPGA FIFO after completing the scan to prevent flooding the bus monitor with scan transactions.
