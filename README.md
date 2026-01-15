@@ -10,7 +10,7 @@ These plugins perform the following actions:
 3. Help users to learn about workflow and test life cycle.
 4. Expose users to NI Hardware and NI Software.
 
-## Architecture.  
+## Architecture  
 The diagram below illustrates the architecture of the plugins. 
 ![image](./img/Architecture.png)
 
