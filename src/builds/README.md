@@ -1,6 +1,7 @@
 # Prerequisites
 
 - **LabVIEW 2025 Q3**
+- **Measurement Plugin SDK 3.5.0.2**
 - **Instrument Studio 2025 Q4**.
 - **NI PXIe-8510** with NI-XNET-CAN and/or NI-XNET-LIN transceiver
 
