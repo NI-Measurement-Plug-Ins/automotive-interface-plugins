@@ -51,9 +51,17 @@ The filter expression uses the following syntax:
 - Sets of three arguments separated by logical operators.
 - Spaces are used to separate keywords.
 - Each set of three arguments follows the pattern: **Field, Operator, Value**.
+- Quotations must be used when filtering for multiple words, or strings with a space.
+- The hexadecimal prefix (0x) is needed when filtering for hexadecimal values.
+
 
 **Example:**
+
     Protocol == UDP AND Length > 0.7 OR Source == 192.168.1.1
+
+    Type == "CAN Data"
+
+    ID == 0xAA
 
 
 **Invalid inputs include:**
