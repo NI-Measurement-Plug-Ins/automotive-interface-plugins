@@ -104,11 +104,13 @@ The default order of the messages is by timestamp, it can change by the **Sort b
 ![image](<img/14.png>)
 
 ### Filter
-Use the headers of the trace table to set conditions what to filter an show.
+Use the headers of the trace table to set conditions what to filter.
 
 ![image](<img/15.png>)
 
 ![image](<img/16.png>)
+
+![image](<img/17.png>)
 
 ### Save trace to log file (TDMS, CSV)
 
@@ -164,7 +166,7 @@ It checks the received message array (Message Buffer) size and
 - Interface Name CAN: Set string value for "CAN interface" when user changes CAN interface.
 - Interface Name LIN: Set string value for "LIN interface" when user changes LIN interface.
 - Settings: Set int value for "Bus Type" when user changes Configuration tab.
-- Clear Trace: Remove data from Trace table and from "Captured Data" array.
+- Clear Trace: Remove data from Trace table and from "Captured Data" array. It scrolls up the Trace table too.
 - SortByID, Filter change: Updates the Trace table based on the filter and the SortByID value.
 - PauseResume:
   - When user clicks on **PAUSE**, it clears the "Buffer for pause" array.
