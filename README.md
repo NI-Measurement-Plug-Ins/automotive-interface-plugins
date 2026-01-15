@@ -44,8 +44,6 @@ This document contains links to the READMEs for the various plugins, resources a
 
 [I2C Capture Plugin](src/labview/i2c/README.md)
 
-[NI-Switch](https://github.com/NI-Measurement-Plug-Ins/basic-switchexec-controller)
-
 ### Resources Documentation
 
 [UI Assets](src/labview/UI%20Assets/README.md)
