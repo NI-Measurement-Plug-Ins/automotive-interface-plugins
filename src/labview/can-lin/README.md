@@ -9,6 +9,13 @@ This plugin is an easy-to-use CAN/LIN Bus capture with sorting and filtering opt
 
 The plugin uses the **Tables and Filtering** library for sorting and filtering. It supports the OOB (Out-Of-Band) gRPC Service for interactive UI parts but right now the plugin does not use it. Keep it for future improvement.
 
+# Prerequisites
+
+- **LabVIEW 2025 Q3**
+- **Measurement Plugin SDK 3.5.0.2**
+- **Instrument Studio 2025 Q4**.
+- **NI PXIe-8510** with NI-XNET-CAN and/or NI-XNET-LIN transceiver
+
 ## How to run this plugin
 
 Open the `CAN-LIN Raw Bus Capture.lvproj` project in **LabVIEW 2025**.
