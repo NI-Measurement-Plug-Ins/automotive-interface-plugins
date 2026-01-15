@@ -32,6 +32,12 @@ Then, in the lower right 'Properties' panel, fill in the properties for the pack
 Under Output Directory, specify a directory with a short path, such as *C:\Users\Admin\Documents\builds*.  
 If the directory does not exist, please create it.  
 Specify the version for the next build.  
+The version fields are as follows:  
+
+```python
+Major_Version : Minor_Version : Bug_Fixes : Builds
+```
+
 When the package is built, the installer will be placed here.
 
 &nbsp;
