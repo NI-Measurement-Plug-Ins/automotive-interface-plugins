@@ -9,6 +9,13 @@ This plugin is an easy-to-use Automotive Ethernet Bus capture, with sorting and 
 
 The plugin uses the **Tables and Filtering** library for sorting and filtering, and the OOB (Out-Of-Band) gRPC Service for the interactive UI part (Pause / Resume).
 
+## Prerequisites
+
+- **LabVIEW 2025 Q3**
+- **Measurement Plugin SDK 3.5.0.2**
+- **Instrument Studio 2025 Q4**.
+- **NI PXIe-8523** OR NI **PXIe-8623** with an active Automotive Ethernet Connection
+
 ## How to run this plugin
 
 Open the Auto-Eth Bus Monitor.lvproj in LabVIEW 2025.
