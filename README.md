@@ -34,7 +34,7 @@ This document contains links to the READMEs for the various plugins, resources a
 
 ### Plugin Documentation:
 
-[Automotive Ethernet Bus monitor](src/labview/auto-eth/README.md)
+[Automotive Ethernet Bus Monitor](src/labview/auto-eth/README.md)
 
 [Automotive Vision Acquisition](src/labview/auto-vision/README.md)
 
