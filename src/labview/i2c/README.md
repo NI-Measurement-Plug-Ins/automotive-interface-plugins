@@ -3,9 +3,9 @@
 
 This plugin provides an **I2C bus monitor, scanner, and transaction tool** inside **Instrument Studio 2025**, implemented with the **Measurement Plugin SDK** in **LabVIEW 2025**.
 
-It is intended to be used as a **Small Panel** in Instrument Studio (a **Large Panel** for I2C Bus Monitor plugin can be useful for debugging).   
-It is most useful when used alongside Automotive Vision Capture Plugin in a **Large Panel**.  
-it is possible to use it in parallel with a FlexRIO Getting Started Example (GSE) with the instructions given in the I2C Bus Monitor startup dialog.
+It is intended to be used as a **Small Panel** in Instrument Studio (a **Large Panel** for the I2C Bus Monitor plugin can be useful for debugging).   
+It is most useful when used alongside the Automotive Vision Capture Plugin in a **Large Panel**.  
+It is possible to use it in parallel with a FlexRIO Getting Started Example (GSE) with the instructions given in the I2C Bus Monitor startup dialog.
 
 Key capabilities:
 
@@ -100,7 +100,7 @@ The I2C Bus Monitor plugin is developed using these versions of the following so
 
 	### Running the plugin in Instrument Studio
 
-	These screenshots show the plugin running after it has been added to a panel and shows a CSV file that has been saved and opened in notepad++:
+	These screenshots show the plugin running after it has been added to a panel and shows a CSV file that has been saved and opened in Notepad++:
 
 	![I2C running (Small Panel)](img/008.png)
 
@@ -206,7 +206,7 @@ The UI provides:
 
 * **# TXNS IN TABLE**: number of transactions currently displayed in the monitor table
 * **# TXNS IN BUFFER**: number of transactions currently waiting in the UI-side buffer
-* **STREAMING**: turns on when a bulk of transactions is fetched by the ui side after being acquired by the logic side
+* **STREAMING**: turns on when a bulk of transactions is fetched by the UI side after being acquired by the logic side
 
 ### Save CSV
 
@@ -238,16 +238,16 @@ The scan feature:
 
 * **No devices / channels listed**: verify drivers are installed and the device is visible in NI MAX.
 * **No traffic shown**:
-  * Confirm the correct device resource and SI channel are selected.
+	* Confirm the correct device resource and SI channel are selected.
 * **I2C Bus Scan doesn't show remote devices**:
-  * If you are expecting I2C bus scan to discover a remote device (serializer/imager), this typically requires the Deserializer's I2C bus to be configured for I2C pass-through.  
-  For reference, see the the loopback configuration scripts that typically include such register configuration, these scripts are shipped with FlexRIO getting started examples. For Example, one can be found here for PXIe-1486 module:  
-  `C:\Program Files\NI\LVAddons\flexrioii\1\ProjectTemplates\Source\FlexRIO\NI148X\Getting Started\Host\Scripts\DS90UB954\Acq\Loopback.py`. 
+	* If you are expecting I2C bus scan to discover a remote device (serializer/imager), this typically requires the Deserializer's I2C bus to be configured for I2C pass-through.
+	* For reference, see the loopback configuration scripts that typically include such register configuration. These scripts are shipped with FlexRIO Getting Started Examples. For example, one can be found here for the PXIe-1486 module:
+		`C:\Program Files\NI\LVAddons\flexrioii\1\ProjectTemplates\Source\FlexRIO\NI148X\Getting Started\Host\Scripts\DS90UB954\Acq\Loopback.py`.
 * **I2C Transactions:** 
-  * Typically you should see your device's Serial Input's (SI) Deserializer respond with ACK.  
-  (Typical power-up slave addresses for Deserializers are: `0x60` for FPD-Link, `0x90` for GMSL modules.)  
-  If there's no Serializer connected to the Deserializer or the Deserializer is not configured properly, the power-up slave address for the Serializer responds with NACK.  
-  (Typical power-up slave addresses for Serializers are: `0x30` for FPD-Link, `0x80` for GMSL modules).
+	* Typically you should see your device's Serial Input's (SI) Deserializer respond with ACK.  
+	(Typical power-up slave addresses for Deserializers are: `0x60` for FPD-Link, `0x90` for GMSL modules.)  
+	If there's no Serializer connected to the Deserializer or the Deserializer is not configured properly, the power-up slave address for the Serializer responds with NACK.  
+	(Typical power-up slave addresses for Serializers are: `0x30` for FPD-Link, `0x80` for GMSL modules).
 
 ***
 
@@ -269,7 +269,7 @@ This workflow is convenient when you want to debug the service logic with normal
 
 In this mode, the service runs from source under the LabVIEW environment, so you can debug `Measurement Logic.vi` directly.
 
-### Workflow 2: Deploy for Instrument Studio (real use case)
+### Workflow 2: Build + deploy for Instrument Studio (end-user use case)
 
 This is the intended deployment path for end users.
 
