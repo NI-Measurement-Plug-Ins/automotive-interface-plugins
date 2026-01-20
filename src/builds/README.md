@@ -72,12 +72,18 @@ The built package will be located here: *C:\Users\Admin\Documents\builds*
 
 
 ## Install steps
-1. In this location, C:\Users\Admin\Documents\builds, run the NIPM package install file and navigate through the prompts.  
+1. In this location, *C:\Users\Admin\Documents\builds*, run the NIPM package install file and navigate through the prompts.  
 ![Image](./img/10.png)
 
-2. If everything worked correctly, at the location C:\ProgramData\National Instruments\Plug-Ins\Measurements, 
+2. If everything worked correctly, at the location *C:\ProgramData\National Instruments\Plug-Ins\Measurements*, 
 the following files should be present.  
 ![Image](./img/11.png)
 
     The plugins should now be visible in Instrument Studio.     
 ![Image](./img/12.png)
+
+# Documentation
+
+All the documenation will be installed at the following location:
+
+*C:\Users\Admin\Documents\builds\hardware-validation\src\builds\builds\0.1.0.0\\*
