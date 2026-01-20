@@ -26,6 +26,6 @@ These issues are organized by plugin:
 An extended duration pause (Such as 10K messages collecting) could cause a temporary slowdown when the plugin is unpaused as messages are flushed to the UI for a second or two.  
 The string filter activates when the user clicks away from the text field.  There is no indicator that the string filter is processing and may take a second to apply. 
 The standard ethernet mode is not yet implemented.  
-If the same system that display the bus monitor is sending the messages at a rate of 1ms or faster, the UI can lag behind when there is a large buffer after an extended pause, causing the pause button to not take affect until the UI catches up.  
+If the same system that displays the bus monitor is sending the messages at a rate of 1ms or faster, the UI can lag behind when there is a large buffer after an extended pause, causing the pause button to not take affect until the UI catches up.  
 
 
