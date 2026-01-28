@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="BC9E22EAFC7BC0ED66B91BABD93DA4CE0D127EC4AA627F4763458267AB518A903945248F17C2C6B25CD5672A6F4F3E8322C2FEB4ABC13DF620CF16E85065EAB8" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="18880FF305BF8A26907DAF0D651FB4AAD4D502F34E1DF0003ADAD9EE9B9AEABB8E94995ADB2A43AA2E72E1A15FDF6D8C6079DEC0B8B6AA528559D5683E91927D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="25.8.1.49696" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.18.1.49696" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -21,6 +21,12 @@
 			<SourceFileReference Bindings="EnvoyManager" Id="db581e7528ee4e7e948b8015949a6474" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Demo_Counter_Writer_Display.sfp" StoragePath="Demo_Counter_Writer_Display.sfp" />
 			<SourceFileReference Bindings="EnvoyManager" Id="6c58ea1a20f0447f8a53f1a0c612d78b" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Display.sfp" StoragePath="Display.sfp" />
 			<FileReference Id="9c7b53187b1141118758fbe90c77c14e" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="PinMap.pinmap" StoragePath="PinMap.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+			<SourceFileReference Bindings="EnvoyManager" Id="5f5f4f6e1dab41a0acc2aabb0845adbb" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="ParametricTest.sfp" StoragePath="ParametricTest.sfp" />
+			<FileReference Bindings=".pdf" Id="77ef115c9b864425af3053b9d57be1dd" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2026-01-28 08-53-11.pdf" StoragePath="Sequence Results\Test Report 2026-01-28 08-53-11.pdf" />
+			<FileReference Bindings=".pdf" Id="d0d1cc9d7b8f4f3ab7d3d1d98da0c691" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2026-01-28 08-58-11.pdf" StoragePath="Sequence Results\Test Report 2026-01-28 08-58-11.pdf" />
+			<FileReference Bindings=".pdf" Id="9b6b5336004a46fe936787bc1a65af58" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2026-01-28 09-29-25.pdf" StoragePath="Sequence Results\Test Report 2026-01-28 09-29-25.pdf" />
+			<FileReference Bindings=".pdf" Id="5f46bea24a684d90a75f7c3d9dba08dc" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2026-01-28 09-29-45.pdf" StoragePath="Sequence Results\Test Report 2026-01-28 09-29-45.pdf" />
+			<FileReference Bindings=".pdf" Id="2bc4fce733804c7489f6284ab18867be" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Test Report 2026-01-28 09-43-34.pdf" StoragePath="Sequence Results\Test Report 2026-01-28 09-43-34.pdf" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">
@@ -31,6 +37,7 @@
 				<Item Name="Count Edges_LabVIEW" Value="1.0.0" />
 				<Item Name="Daqmx-Display_LabVIEW" Value="1.0.0" />
 				<Item Name="Example Plugin_LabVIEW" Value="1.0.0" />
+				<Item Name="Switch Executive Controller_LabVIEW" Value="1.0.0" />
 				<Item Name="Workflow DO_LabVIEW" Value="1.0.0" />
 			</Kind>
 		</p.ProjectProperties>

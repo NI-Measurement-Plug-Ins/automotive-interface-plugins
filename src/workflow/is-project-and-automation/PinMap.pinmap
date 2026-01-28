@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1">
+<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.5">
 	<Instruments>
 		<Instrument name="CAN1_out" instrumentTypeId="xnetCAN">
 			<Channel id="CAN1" />
@@ -43,6 +43,8 @@
 			<Channel id="/PXI1Slot6/PFI4" />
 			<Channel id="/PXI1Slot6/PFI5" />
 		</Instrument>
+		<NIScopeInstrument name="PXI1Slot9" numberOfChannels="2" group="Scope" />
+		<Multiplexer name="PXI-2584" multiplexerTypeId="" />
 	</Instruments>
 	<Pins>
 		<DUTPin name="DUT_CANA_in" />
@@ -51,6 +53,8 @@
 		<DUTPin name="DUT_DO0_copy1" />
 		<DUTPin name="DUT_DO1" />
 		<DUTPin name="DUT_DO1_copy1" />
+		<DUTPin name="DUT_DO0_Scope" />
+		<DUTPin name="DUT_DO1_Scope" />
 	</Pins>
 	<PinGroups></PinGroups>
 	<Sites>
@@ -77,5 +81,13 @@
 		<Connection pin="DUT_DO1_copy1" siteNumber="0" instrument="PXISlot6_DI_Site0" channel="/PXI1Slot6/PFI1" />
 		<Connection pin="DUT_DO1_copy1" siteNumber="1" instrument="PXISlot6_DI_Site1" channel="/PXI1Slot6/PFI3" />
 		<Connection pin="DUT_DO1_copy1" siteNumber="2" instrument="PXISlot6_DI_Site2" channel="/PXI1Slot6/PFI5" />
+		<MultiplexedConnection instrument="PXI1Slot9" channel="0">
+			<MultiplexedDUTPinRoute pin="DUT_DO0_Scope" siteNumber="0" multiplexer="PXI-2584" routeName="RouteCH0" />
+			<MultiplexedDUTPinRoute pin="DUT_DO1_Scope" siteNumber="0" multiplexer="PXI-2584" routeName="RouteCH1" />
+			<MultiplexedDUTPinRoute pin="DUT_DO0_Scope" siteNumber="1" multiplexer="PXI-2584" routeName="RouteCH2" />
+			<MultiplexedDUTPinRoute pin="DUT_DO0_Scope" siteNumber="2" multiplexer="PXI-2584" routeName="RouteCH4" />
+			<MultiplexedDUTPinRoute pin="DUT_DO1_Scope" siteNumber="1" multiplexer="PXI-2584" routeName="RouteCH3" />
+			<MultiplexedDUTPinRoute pin="DUT_DO1_Scope" siteNumber="2" multiplexer="PXI-2584" routeName="RouteCH5" />
+		</MultiplexedConnection>
 	</Connections>
 </PinMap>
