@@ -21,6 +21,7 @@
 		<Item Name="Check Path.vi" Type="VI" URL="../Check Path.vi"/>
 		<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
 		<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
+		<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
