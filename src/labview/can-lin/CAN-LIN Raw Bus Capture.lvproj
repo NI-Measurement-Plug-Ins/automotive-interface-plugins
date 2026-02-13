@@ -82,7 +82,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CAN-LIN Raw Bus Capture UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AAE4981C-3794-4063-BD2D-49426FE4E5B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">151</Property>
+				<Property Name="Bld_version.build" Type="Int">152</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CAN-LIN Raw Bus Capture UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/CAN-LIN Raw Bus Capture UI.lvlibp</Property>
