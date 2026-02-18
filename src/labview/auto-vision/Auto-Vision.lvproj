@@ -81,7 +81,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Automotive Vision UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3705D344-3456-4B0A-AA11-B06653F26439}</Property>
-				<Property Name="Bld_version.build" Type="Int">158</Property>
+				<Property Name="Bld_version.build" Type="Int">159</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Automotive Vision UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Automotive Vision/BuiltUI/Automotive Vision UI.lvlibp</Property>
