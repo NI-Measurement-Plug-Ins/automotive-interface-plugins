@@ -11,6 +11,10 @@
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 	</Item>
 	<Item Name="deps" Type="Folder">
+		<Item Name="SubVI" Type="Folder">
+			<Item Name="Create Buffer.vi" Type="VI" URL="../Create Buffer.vi"/>
+			<Item Name="Obtain Buffer.vi" Type="VI" URL="../Obtain Buffer.vi"/>
+		</Item>
 		<Item Name="XNET Frame&amp;Log" Type="Folder">
 			<Item Name="NI-XNET Frame&amp;Log - CAN Frame to Table.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - CAN Frame to Table.vi"/>
 			<Item Name="NI-XNET Frame&amp;Log - Configure TDMS Channel for Read.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Configure TDMS Channel for Read.vi"/>
