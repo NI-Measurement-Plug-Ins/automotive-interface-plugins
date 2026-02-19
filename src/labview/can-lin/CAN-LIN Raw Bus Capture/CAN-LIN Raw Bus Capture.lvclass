@@ -29,6 +29,7 @@
 	</Item>
 	<Item Name="CAN" Type="Folder">
 		<Item Name="Buffer" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="CAN Frame Buffer.vi" Type="VI" URL="../CAN Frame Buffer.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -45,23 +46,23 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 			</Item>
-			<Item Name="Dequeue Frame.vi" Type="VI" URL="../Dequeue Frame.vi">
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
-				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
-			</Item>
-			<Item Name="Destroy Frame Buffer.vi" Type="VI" URL="../Destroy Frame Buffer.vi">
+			<Item Name="Enqueue Frame.vi" Type="VI" URL="../Enqueue Frame.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 			</Item>
-			<Item Name="Enqueue Frame.vi" Type="VI" URL="../Enqueue Frame.vi">
+			<Item Name="Dequeue Frame.vi" Type="VI" URL="../Dequeue Frame.vi">
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			</Item>
+			<Item Name="Destroy Frame Buffer.vi" Type="VI" URL="../Destroy Frame Buffer.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
@@ -75,7 +76,15 @@
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+			</Item>
+			<Item Name="Convert to payload.vi" Type="VI" URL="../Convert to payload.vi">
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 			</Item>
 		</Item>
 		<Item Name="CAN State to String.vi" Type="VI" URL="../CAN State to String.vi">
