@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package hwval;
+
+service OOBgRPCService {
+	rpc Generic (GenericRequest) returns (GenericResponse) {}
+	rpc GetData (GenericRequest) returns (GenericResponse) {}
+	rpc PauseResume (BoolRequest) returns (StatusResponse) {}
+	rpc Export (ExportRequest) returns (StatusResponse) {}
+}
+
+message GenericRequest {
+	string Command = 1;
+	bytes Payload = 2;
+}
+
+message GenericResponse {
+	bytes Payload = 1;
+}
+
+message BoolRequest {
+	bool BooleanData = 1;
+}
+
+message ExportRequest {
+	string FileType = 1;
+}
+
+// Returned status or error details.
+message StatusResponse {
+	bool Status = 1;
+	int32 Code = 2;
+	string Message = 3;
+}
