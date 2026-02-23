@@ -7,6 +7,7 @@
 
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 	</Item>
@@ -44,16 +45,20 @@
 			<Item Name="NI-XNET Frame&amp;Log - Payload Bytes to String.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Payload Bytes to String.vi"/>
 			<Item Name="NI-XNET Frame&amp;Log - Swap Endian Raw.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - Swap Endian Raw.vi"/>
 		</Item>
-		<Item Name="PauseResume.vi" Type="VI" URL="../PauseResume.vi"/>
-		<Item Name="Update Table.vi" Type="VI" URL="../Update Table.vi"/>
+		<Item Name="SubVI" Type="Folder">
+			<Item Name="PauseResume.vi" Type="VI" URL="../PauseResume.vi"/>
+			<Item Name="Check Buffer Client.vi" Type="VI" URL="../Check Buffer Client.vi"/>
+			<Item Name="Clear Table.vi" Type="VI" URL="../Clear Table.vi"/>
+			<Item Name="Convert CAN Trace to Raw Frame.vi" Type="VI" URL="../Convert CAN Trace to Raw Frame.vi"/>
+			<Item Name="Convert LIN Trace to Raw Frame.vi" Type="VI" URL="../Convert LIN Trace to Raw Frame.vi"/>
+			<Item Name="Convert to hex string.vi" Type="VI" URL="../Convert to hex string.vi"/>
+			<Item Name="Dequeue Data.vi" Type="VI" URL="../Dequeue Data.vi"/>
+			<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
+			<Item Name="Get Data Client Wrapper.vi" Type="VI" URL="../Get Data Client Wrapper.vi"/>
+			<Item Name="Save CAN data.vi" Type="VI" URL="../Save CAN data.vi"/>
+			<Item Name="Save data to file.vi" Type="VI" URL="../Save data to file.vi"/>
+			<Item Name="Update Table.vi" Type="VI" URL="../Update Table.vi"/>
+		</Item>
 	</Item>
-	<Item Name="Check Buffer Client.vi" Type="VI" URL="../Check Buffer Client.vi"/>
-	<Item Name="Clear Table.vi" Type="VI" URL="../Clear Table.vi"/>
-	<Item Name="Convert CAN Trace to Raw Frame.vi" Type="VI" URL="../Convert CAN Trace to Raw Frame.vi"/>
-	<Item Name="Convert LIN Trace to Raw Frame.vi" Type="VI" URL="../Convert LIN Trace to Raw Frame.vi"/>
-	<Item Name="Convert to hex string.vi" Type="VI" URL="../Convert to hex string.vi"/>
-	<Item Name="Dequeue Data.vi" Type="VI" URL="../Dequeue Data.vi"/>
-	<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
-	<Item Name="Get Data Client Wrapper.vi" Type="VI" URL="../Get Data Client Wrapper.vi"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
