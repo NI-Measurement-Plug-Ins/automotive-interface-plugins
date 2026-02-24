@@ -15,10 +15,13 @@
 		<Item Name="Table Buffer" Type="Folder">
 			<Item Name="Convert and Enqueue.vi" Type="VI" URL="../Convert and Enqueue.vi"/>
 			<Item Name="Create Buffer.vi" Type="VI" URL="../Create Buffer.vi"/>
+			<Item Name="Flush Table.vi" Type="VI" URL="../Flush Table.vi"/>
 			<Item Name="Enqueue Data.vi" Type="VI" URL="../Enqueue Data.vi"/>
 			<Item Name="Get Status.vi" Type="VI" URL="../Get Status.vi"/>
+			<Item Name="Destroy Table Buffer.vi" Type="VI" URL="../Destroy Table Buffer.vi"/>
 			<Item Name="Obtain Buffer.vi" Type="VI" URL="../Obtain Buffer.vi"/>
 			<Item Name="Table Buffer.vi" Type="VI" URL="../Table Buffer.vi"/>
+			<Item Name="Clear and flush table.vi" Type="VI" URL="../Clear and flush table.vi"/>
 		</Item>
 		<Item Name="XNET Frame&amp;Log" Type="Folder">
 			<Item Name="NI-XNET Frame&amp;Log - CAN Frame to Table.vi" Type="VI" URL="../deps/NI-XNET Frame Conversion and Logfile.llb/NI-XNET Frame&amp;Log - CAN Frame to Table.vi"/>
