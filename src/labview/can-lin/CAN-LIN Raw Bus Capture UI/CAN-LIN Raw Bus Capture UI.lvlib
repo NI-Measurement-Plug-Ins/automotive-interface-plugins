@@ -61,6 +61,7 @@
 			<Item Name="Save CAN data.vi" Type="VI" URL="../Save CAN data.vi"/>
 			<Item Name="Save data to file.vi" Type="VI" URL="../Save data to file.vi"/>
 			<Item Name="Update Table.vi" Type="VI" URL="../Update Table.vi"/>
+			<Item Name="SortByID.vi" Type="VI" URL="../SortByID.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
