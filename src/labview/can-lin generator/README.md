@@ -126,6 +126,7 @@ If the configuration was correct, the UI changes as follows:
 
 ![image](<img/22.png>)
 
+> Note: After starting the plug-in, the option to change the BUS will be disabled (the controls will be grayed out). To change the BUS, you will have to stop the plug-in first. There is a known window of a few milliseconds after starting the plug-in during which the BUS-setting controls have not yet been disabled. If you change the BUS during this short time window, you will either get an error or you will have to restart the plug-in before it can work correctly.
 
 ## How to set the output frame and how to send it out
 After filling in the CONTROL fields, the user can send the message by pressing the SEND CAN button.
