@@ -32,6 +32,9 @@
 		<Item Name="Create Buffer.vi" Type="VI" URL="../Table Buffer/Create Buffer.vi"/>
 		<Item Name="Dequeue Data.vi" Type="VI" URL="../Table Buffer/Dequeue Data.vi"/>
 		<Item Name="Table Buffer.vi" Type="VI" URL="../Table Buffer/Table Buffer.vi"/>
+		<Item Name="Convert and Enqueue.vi" Type="VI" URL="../Table Buffer/Convert and Enqueue.vi"/>
+		<Item Name="Get Data Client Wrapper.vi" Type="VI" URL="../Table Buffer/Get Data Client Wrapper.vi"/>
+		<Item Name="Clear and Flush Table.vi" Type="VI" URL="../Table Buffer/Clear and Flush Table.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
