@@ -23,5 +23,15 @@
 		<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
 		<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
 	</Item>
+	<Item Name="Table Buffer" Type="Folder">
+		<Item Name="Destroy Table Buffer.vi" Type="VI" URL="../Table Buffer/Destroy Table Buffer.vi"/>
+		<Item Name="Enqueue Data.vi" Type="VI" URL="../Table Buffer/Enqueue Data.vi"/>
+		<Item Name="Flush Table.vi" Type="VI" URL="../Table Buffer/Flush Table.vi"/>
+		<Item Name="Get Status.vi" Type="VI" URL="../Table Buffer/Get Status.vi"/>
+		<Item Name="Obtain Buffer.vi" Type="VI" URL="../Table Buffer/Obtain Buffer.vi"/>
+		<Item Name="Create Buffer.vi" Type="VI" URL="../Table Buffer/Create Buffer.vi"/>
+		<Item Name="Dequeue Data.vi" Type="VI" URL="../Table Buffer/Dequeue Data.vi"/>
+		<Item Name="Table Buffer.vi" Type="VI" URL="../Table Buffer/Table Buffer.vi"/>
+	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
