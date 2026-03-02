@@ -31,7 +31,9 @@
 			<Item Name="Clear and Flush Table.vi" Type="VI" URL="../Table Buffer/Clear and Flush Table.vi"/>
 		</Item>
 		<Item Name="Runtime UI Interactions" Type="Folder">
+			<Item Name="Save Packets.vi" Type="VI" URL="../UI Interactions/Save Packets.vi"/>
 			<Item Name="TC10 Update.vi" Type="VI" URL="../UI Interactions/TC10 Update.vi"/>
+			<Item Name="TC10 Status at Value Change.vi" Type="VI" URL="../UI Interactions/TC10 Status at Value Change.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="TC10 Status.vi" Type="VI" URL="../TC10 Status.vi"/>
@@ -40,6 +42,9 @@
 			<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
 		</Item>
 		<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
+	</Item>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="AETH UI Refs.ctl" Type="VI" URL="../AETH UI Refs.ctl"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
