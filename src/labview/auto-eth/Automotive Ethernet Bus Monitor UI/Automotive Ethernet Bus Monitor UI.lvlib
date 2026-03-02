@@ -17,24 +17,29 @@
 		<Item Name="Format MAC ADDRESS.vi" Type="VI" URL="../Format MAC ADDRESS.vi"/>
 	</Item>
 	<Item Name="deps" Type="Folder">
-		<Item Name="TC10 Status.vi" Type="VI" URL="../TC10 Status.vi"/>
-		<Item Name="Check Path.vi" Type="VI" URL="../Check Path.vi"/>
-		<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
+		<Item Name="Table Buffer" Type="Folder">
+			<Item Name="Destroy Table Buffer.vi" Type="VI" URL="../Table Buffer/Destroy Table Buffer.vi"/>
+			<Item Name="Enqueue Data.vi" Type="VI" URL="../Table Buffer/Enqueue Data.vi"/>
+			<Item Name="Flush Table.vi" Type="VI" URL="../Table Buffer/Flush Table.vi"/>
+			<Item Name="Get Status.vi" Type="VI" URL="../Table Buffer/Get Status.vi"/>
+			<Item Name="Obtain Buffer.vi" Type="VI" URL="../Table Buffer/Obtain Buffer.vi"/>
+			<Item Name="Create Buffer.vi" Type="VI" URL="../Table Buffer/Create Buffer.vi"/>
+			<Item Name="Dequeue Data.vi" Type="VI" URL="../Table Buffer/Dequeue Data.vi"/>
+			<Item Name="Table Buffer.vi" Type="VI" URL="../Table Buffer/Table Buffer.vi"/>
+			<Item Name="Convert and Enqueue.vi" Type="VI" URL="../Table Buffer/Convert and Enqueue.vi"/>
+			<Item Name="Get Data Client Wrapper.vi" Type="VI" URL="../Table Buffer/Get Data Client Wrapper.vi"/>
+			<Item Name="Clear and Flush Table.vi" Type="VI" URL="../Table Buffer/Clear and Flush Table.vi"/>
+		</Item>
+		<Item Name="Runtime UI Interactions" Type="Folder">
+			<Item Name="TC10 Update.vi" Type="VI" URL="../UI Interactions/TC10 Update.vi"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="TC10 Status.vi" Type="VI" URL="../TC10 Status.vi"/>
+			<Item Name="Check Path.vi" Type="VI" URL="../Check Path.vi"/>
+			<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
+			<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
+		</Item>
 		<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
-		<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
-	</Item>
-	<Item Name="Table Buffer" Type="Folder">
-		<Item Name="Destroy Table Buffer.vi" Type="VI" URL="../Table Buffer/Destroy Table Buffer.vi"/>
-		<Item Name="Enqueue Data.vi" Type="VI" URL="../Table Buffer/Enqueue Data.vi"/>
-		<Item Name="Flush Table.vi" Type="VI" URL="../Table Buffer/Flush Table.vi"/>
-		<Item Name="Get Status.vi" Type="VI" URL="../Table Buffer/Get Status.vi"/>
-		<Item Name="Obtain Buffer.vi" Type="VI" URL="../Table Buffer/Obtain Buffer.vi"/>
-		<Item Name="Create Buffer.vi" Type="VI" URL="../Table Buffer/Create Buffer.vi"/>
-		<Item Name="Dequeue Data.vi" Type="VI" URL="../Table Buffer/Dequeue Data.vi"/>
-		<Item Name="Table Buffer.vi" Type="VI" URL="../Table Buffer/Table Buffer.vi"/>
-		<Item Name="Convert and Enqueue.vi" Type="VI" URL="../Table Buffer/Convert and Enqueue.vi"/>
-		<Item Name="Get Data Client Wrapper.vi" Type="VI" URL="../Table Buffer/Get Data Client Wrapper.vi"/>
-		<Item Name="Clear and Flush Table.vi" Type="VI" URL="../Table Buffer/Clear and Flush Table.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
