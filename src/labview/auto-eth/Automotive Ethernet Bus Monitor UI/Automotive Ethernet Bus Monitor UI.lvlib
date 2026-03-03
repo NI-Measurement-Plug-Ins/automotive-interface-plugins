@@ -35,6 +35,7 @@
 			<Item Name="TC10 Update.vi" Type="VI" URL="../UI Interactions/TC10 Update.vi"/>
 			<Item Name="TC10 Status at Value Change.vi" Type="VI" URL="../UI Interactions/TC10 Status at Value Change.vi"/>
 			<Item Name="Pause Unpause.vi" Type="VI" URL="../UI Interactions/Pause Unpause.vi"/>
+			<Item Name="Update Table.vi" Type="VI" URL="../UI Interactions/Update Table.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="TC10 Status.vi" Type="VI" URL="../TC10 Status.vi"/>
@@ -48,7 +49,8 @@
 	<Item Name="Controls" Type="Folder">
 		<Item Name="AETH UI Refs.ctl" Type="VI" URL="../AETH UI Refs.ctl"/>
 		<Item Name="Ethernet Header Cluster.ctl" Type="VI" URL="../Ethernet Header Cluster.ctl"/>
-		<Item Name="Protocol Layer Cluster.ctl" Type="VI" URL="../Protocol Layer Cluster.ctl"/>
+		<Item Name="Protocol Layer.ctl" Type="VI" URL="../Protocol Layer.ctl"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="Define Table Row from Click Position.vi" Type="VI" URL="../UI Interactions/Define Table Row from Click Position.vi"/>
 </Library>
