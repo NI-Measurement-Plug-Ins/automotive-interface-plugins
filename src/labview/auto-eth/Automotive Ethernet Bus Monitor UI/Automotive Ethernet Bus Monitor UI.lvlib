@@ -38,6 +38,7 @@
 			<Item Name="Define Table Row from Click Position.vi" Type="VI" URL="../UI Interactions/Define Table Row from Click Position.vi"/>
 			<Item Name="Update Table.vi" Type="VI" URL="../UI Interactions/Update Table.vi"/>
 			<Item Name="Short and Filter Table.vi" Type="VI" URL="../UI Interactions/Short and Filter Table.vi"/>
+			<Item Name="Clear Table.vi" Type="VI" URL="../UI Interactions/Clear Table.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="TC10 Status.vi" Type="VI" URL="../TC10 Status.vi"/>
@@ -45,6 +46,7 @@
 			<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
 			<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
 			<Item Name="Covert Header to Package Layer.vi" Type="VI" URL="../Covert Header to Package Layer.vi"/>
+			<Item Name="Set and Wait to Restart Completion.vi" Type="VI" URL="../Set and Wait to Restart Completion.vi"/>
 		</Item>
 		<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
 	</Item>
