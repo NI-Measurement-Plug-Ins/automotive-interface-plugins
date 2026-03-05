@@ -79,7 +79,9 @@ This control panel allows the user to do the following:
 
 Some additional tools are built in to help the user understand the state of the plugin.
 
-Inside the control panel, pressing the 'Pause' button will cause the color and text to change, indicating the plugin is paused. Likewise, pressing the 'Resume' button will unpause the plugin. When the plugin is paused, the packets will still be collected, but the UI will not display the new packets until the system is unpaused.  
+Inside the control panel, pressing the 'Pause' button will cause the color and text to change, indicating the plugin is paused. Likewise, pressing the 'Resume' button will unpause the plugin. When the plugin is paused, the packets will still be collected, but the UI will not display the new packets until the system is unpaused.
+
+> Warning! Sending TC10 commands from a passive monitor port can be potentially dangerous for the DUT. 
 
 ![image](<img/08.png>)
 

@@ -45,7 +45,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/CAN-LIN Frame Generator/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CA993A6F-6B6A-4DB0-AE84-F147F265B82E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D2D4F1AE-745E-4922-846F-B4CCD51C75ED}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CAN-LIN Frame Generator.lvclass/Run Service.vi</Property>
