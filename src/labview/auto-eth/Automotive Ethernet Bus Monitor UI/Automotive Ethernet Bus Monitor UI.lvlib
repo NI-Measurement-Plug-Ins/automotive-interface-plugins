@@ -55,4 +55,5 @@
 		<Item Name="Protocol Layer.ctl" Type="VI" URL="../Protocol Layer.ctl"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="Set and Wait to Restart Completion.vi" Type="VI" URL="../Set and Wait to Restart Completion.vi"/>
 </Library>
