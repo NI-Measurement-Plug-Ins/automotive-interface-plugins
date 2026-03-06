@@ -39,6 +39,7 @@
 			<Item Name="Update Table.vi" Type="VI" URL="../UI Interactions/Update Table.vi"/>
 			<Item Name="Short and Filter Table.vi" Type="VI" URL="../UI Interactions/Short and Filter Table.vi"/>
 			<Item Name="Clear Table.vi" Type="VI" URL="../UI Interactions/Clear Table.vi"/>
+			<Item Name="Highligth Selected Row.vi" Type="VI" URL="../UI Interactions/Highligth Selected Row.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="TC10 Status.vi" Type="VI" URL="../TC10 Status.vi"/>
