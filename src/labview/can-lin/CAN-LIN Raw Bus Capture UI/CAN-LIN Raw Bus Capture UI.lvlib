@@ -61,7 +61,6 @@
 			<Item Name="Save data to file.vi" Type="VI" URL="../Save data to file.vi"/>
 			<Item Name="Update Table.vi" Type="VI" URL="../Update Table.vi"/>
 			<Item Name="SortByID.vi" Type="VI" URL="../SortByID.vi"/>
-			<Item Name="Is Alive Wrapper.vi" Type="VI" URL="../Is Alive Wrapper.vi"/>
 			<Item Name="Set and Wait to Restart Completion.vi" Type="VI" URL="../Set and Wait to Restart Completion.vi"/>
 		</Item>
 	</Item>
