@@ -19,6 +19,7 @@
 		</Item>
 		<Item Name="Test Writer" Type="Folder">
 			<Item Name="Automotive Ethernet Bus Monitor Packet Generator.vi" Type="VI" URL="../Test Writer/Automotive Ethernet Bus Monitor Packet Generator.vi"/>
+			<Item Name="Limited number writer.vi" Type="VI" URL="../Test Writer/Limited number writer.vi"/>
 		</Item>
 		<Item Name="Automotive Ethernet Bus Monitor UI.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor UI/Automotive Ethernet Bus Monitor UI.lvlib"/>
 		<Item Name="Automotive Ethernet Bus Monitor.lvclass" Type="LVClass" URL="../Automotive Ethernet Bus Monitor/Automotive Ethernet Bus Monitor.lvclass"/>
