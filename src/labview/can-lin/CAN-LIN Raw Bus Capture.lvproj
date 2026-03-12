@@ -22,6 +22,8 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="CAN frame Generator for Test.vi" Type="VI" URL="../Tester VIs/CAN frame Generator for Test.vi"/>
 			<Item Name="LIN frame Generator for Test.vi" Type="VI" URL="../Tester VIs/LIN frame Generator for Test.vi"/>
+			<Item Name="CAN Test Max number of frames.vi" Type="VI" URL="../Tester VIs/CAN Test Max number of frames.vi"/>
+			<Item Name="LIN Test Max number of frames.vi" Type="VI" URL="../Tester VIs/LIN Test Max number of frames.vi"/>
 		</Item>
 		<Item Name="CAN-LIN Raw Bus Capture UI.lvlib" Type="Library" URL="../CAN-LIN Raw Bus Capture UI/CAN-LIN Raw Bus Capture UI.lvlib"/>
 		<Item Name="CAN-LIN Raw Bus Capture.lvclass" Type="LVClass" URL="../CAN-LIN Raw Bus Capture/CAN-LIN Raw Bus Capture.lvclass"/>
