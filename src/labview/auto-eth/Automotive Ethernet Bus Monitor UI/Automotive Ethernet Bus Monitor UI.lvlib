@@ -47,7 +47,7 @@
 			<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
 			<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
 			<Item Name="Covert Header to Package Layer.vi" Type="VI" URL="../Covert Header to Package Layer.vi"/>
-			<Item Name="Set and Wait to Restart Completion.vi" Type="VI" URL="../Set and Wait to Restart Completion.vi"/>
+			<Item Name="Set and Wait to Completion.vi" Type="VI" URL="../Set and Wait to Completion.vi"/>
 		</Item>
 		<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
 	</Item>
