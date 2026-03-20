@@ -59,9 +59,10 @@
 			<Item Name="Get Data Client Wrapper.vi" Type="VI" URL="../Get Data Client Wrapper.vi"/>
 			<Item Name="Save CAN data.vi" Type="VI" URL="../Save CAN data.vi"/>
 			<Item Name="Save data to file.vi" Type="VI" URL="../Save data to file.vi"/>
-			<Item Name="Update Table.vi" Type="VI" URL="../Update Table.vi"/>
 			<Item Name="SortByID.vi" Type="VI" URL="../SortByID.vi"/>
 			<Item Name="Set and Wait to Restart Completion.vi" Type="VI" URL="../Set and Wait to Restart Completion.vi"/>
+			<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
+			<Item Name="Update Table.vi" Type="VI" URL="../Update Table.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
