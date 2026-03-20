@@ -18,7 +18,7 @@
 			<Item Name="OOB gRPC Server.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor/OOB gRPC Server/OOB gRPC Server.lvlib"/>
 		</Item>
 		<Item Name="Test Writer" Type="Folder">
-			<Item Name="Automotive Ethernet Bus Monitor Packet Generator.vi" Type="VI" URL="../Automotive Ethernet Bus Monitor Packet Generator.vi"/>
+			<Item Name="Automotive Ethernet Bus Monitor Packet Generator.vi" Type="VI" URL="../Test Writer/Automotive Ethernet Bus Monitor Packet Generator.vi"/>
 		</Item>
 		<Item Name="Automotive Ethernet Bus Monitor UI.lvlib" Type="Library" URL="../Automotive Ethernet Bus Monitor UI/Automotive Ethernet Bus Monitor UI.lvlib"/>
 		<Item Name="Automotive Ethernet Bus Monitor.lvclass" Type="LVClass" URL="../Automotive Ethernet Bus Monitor/Automotive Ethernet Bus Monitor.lvclass"/>
@@ -48,7 +48,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Automotive Ethernet Bus Monitor/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4E64C8EB-552C-426F-8E42-25C15976BCB1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4EA85867-6A37-47EF-B1B7-DF13077653CA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Automotive Ethernet Bus Monitor.lvclass/Run Service.vi</Property>

@@ -17,11 +17,44 @@
 		<Item Name="Format MAC ADDRESS.vi" Type="VI" URL="../Format MAC ADDRESS.vi"/>
 	</Item>
 	<Item Name="deps" Type="Folder">
-		<Item Name="TC10 Status.vi" Type="VI" URL="../TC10 Status.vi"/>
-		<Item Name="Check Path.vi" Type="VI" URL="../Check Path.vi"/>
-		<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
+		<Item Name="Table Buffer" Type="Folder">
+			<Item Name="Destroy Table Buffer.vi" Type="VI" URL="../Table Buffer/Destroy Table Buffer.vi"/>
+			<Item Name="Enqueue Data.vi" Type="VI" URL="../Table Buffer/Enqueue Data.vi"/>
+			<Item Name="Flush Table.vi" Type="VI" URL="../Table Buffer/Flush Table.vi"/>
+			<Item Name="Get Status.vi" Type="VI" URL="../Table Buffer/Get Status.vi"/>
+			<Item Name="Obtain Buffer.vi" Type="VI" URL="../Table Buffer/Obtain Buffer.vi"/>
+			<Item Name="Create Buffer.vi" Type="VI" URL="../Table Buffer/Create Buffer.vi"/>
+			<Item Name="Dequeue Data.vi" Type="VI" URL="../Table Buffer/Dequeue Data.vi"/>
+			<Item Name="Table Buffer.vi" Type="VI" URL="../Table Buffer/Table Buffer.vi"/>
+			<Item Name="Convert and Enqueue.vi" Type="VI" URL="../Table Buffer/Convert and Enqueue.vi"/>
+			<Item Name="Get Data Client Wrapper.vi" Type="VI" URL="../Table Buffer/Get Data Client Wrapper.vi"/>
+			<Item Name="Clear and Flush Table.vi" Type="VI" URL="../Table Buffer/Clear and Flush Table.vi"/>
+		</Item>
+		<Item Name="Runtime UI Interactions" Type="Folder">
+			<Item Name="Save Packets.vi" Type="VI" URL="../UI Interactions/Save Packets.vi"/>
+			<Item Name="TC10 Update.vi" Type="VI" URL="../UI Interactions/TC10 Update.vi"/>
+			<Item Name="TC10 Status at Value Change.vi" Type="VI" URL="../UI Interactions/TC10 Status at Value Change.vi"/>
+			<Item Name="Pause Unpause.vi" Type="VI" URL="../UI Interactions/Pause Unpause.vi"/>
+			<Item Name="Define Table Row from Click Position.vi" Type="VI" URL="../UI Interactions/Define Table Row from Click Position.vi"/>
+			<Item Name="Update Table.vi" Type="VI" URL="../UI Interactions/Update Table.vi"/>
+			<Item Name="Short and Filter Table.vi" Type="VI" URL="../UI Interactions/Short and Filter Table.vi"/>
+			<Item Name="Clear Table.vi" Type="VI" URL="../UI Interactions/Clear Table.vi"/>
+			<Item Name="Highligth Selected Row.vi" Type="VI" URL="../UI Interactions/Highligth Selected Row.vi"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="TC10 Status.vi" Type="VI" URL="../TC10 Status.vi"/>
+			<Item Name="Check Path.vi" Type="VI" URL="../Check Path.vi"/>
+			<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
+			<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
+			<Item Name="Covert Header to Package Layer.vi" Type="VI" URL="../Covert Header to Package Layer.vi"/>
+			<Item Name="Set and Wait to Restart Completion.vi" Type="VI" URL="../Set and Wait to Restart Completion.vi"/>
+		</Item>
 		<Item Name="Table_Filtering.lvlib" Type="Library" URL="../Table_Filtering/Table_Filtering.lvlib"/>
-		<Item Name="Generate Filename.vi" Type="VI" URL="../Generate Filename.vi"/>
+	</Item>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="AETH UI Refs.ctl" Type="VI" URL="../AETH UI Refs.ctl"/>
+		<Item Name="Ethernet Header Cluster.ctl" Type="VI" URL="../Ethernet Header Cluster.ctl"/>
+		<Item Name="Protocol Layer.ctl" Type="VI" URL="../Protocol Layer.ctl"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
