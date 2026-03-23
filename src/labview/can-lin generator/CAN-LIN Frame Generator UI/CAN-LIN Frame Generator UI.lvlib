@@ -12,6 +12,7 @@
 	</Item>
 	<Item Name="deps" Type="Folder">
 		<Item Name="DLC validate.vi" Type="VI" URL="../DLC validate.vi"/>
+		<Item Name="Open Help PDF.vi" Type="VI" URL="../Open Help PDF.vi"/>
 		<Item Name="Set First Val_LIN.vi" Type="VI" URL="../Set First Val_LIN.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
