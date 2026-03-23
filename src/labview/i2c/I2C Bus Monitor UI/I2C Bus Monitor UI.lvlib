@@ -71,6 +71,7 @@
 			<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi"/>
 			<Item Name="Get Error (Logic).vi" Type="VI" URL="../SubVIs/Get Error (Logic).vi"/>
 		</Item>
+		<Item Name="Open Help PDF.vi" Type="VI" URL="../SubVIs/Open Help PDF.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
