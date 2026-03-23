@@ -12,6 +12,7 @@
 		<Item Name="DisplayImage.vi" Type="VI" URL="../DisplayImage.vi"/>
 		<Item Name="GetChimeraResources.vi" Type="VI" URL="../GetChimeraResources.vi"/>
 		<Item Name="InitImageDisplay.vi" Type="VI" URL="../InitImageDisplay.vi"/>
+		<Item Name="Open Help PDF.vi" Type="VI" URL="../Open Help PDF.vi"/>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
