@@ -63,6 +63,7 @@
 			<Item Name="Set and Wait to Restart Completion.vi" Type="VI" URL="../Set and Wait to Restart Completion.vi"/>
 			<Item Name="Programatic Scroll.vi" Type="VI" URL="../Programatic Scroll.vi"/>
 			<Item Name="Update Table.vi" Type="VI" URL="../Update Table.vi"/>
+			<Item Name="Open Help PDF.vi" Type="VI" URL="../Open Help PDF.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
