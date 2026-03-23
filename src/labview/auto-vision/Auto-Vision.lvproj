@@ -23,7 +23,6 @@
 		</Item>
 		<Item Name="Automotive Vision UI.lvlib" Type="Library" URL="../Automotive Vision UI/Automotive Vision UI.lvlib"/>
 		<Item Name="Automotive Vision.lvclass" Type="LVClass" URL="../Automotive Vision/Automotive Vision.lvclass"/>
-		<Item Name="Help Ctrl.ctl" Type="VI" URL="../../../../../../../Desktop/Help Ctrl.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Automotive Vision UI" Type="Packed Library">
