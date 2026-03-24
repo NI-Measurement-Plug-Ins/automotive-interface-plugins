@@ -441,7 +441,7 @@
         </SourceItem>
         <SourceItem z:Id="i75">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\0.2.0.0\CAN-LIn Raw Bus Capture.pdf</RelativePath>
+            <RelativePath>..\builds\0.2.0.0\CAN-LIN Raw Bus Capture.pdf</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
@@ -1070,8 +1070,8 @@
     </SourceItems>
     <InputSourceItems>
         <SourceItem z:Ref="i144" />
-        <SourceItem z:Ref="i2" />
         <SourceItem z:Ref="i118" />
+        <SourceItem z:Ref="i2" />
     </InputSourceItems>
     <Distributions>
         <Distribution z:Id="i145" i:type="Package">
@@ -1842,50 +1842,50 @@
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i273" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\Release Notes.pdf</DestinationRelativePath>
-                    <Name>Release Notes.pdf</Name>
-                    <SourceItem z:Ref="i2" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i274" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\Automotive Ethernet Bus Monitor.pdf</DestinationRelativePath>
                     <Name>Automotive Ethernet Bus Monitor.pdf</Name>
                     <SourceItem z:Ref="i72" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i275" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i274" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\Automotive Vision Acquisition.pdf</DestinationRelativePath>
                     <Name>Automotive Vision Acquisition.pdf</Name>
                     <SourceItem z:Ref="i73" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i276" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i275" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\CAN-LIN Frame Generator.pdf</DestinationRelativePath>
                     <Name>CAN-LIN Frame Generator.pdf</Name>
                     <SourceItem z:Ref="i74" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i277" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\CAN-LIn Raw Bus Capture.pdf</DestinationRelativePath>
-                    <Name>CAN-LIn Raw Bus Capture.pdf</Name>
+                <DistributionItem z:Id="i276" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\CAN-LIN Raw Bus Capture.pdf</DestinationRelativePath>
+                    <Name>CAN-LIN Raw Bus Capture.pdf</Name>
                     <SourceItem z:Ref="i75" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i278" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i277" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\I2C Capture Plugin.pdf</DestinationRelativePath>
                     <Name>I2C Capture Plugin.pdf</Name>
                     <SourceItem z:Ref="i76" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
+                <DistributionItem z:Id="i278" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\Release Notes.pdf</DestinationRelativePath>
+                    <Name>Release Notes.pdf</Name>
+                    <SourceItem z:Ref="i2" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
             </DistributionItems>
             <Name>Automotive Interface Plugins</Name>
-            <OutputDirectory>..\..\..\..</OutputDirectory>
+            <OutputDirectory>..\..\..\..\Package Build</OutputDirectory>
             <PluginConfigurationOptions />
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
