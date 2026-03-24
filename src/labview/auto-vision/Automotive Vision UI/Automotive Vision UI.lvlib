@@ -10,6 +10,7 @@
 	<Item Name="subVI" Type="Folder">
 		<Item Name="Coerce to 8-Bit Data Type.vi" Type="VI" URL="../Coerce to 8-Bit Data Type.vi"/>
 		<Item Name="DisplayImage.vi" Type="VI" URL="../DisplayImage.vi"/>
+		<Item Name="Get Initial Values.vi" Type="VI" URL="../Get Initial Values.vi"/>
 		<Item Name="GetChimeraResources.vi" Type="VI" URL="../GetChimeraResources.vi"/>
 		<Item Name="InitImageDisplay.vi" Type="VI" URL="../InitImageDisplay.vi"/>
 		<Item Name="Open Help PDF.vi" Type="VI" URL="../Open Help PDF.vi"/>
