@@ -1943,9 +1943,8 @@
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
             <BuildStatus z:Id="i288">
-                <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>automotive-interface-plugins-for-instrumentstudio_0.2.0.0_windows_x64.nipkg</FileName>
-                <Version>0.2.0.0</Version>
+                <FileName />
+                <Version>none</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
