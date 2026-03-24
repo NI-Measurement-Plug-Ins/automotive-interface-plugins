@@ -87,383 +87,371 @@
         </SourceItem>
         <SourceItem z:Id="i16">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision.zip</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\AutomotiveVision.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i17">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\AutomotiveVision.aliases</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\AutomotiveVision.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i18">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\AutomotiveVision.exe</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\AutomotiveVision.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i19">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\AutomotiveVision.ini</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\AutomotiveVision.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i20">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\AutomotiveVision.serviceconfig</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Automotive Vision UI.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i21">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Automotive Vision UI.lvlibp</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\IMAQVision.chm</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i22">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\IMAQVision.chm</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i23">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i24">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i25">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i26">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\nisyscfg.chm</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i27">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\nisyscfg.chm</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\data\niLVDataManip.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i28">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\data\niLVDataManip.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i29">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i30">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i31">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i32">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\CAN-LIN Frame Generator UI.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i33">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\CAN-LIN Frame Generator UI.lvlibp</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i34">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i35">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i36">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i37">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\CAN-LINFrameGenerator.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i38">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\CAN-LINFrameGenerator.aliases</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\CAN-LINFrameGenerator.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i39">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\CAN-LINFrameGenerator.exe</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\CAN-LINFrameGenerator.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i40">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\CAN-LINFrameGenerator.ini</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\CAN-LINFrameGenerator.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i41">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\CAN-LINFrameGenerator.serviceconfig</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i42">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i43">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i44">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i45">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i46">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i47">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i48">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i49">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i50">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i51">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.aliases</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i52">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.exe</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i53">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.ini</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i54">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.serviceconfig</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i55">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i56">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i57">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i58">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\I2C Bus Monitor UI.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i59">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor.zip</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i60">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\I2C Bus Monitor UI.lvlibp</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i61">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i62">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i63">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\nisyscfg.chm</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i64">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\I2CBusMonitor.aliases</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i65">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\nisyscfg.chm</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\I2CBusMonitor.exe</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i66">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\I2CBusMonitor.aliases</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\I2CBusMonitor.ini</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i67">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\I2CBusMonitor.exe</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\I2CBusMonitor.serviceconfig</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i68">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\I2CBusMonitor.ini</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i69">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\I2CBusMonitor.serviceconfig</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i70">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Linux\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Win32\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i71">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\LinuxRT\liblabview_grpc_server.so</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Win64\labview_grpc_server.dll</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i72">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Win32\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\0.2.0.0\Automotive Ethernet Bus Monitor.pdf</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i73">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Win64\labview_grpc_server.dll</RelativePath>
+            <RelativePath>..\builds\0.2.0.0\Automotive Vision Acquisition.pdf</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i74">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\0.2.0.0\Automotive Ethernet Bus Monitor.pdf</RelativePath>
+            <RelativePath>..\builds\0.2.0.0\CAN-LIN Frame Generator.pdf</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i75">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\0.2.0.0\Automotive Vision Acquisition.pdf</RelativePath>
+            <RelativePath>..\builds\0.2.0.0\CAN-LIN Raw Bus Capture.pdf</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i76">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\0.2.0.0\CAN-LIN Frame Generator.pdf</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i77">
-            <PluginConfigurationOptions />
-            <RelativePath>..\builds\0.2.0.0\CAN-LIn Raw Bus Capture.pdf</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i78">
-            <PluginConfigurationOptions />
             <RelativePath>..\builds\0.2.0.0\I2C Capture Plugin.pdf</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i79">
+        <SourceItem z:Id="i77">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -471,7 +459,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i80">
+        <SourceItem z:Id="i78">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -479,7 +467,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i81">
+        <SourceItem z:Id="i79">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -487,7 +475,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i82">
+        <SourceItem z:Id="i80">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -495,7 +483,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i83">
+        <SourceItem z:Id="i81">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\Libraries\Linux</RelativePath>
             <DependentItems>
@@ -503,7 +491,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i84">
+        <SourceItem z:Id="i82">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\Libraries\LinuxRT</RelativePath>
             <DependentItems>
@@ -511,7 +499,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i85">
+        <SourceItem z:Id="i83">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\Libraries\Win32</RelativePath>
             <DependentItems>
@@ -519,7 +507,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i86">
+        <SourceItem z:Id="i84">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\Libraries\Win64</RelativePath>
             <DependentItems>
@@ -527,209 +515,225 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i87">
+        <SourceItem z:Id="i85">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Linux</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i22" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i86">
+            <PluginConfigurationOptions />
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\LinuxRT</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i23" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i88">
+        <SourceItem z:Id="i87">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i24" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i89">
+        <SourceItem z:Id="i88">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Win32</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i25" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i90">
+        <SourceItem z:Id="i89">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries\Win64</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\data</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i26" />
+                <SourceItem z:Ref="i27" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i91">
+        <SourceItem z:Id="i90">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\data</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Linux</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i28" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i92">
+        <SourceItem z:Id="i91">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Linux</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\LinuxRT</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i29" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i93">
+        <SourceItem z:Id="i92">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i30" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i94">
+        <SourceItem z:Id="i93">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Win32</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i31" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i95">
+        <SourceItem z:Id="i94">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries\Win64</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Linux</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i32" />
+                <SourceItem z:Ref="i33" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i96">
+        <SourceItem z:Id="i95">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Linux</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\LinuxRT</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i34" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i97">
+        <SourceItem z:Id="i96">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i35" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i98">
+        <SourceItem z:Id="i97">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Win32</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i36" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i99">
+        <SourceItem z:Id="i98">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries\Win64</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Linux</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i37" />
+                <SourceItem z:Ref="i41" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i100">
+        <SourceItem z:Id="i99">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Linux</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\LinuxRT</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i42" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i101">
+        <SourceItem z:Id="i100">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i43" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i102">
+        <SourceItem z:Id="i101">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Win32</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i44" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i103">
+        <SourceItem z:Id="i102">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries\Win64</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Linux</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i45" />
+                <SourceItem z:Ref="i46" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i104">
+        <SourceItem z:Id="i103">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Linux</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\LinuxRT</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i47" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i105">
+        <SourceItem z:Id="i104">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i48" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i106">
+        <SourceItem z:Id="i105">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win32</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i49" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i107">
+        <SourceItem z:Id="i106">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win64</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Linux</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i50" />
+                <SourceItem z:Ref="i54" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i108">
+        <SourceItem z:Id="i107">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Linux</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\LinuxRT</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i55" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i109">
+        <SourceItem z:Id="i108">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i56" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i110">
+        <SourceItem z:Id="i109">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win32</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i57" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
+        <SourceItem z:Id="i110">
+            <PluginConfigurationOptions />
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Linux</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i59" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
         <SourceItem z:Id="i111">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries\Win64</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\LinuxRT</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i58" />
+                <SourceItem z:Ref="i60" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i112">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Linux</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i61" />
             </DependentItems>
@@ -737,7 +741,7 @@
         </SourceItem>
         <SourceItem z:Id="i113">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i62" />
             </DependentItems>
@@ -745,23 +749,23 @@
         </SourceItem>
         <SourceItem z:Id="i114">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Win32</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Linux</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i63" />
+                <SourceItem z:Ref="i68" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i115">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries\Win64</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\LinuxRT</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i64" />
+                <SourceItem z:Ref="i69" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i116">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Linux</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Win32</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i70" />
             </DependentItems>
@@ -769,7 +773,7 @@
         </SourceItem>
         <SourceItem z:Id="i117">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\LinuxRT</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Win64</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i71" />
             </DependentItems>
@@ -777,191 +781,175 @@
         </SourceItem>
         <SourceItem z:Id="i118">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Win32</RelativePath>
+            <RelativePath>..\builds\0.2.0.0</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i72" />
+                <SourceItem z:Ref="i73" />
+                <SourceItem z:Ref="i74" />
+                <SourceItem z:Ref="i75" />
+                <SourceItem z:Ref="i76" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i119">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries\Win64</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i73" />
+                <SourceItem z:Ref="i77" />
+                <SourceItem z:Ref="i78" />
+                <SourceItem z:Ref="i79" />
+                <SourceItem z:Ref="i80" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i120">
             <PluginConfigurationOptions />
-            <RelativePath>..\builds\0.2.0.0</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i74" />
-                <SourceItem z:Ref="i75" />
-                <SourceItem z:Ref="i76" />
-                <SourceItem z:Ref="i77" />
-                <SourceItem z:Ref="i78" />
+                <SourceItem z:Ref="i81" />
+                <SourceItem z:Ref="i82" />
+                <SourceItem z:Ref="i83" />
+                <SourceItem z:Ref="i84" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i121">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i79" />
-                <SourceItem z:Ref="i80" />
-                <SourceItem z:Ref="i81" />
-                <SourceItem z:Ref="i82" />
+                <SourceItem z:Ref="i85" />
+                <SourceItem z:Ref="i86" />
+                <SourceItem z:Ref="i87" />
+                <SourceItem z:Ref="i88" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i122">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i83" />
-                <SourceItem z:Ref="i84" />
-                <SourceItem z:Ref="i85" />
-                <SourceItem z:Ref="i86" />
+                <SourceItem z:Ref="i90" />
+                <SourceItem z:Ref="i91" />
+                <SourceItem z:Ref="i92" />
+                <SourceItem z:Ref="i93" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i123">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i87" />
-                <SourceItem z:Ref="i88" />
-                <SourceItem z:Ref="i89" />
-                <SourceItem z:Ref="i90" />
+                <SourceItem z:Ref="i94" />
+                <SourceItem z:Ref="i95" />
+                <SourceItem z:Ref="i96" />
+                <SourceItem z:Ref="i97" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i124">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i92" />
-                <SourceItem z:Ref="i93" />
-                <SourceItem z:Ref="i94" />
-                <SourceItem z:Ref="i95" />
+                <SourceItem z:Ref="i98" />
+                <SourceItem z:Ref="i99" />
+                <SourceItem z:Ref="i100" />
+                <SourceItem z:Ref="i101" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i125">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i96" />
-                <SourceItem z:Ref="i97" />
-                <SourceItem z:Ref="i98" />
-                <SourceItem z:Ref="i99" />
+                <SourceItem z:Ref="i102" />
+                <SourceItem z:Ref="i103" />
+                <SourceItem z:Ref="i104" />
+                <SourceItem z:Ref="i105" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i126">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i100" />
-                <SourceItem z:Ref="i101" />
-                <SourceItem z:Ref="i102" />
-                <SourceItem z:Ref="i103" />
+                <SourceItem z:Ref="i106" />
+                <SourceItem z:Ref="i107" />
+                <SourceItem z:Ref="i108" />
+                <SourceItem z:Ref="i109" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i127">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i104" />
-                <SourceItem z:Ref="i105" />
-                <SourceItem z:Ref="i106" />
-                <SourceItem z:Ref="i107" />
+                <SourceItem z:Ref="i110" />
+                <SourceItem z:Ref="i111" />
+                <SourceItem z:Ref="i112" />
+                <SourceItem z:Ref="i113" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i128">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i108" />
-                <SourceItem z:Ref="i109" />
-                <SourceItem z:Ref="i110" />
-                <SourceItem z:Ref="i111" />
+                <SourceItem z:Ref="i114" />
+                <SourceItem z:Ref="i115" />
+                <SourceItem z:Ref="i116" />
+                <SourceItem z:Ref="i117" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i129">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i112" />
-                <SourceItem z:Ref="i113" />
-                <SourceItem z:Ref="i114" />
-                <SourceItem z:Ref="i115" />
+                <SourceItem z:Ref="i7" />
+                <SourceItem z:Ref="i119" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i130">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\Libraries</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i116" />
-                <SourceItem z:Ref="i117" />
-                <SourceItem z:Ref="i118" />
-                <SourceItem z:Ref="i119" />
+                <SourceItem z:Ref="i32" />
+                <SourceItem z:Ref="i123" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i131">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor\BuiltUI</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i7" />
-                <SourceItem z:Ref="i121" />
+                <SourceItem z:Ref="i45" />
+                <SourceItem z:Ref="i125" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i132">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator\BuiltUI</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i33" />
-                <SourceItem z:Ref="i125" />
+                <SourceItem z:Ref="i58" />
+                <SourceItem z:Ref="i63" />
+                <SourceItem z:Ref="i127" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i133">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture\BuiltUI</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i46" />
-                <SourceItem z:Ref="i127" />
+                <SourceItem z:Ref="i20" />
+                <SourceItem z:Ref="i21" />
+                <SourceItem z:Ref="i26" />
+                <SourceItem z:Ref="i121" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i134">
-            <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor\BuiltUI</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i60" />
-                <SourceItem z:Ref="i65" />
-                <SourceItem z:Ref="i129" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i135">
-            <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision\BuiltUI</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i21" />
-                <SourceItem z:Ref="i22" />
-                <SourceItem z:Ref="i27" />
-                <SourceItem z:Ref="i123" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i136">
             <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor\Automotive Ethernet Bus Monitor</RelativePath>
             <DependentItems>
@@ -969,83 +957,99 @@
                 <SourceItem z:Ref="i4" />
                 <SourceItem z:Ref="i5" />
                 <SourceItem z:Ref="i6" />
+                <SourceItem z:Ref="i129" />
+                <SourceItem z:Ref="i120" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i135">
+            <PluginConfigurationOptions />
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i37" />
+                <SourceItem z:Ref="i38" />
+                <SourceItem z:Ref="i39" />
+                <SourceItem z:Ref="i40" />
+                <SourceItem z:Ref="i130" />
+                <SourceItem z:Ref="i124" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i136">
+            <PluginConfigurationOptions />
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i50" />
+                <SourceItem z:Ref="i51" />
+                <SourceItem z:Ref="i52" />
+                <SourceItem z:Ref="i53" />
                 <SourceItem z:Ref="i131" />
-                <SourceItem z:Ref="i122" />
+                <SourceItem z:Ref="i126" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i137">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator\CAN-LIN Frame Generator</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i38" />
-                <SourceItem z:Ref="i39" />
-                <SourceItem z:Ref="i40" />
-                <SourceItem z:Ref="i41" />
+                <SourceItem z:Ref="i64" />
+                <SourceItem z:Ref="i65" />
+                <SourceItem z:Ref="i66" />
+                <SourceItem z:Ref="i67" />
                 <SourceItem z:Ref="i132" />
-                <SourceItem z:Ref="i126" />
+                <SourceItem z:Ref="i128" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i138">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture\CAN-LIN Raw Bus Capture</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i51" />
-                <SourceItem z:Ref="i52" />
-                <SourceItem z:Ref="i53" />
-                <SourceItem z:Ref="i54" />
+                <SourceItem z:Ref="i16" />
+                <SourceItem z:Ref="i17" />
+                <SourceItem z:Ref="i18" />
+                <SourceItem z:Ref="i19" />
                 <SourceItem z:Ref="i133" />
-                <SourceItem z:Ref="i128" />
+                <SourceItem z:Ref="i89" />
+                <SourceItem z:Ref="i122" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i139">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor\I2C Bus Monitor</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i66" />
-                <SourceItem z:Ref="i67" />
-                <SourceItem z:Ref="i68" />
-                <SourceItem z:Ref="i69" />
                 <SourceItem z:Ref="i134" />
-                <SourceItem z:Ref="i130" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i140">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision\Automotive Vision</RelativePath>
+            <RelativePath>..\..\labview\builds\Auto-Vision</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i17" />
-                <SourceItem z:Ref="i18" />
-                <SourceItem z:Ref="i19" />
-                <SourceItem z:Ref="i20" />
-                <SourceItem z:Ref="i135" />
-                <SourceItem z:Ref="i91" />
-                <SourceItem z:Ref="i124" />
+                <SourceItem z:Ref="i138" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i141">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Eth Bus Monitor</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i136" />
+                <SourceItem z:Ref="i135" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i142">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\Auto-Vision</RelativePath>
+            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i140" />
+                <SourceItem z:Ref="i136" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i143">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Frame Generator</RelativePath>
+            <RelativePath>..\..\labview\builds\I2C Bus Monitor</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i137" />
             </DependentItems>
@@ -1053,860 +1057,894 @@
         </SourceItem>
         <SourceItem z:Id="i144">
             <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\CAN-LIN Raw Bus Capture</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i138" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i145">
-            <PluginConfigurationOptions />
-            <RelativePath>..\..\labview\builds\I2C Bus Monitor</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i139" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i146">
-            <PluginConfigurationOptions />
             <RelativePath>..\..\labview\builds</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i141" />
-                <SourceItem z:Ref="i144" />
+                <SourceItem z:Ref="i139" />
                 <SourceItem z:Ref="i142" />
+                <SourceItem z:Ref="i140" />
+                <SourceItem z:Ref="i141" />
                 <SourceItem z:Ref="i143" />
-                <SourceItem z:Ref="i145" />
-                <SourceItem z:Ref="i16" />
-                <SourceItem z:Ref="i59" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
     </SourceItems>
     <InputSourceItems>
-        <SourceItem z:Ref="i146" />
+        <SourceItem z:Ref="i144" />
+        <SourceItem z:Ref="i118" />
         <SourceItem z:Ref="i2" />
-        <SourceItem z:Ref="i120" />
     </InputSourceItems>
     <Distributions>
-        <Distribution z:Id="i147" i:type="Package">
+        <Distribution z:Id="i145" i:type="Package">
             <DistributionItems>
-                <DistributionItem z:Id="i148" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i146" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments</DestinationRelativePath>
                     <Name>National Instruments</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i149" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i147" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins</DestinationRelativePath>
                     <Name>Plug-Ins</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i150" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i148" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements</DestinationRelativePath>
                     <Name>Measurements</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i151" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i149" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor</DestinationRelativePath>
                     <Name>Automotive Ethernet Bus Monitor</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i152" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i150" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\AutomotiveEthernetBusMonitor.aliases</DestinationRelativePath>
                     <Name>AutomotiveEthernetBusMonitor.aliases</Name>
                     <SourceItem z:Ref="i3" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i153" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i151" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\AutomotiveEthernetBusMonitor.exe</DestinationRelativePath>
                     <Name>AutomotiveEthernetBusMonitor.exe</Name>
                     <SourceItem z:Ref="i4" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i154" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i152" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\AutomotiveEthernetBusMonitor.ini</DestinationRelativePath>
                     <Name>AutomotiveEthernetBusMonitor.ini</Name>
                     <SourceItem z:Ref="i5" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i155" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i153" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\AutomotiveEthernetBusMonitor.serviceconfig</DestinationRelativePath>
                     <Name>AutomotiveEthernetBusMonitor.serviceconfig</Name>
                     <SourceItem z:Ref="i6" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i156" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i154" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i157" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i155" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Automotive Ethernet Bus Monitor UI.lvlibp</DestinationRelativePath>
                     <Name>Automotive Ethernet Bus Monitor UI.lvlibp</Name>
                     <SourceItem z:Ref="i7" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i158" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i156" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i159" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i157" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i160" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i158" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i8" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i161" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i159" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i162" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i160" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i9" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i163" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i161" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i164" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i162" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i10" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i165" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i163" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i166" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i164" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\BuiltUI\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i11" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i167" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i165" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i168" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i166" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i169" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i167" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i12" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i170" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i168" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i171" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i169" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i13" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i172" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i170" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i173" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i171" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i14" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i174" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i172" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i175" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i173" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Ethernet Bus Monitor\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i15" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i176" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i174" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture</DestinationRelativePath>
                     <Name>CAN-LIN Raw Bus Capture</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i177" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i175" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.aliases</DestinationRelativePath>
                     <Name>CAN-LINRawBusCapture.aliases</Name>
+                    <SourceItem z:Ref="i50" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i176" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.exe</DestinationRelativePath>
+                    <Name>CAN-LINRawBusCapture.exe</Name>
                     <SourceItem z:Ref="i51" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i178" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.exe</DestinationRelativePath>
-                    <Name>CAN-LINRawBusCapture.exe</Name>
+                <DistributionItem z:Id="i177" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.ini</DestinationRelativePath>
+                    <Name>CAN-LINRawBusCapture.ini</Name>
                     <SourceItem z:Ref="i52" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i179" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.ini</DestinationRelativePath>
-                    <Name>CAN-LINRawBusCapture.ini</Name>
+                <DistributionItem z:Id="i178" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.serviceconfig</DestinationRelativePath>
+                    <Name>CAN-LINRawBusCapture.serviceconfig</Name>
                     <SourceItem z:Ref="i53" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i180" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\CAN-LINRawBusCapture.serviceconfig</DestinationRelativePath>
-                    <Name>CAN-LINRawBusCapture.serviceconfig</Name>
-                    <SourceItem z:Ref="i54" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i181" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i179" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i182" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i180" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\CAN-LIN Raw Bus Capture UI.lvlibp</DestinationRelativePath>
                     <Name>CAN-LIN Raw Bus Capture UI.lvlibp</Name>
-                    <SourceItem z:Ref="i46" />
+                    <SourceItem z:Ref="i45" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i183" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i181" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i184" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i182" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i185" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i183" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i54" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i184" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i185" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i55" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i186" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i187" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i56" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i188" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i189" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i57" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i190" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i191" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i58" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i192" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision</DestinationRelativePath>
                     <Name>Automotive Vision</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i193" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i191" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\AutomotiveVision.aliases</DestinationRelativePath>
                     <Name>AutomotiveVision.aliases</Name>
+                    <SourceItem z:Ref="i16" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i192" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\AutomotiveVision.exe</DestinationRelativePath>
+                    <Name>AutomotiveVision.exe</Name>
                     <SourceItem z:Ref="i17" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i194" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\AutomotiveVision.exe</DestinationRelativePath>
-                    <Name>AutomotiveVision.exe</Name>
+                <DistributionItem z:Id="i193" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\AutomotiveVision.ini</DestinationRelativePath>
+                    <Name>AutomotiveVision.ini</Name>
                     <SourceItem z:Ref="i18" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i195" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\AutomotiveVision.ini</DestinationRelativePath>
-                    <Name>AutomotiveVision.ini</Name>
+                <DistributionItem z:Id="i194" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\AutomotiveVision.serviceconfig</DestinationRelativePath>
+                    <Name>AutomotiveVision.serviceconfig</Name>
                     <SourceItem z:Ref="i19" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i196" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\AutomotiveVision.serviceconfig</DestinationRelativePath>
-                    <Name>AutomotiveVision.serviceconfig</Name>
-                    <SourceItem z:Ref="i20" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i197" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i195" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i198" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i196" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Automotive Vision UI.lvlibp</DestinationRelativePath>
                     <Name>Automotive Vision UI.lvlibp</Name>
+                    <SourceItem z:Ref="i20" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i197" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\IMAQVision.chm</DestinationRelativePath>
+                    <Name>IMAQVision.chm</Name>
                     <SourceItem z:Ref="i21" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i199" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\IMAQVision.chm</DestinationRelativePath>
-                    <Name>IMAQVision.chm</Name>
-                    <SourceItem z:Ref="i22" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i200" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i198" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\nisyscfg.chm</DestinationRelativePath>
                     <Name>nisyscfg.chm</Name>
-                    <SourceItem z:Ref="i27" />
+                    <SourceItem z:Ref="i26" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i201" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i199" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i202" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i200" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i203" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i201" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i22" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i202" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i203" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i23" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i204" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i205" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i24" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i206" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i207" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i25" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i208" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i209" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\BuiltUI\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i26" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i210" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\data</DestinationRelativePath>
                     <Name>data</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i211" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i209" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\data\niLVDataManip.dll</DestinationRelativePath>
                     <Name>niLVDataManip.dll</Name>
-                    <SourceItem z:Ref="i28" />
+                    <SourceItem z:Ref="i27" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i212" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i210" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i213" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i211" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i214" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i212" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i28" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i213" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i214" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i29" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i215" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i216" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i30" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i217" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i218" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i31" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i219" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i220" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\Automotive Vision\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i32" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i221" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator</DestinationRelativePath>
                     <Name>CAN-LIN Frame Generator</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i222" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i220" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\CAN-LINFrameGenerator.aliases</DestinationRelativePath>
                     <Name>CAN-LINFrameGenerator.aliases</Name>
+                    <SourceItem z:Ref="i37" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i221" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\CAN-LINFrameGenerator.exe</DestinationRelativePath>
+                    <Name>CAN-LINFrameGenerator.exe</Name>
                     <SourceItem z:Ref="i38" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i223" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\CAN-LINFrameGenerator.exe</DestinationRelativePath>
-                    <Name>CAN-LINFrameGenerator.exe</Name>
+                <DistributionItem z:Id="i222" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\CAN-LINFrameGenerator.ini</DestinationRelativePath>
+                    <Name>CAN-LINFrameGenerator.ini</Name>
                     <SourceItem z:Ref="i39" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i224" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\CAN-LINFrameGenerator.ini</DestinationRelativePath>
-                    <Name>CAN-LINFrameGenerator.ini</Name>
+                <DistributionItem z:Id="i223" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\CAN-LINFrameGenerator.serviceconfig</DestinationRelativePath>
+                    <Name>CAN-LINFrameGenerator.serviceconfig</Name>
                     <SourceItem z:Ref="i40" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i225" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\CAN-LINFrameGenerator.serviceconfig</DestinationRelativePath>
-                    <Name>CAN-LINFrameGenerator.serviceconfig</Name>
-                    <SourceItem z:Ref="i41" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i226" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i224" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i227" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i225" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\CAN-LIN Frame Generator UI.lvlibp</DestinationRelativePath>
                     <Name>CAN-LIN Frame Generator UI.lvlibp</Name>
-                    <SourceItem z:Ref="i33" />
+                    <SourceItem z:Ref="i32" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i228" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i226" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i229" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i227" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i230" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i228" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i33" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i229" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i230" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i34" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i231" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i232" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i35" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i233" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i234" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i36" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i235" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i236" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\BuiltUI\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i37" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i237" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i238" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i236" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i239" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i237" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i41" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i238" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i239" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
                     <SourceItem z:Ref="i42" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i240" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i241" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i43" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i242" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
                 <DistributionItem z:Id="i243" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i44" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i244" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Win64</DestinationRelativePath>
-                    <Name>Win64</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i245" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Frame Generator\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i45" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i246" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor</DestinationRelativePath>
                     <Name>I2C Bus Monitor</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i247" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i245" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\I2CBusMonitor.aliases</DestinationRelativePath>
                     <Name>I2CBusMonitor.aliases</Name>
+                    <SourceItem z:Ref="i64" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i246" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\I2CBusMonitor.exe</DestinationRelativePath>
+                    <Name>I2CBusMonitor.exe</Name>
+                    <SourceItem z:Ref="i65" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i247" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\I2CBusMonitor.ini</DestinationRelativePath>
+                    <Name>I2CBusMonitor.ini</Name>
                     <SourceItem z:Ref="i66" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i248" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\I2CBusMonitor.exe</DestinationRelativePath>
-                    <Name>I2CBusMonitor.exe</Name>
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\I2CBusMonitor.serviceconfig</DestinationRelativePath>
+                    <Name>I2CBusMonitor.serviceconfig</Name>
                     <SourceItem z:Ref="i67" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i249" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\I2CBusMonitor.ini</DestinationRelativePath>
-                    <Name>I2CBusMonitor.ini</Name>
-                    <SourceItem z:Ref="i68" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i250" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\I2CBusMonitor.serviceconfig</DestinationRelativePath>
-                    <Name>I2CBusMonitor.serviceconfig</Name>
-                    <SourceItem z:Ref="i69" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i251" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i249" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI</DestinationRelativePath>
                     <Name>BuiltUI</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i252" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i250" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\I2C Bus Monitor UI.lvlibp</DestinationRelativePath>
                     <Name>I2C Bus Monitor UI.lvlibp</Name>
-                    <SourceItem z:Ref="i60" />
+                    <SourceItem z:Ref="i58" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i253" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i251" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\nisyscfg.chm</DestinationRelativePath>
                     <Name>nisyscfg.chm</Name>
-                    <SourceItem z:Ref="i65" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i254" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries</DestinationRelativePath>
-                    <Name>Libraries</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i255" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Linux</DestinationRelativePath>
-                    <Name>Linux</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i256" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i61" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i257" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\LinuxRT</DestinationRelativePath>
-                    <Name>LinuxRT</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i258" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
-                    <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i62" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i259" i:type="DistributionDirectoryItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Win32</DestinationRelativePath>
-                    <Name>Win32</Name>
-                    <SourceItem i:nil="true" />
-                </DistributionItem>
-                <DistributionItem z:Id="i260" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
-                    <Name>labview_grpc_server.dll</Name>
                     <SourceItem z:Ref="i63" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i261" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i252" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i253" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i254" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i59" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i255" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i256" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i60" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i257" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i258" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i61" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i259" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i262" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i260" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\BuiltUI\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i64" />
+                    <SourceItem z:Ref="i62" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i263" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i261" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\Libraries</DestinationRelativePath>
                     <Name>Libraries</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i264" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i262" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\Libraries\Linux</DestinationRelativePath>
                     <Name>Linux</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i265" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i263" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i70" />
+                    <SourceItem z:Ref="i68" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i266" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i264" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\Libraries\LinuxRT</DestinationRelativePath>
                     <Name>LinuxRT</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i267" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i265" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
                     <Name>liblabview_grpc_server.so</Name>
-                    <SourceItem z:Ref="i71" />
+                    <SourceItem z:Ref="i69" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i268" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i266" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\Libraries\Win32</DestinationRelativePath>
                     <Name>Win32</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i269" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i267" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i72" />
+                    <SourceItem z:Ref="i70" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i270" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i268" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\Libraries\Win64</DestinationRelativePath>
                     <Name>Win64</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i271" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i269" i:type="DistributionFileItem">
                     <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\I2C Bus Monitor\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
                     <Name>labview_grpc_server.dll</Name>
-                    <SourceItem z:Ref="i73" />
+                    <SourceItem z:Ref="i71" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i272" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i270" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Documents]\National Instruments</DestinationRelativePath>
                     <Name>National Instruments</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i273" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i271" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins</DestinationRelativePath>
                     <Name>Automotive Interface Plugins</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i274" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i272" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation</DestinationRelativePath>
                     <Name>Documentation</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
+                <DistributionItem z:Id="i273" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\Automotive Ethernet Bus Monitor.pdf</DestinationRelativePath>
+                    <Name>Automotive Ethernet Bus Monitor.pdf</Name>
+                    <SourceItem z:Ref="i72" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i274" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\Automotive Vision Acquisition.pdf</DestinationRelativePath>
+                    <Name>Automotive Vision Acquisition.pdf</Name>
+                    <SourceItem z:Ref="i73" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
                 <DistributionItem z:Id="i275" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\CAN-LIN Frame Generator.pdf</DestinationRelativePath>
+                    <Name>CAN-LIN Frame Generator.pdf</Name>
+                    <SourceItem z:Ref="i74" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i276" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\CAN-LIN Raw Bus Capture.pdf</DestinationRelativePath>
+                    <Name>CAN-LIN Raw Bus Capture.pdf</Name>
+                    <SourceItem z:Ref="i75" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i277" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\I2C Capture Plugin.pdf</DestinationRelativePath>
+                    <Name>I2C Capture Plugin.pdf</Name>
+                    <SourceItem z:Ref="i76" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i278" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\Release Notes.pdf</DestinationRelativePath>
                     <Name>Release Notes.pdf</Name>
                     <SourceItem z:Ref="i2" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i276" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\Automotive Ethernet Bus Monitor.pdf</DestinationRelativePath>
-                    <Name>Automotive Ethernet Bus Monitor.pdf</Name>
-                    <SourceItem z:Ref="i74" />
+                <DistributionItem z:Id="i279" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i280" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i281" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i46" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i277" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\Automotive Vision Acquisition.pdf</DestinationRelativePath>
-                    <Name>Automotive Vision Acquisition.pdf</Name>
-                    <SourceItem z:Ref="i75" />
+                <DistributionItem z:Id="i282" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i283" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i47" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i278" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\CAN-LIN Frame Generator.pdf</DestinationRelativePath>
-                    <Name>CAN-LIN Frame Generator.pdf</Name>
-                    <SourceItem z:Ref="i76" />
+                <DistributionItem z:Id="i284" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i285" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i48" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i279" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\CAN-LIn Raw Bus Capture.pdf</DestinationRelativePath>
-                    <Name>CAN-LIn Raw Bus Capture.pdf</Name>
-                    <SourceItem z:Ref="i77" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                <DistributionItem z:Id="i286" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i280" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Documents]\National Instruments\Automotive Interface Plugins\Documentation\I2C Capture Plugin.pdf</DestinationRelativePath>
-                    <Name>I2C Capture Plugin.pdf</Name>
-                    <SourceItem z:Ref="i78" />
+                <DistributionItem z:Id="i287" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i49" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
             </DistributionItems>
             <Name>Automotive Interface Plugins</Name>
-            <OutputDirectory>..\..\..\..</OutputDirectory>
+            <OutputDirectory>..\..\..\..\Package Build</OutputDirectory>
             <PluginConfigurationOptions />
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
-            <BuildStatus z:Id="i281">
-                <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>automotive-interface-plugins-for-instrumentstudio_0.2.0.0_windows_x64.nipkg</FileName>
-                <Version>0.2.0.0</Version>
+            <BuildStatus z:Id="i288">
+                <FileName />
+                <Version>none</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
@@ -1926,9 +1964,9 @@
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i282">
+        <DistributionGroup z:Id="i289">
             <Distributions>
-                <Distribution z:Ref="i147" />
+                <Distribution z:Ref="i145" />
             </Distributions>
             <Name>Distribution Group</Name>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
@@ -1937,59 +1975,59 @@
     </DistributionGroups>
     <TestStandMode>true</TestStandMode>
     <PluginConfigurationOptions>
-        <ConfigurationOption z:Id="i283">
-            <Definition z:Id="i284">
+        <ConfigurationOption z:Id="i290">
+            <Definition z:Id="i291">
                 <Description i:nil="true" />
                 <Name>TestStand Options</Name>
             </Definition>
             <HasDefaultValues>true</HasDefaultValues>
-            <Value z:Id="i285" i:type="DialogConfigurationOptionValue">
+            <Value z:Id="i292" i:type="DialogConfigurationOptionValue">
                 <Values>
-                    <ConfigurationOptionValue z:Id="i286" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i287" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i288" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i289" i:type="StringConfigurationOptionValue">
-                        <Value />
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i290" i:type="StringConfigurationOptionValue">
-                        <Value>SupportVIs</Value>
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i291" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i292" i:type="StringConfigurationOptionValue">
-                        <Value />
-                    </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i293" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i294" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i295" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i296" i:type="BooleanConfigurationOptionValue">
-                        <Value>true</Value>
+                    <ConfigurationOptionValue z:Id="i296" i:type="StringConfigurationOptionValue">
+                        <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i297" i:type="BooleanConfigurationOptionValue">
-                        <Value>true</Value>
+                    <ConfigurationOptionValue z:Id="i297" i:type="StringConfigurationOptionValue">
+                        <Value>SupportVIs</Value>
                     </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i298" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i299" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i300" i:type="PathConfigurationOptionValue">
-                        <RelativePath />
+                    <ConfigurationOptionValue z:Id="i299" i:type="StringConfigurationOptionValue">
+                        <Value />
                     </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i300" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i301" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i302" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i303" i:type="StringConfigurationOptionValue">
-                        <Value>[BootVolume]</Value>
+                    <ConfigurationOptionValue z:Id="i303" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i304" i:type="StringConfigurationOptionValue">
-                        <Value />
+                    <ConfigurationOptionValue z:Id="i304" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i305" i:type="StringConfigurationOptionValue">
-                        <Value />
+                    <ConfigurationOptionValue z:Id="i305" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i306" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i307" i:type="PathConfigurationOptionValue">
+                        <RelativePath />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i306" i:type="StringConfigurationOptionValue">
-                        <Value />
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i307" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i308" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i309" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i310" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i310" i:type="StringConfigurationOptionValue">
+                        <Value>[BootVolume]</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i311" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i312" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i313" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i314" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i315" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i316" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i317" i:type="BooleanConfigurationOptionValue" />
                 </Values>
             </Value>
         </ConfigurationOption>
