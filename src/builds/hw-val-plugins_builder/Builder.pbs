@@ -1883,15 +1883,69 @@
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
+                <DistributionItem z:Id="i279" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries</DestinationRelativePath>
+                    <Name>Libraries</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i280" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Linux</DestinationRelativePath>
+                    <Name>Linux</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i281" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Linux\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i46" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i282" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\LinuxRT</DestinationRelativePath>
+                    <Name>LinuxRT</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i283" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\LinuxRT\liblabview_grpc_server.so</DestinationRelativePath>
+                    <Name>liblabview_grpc_server.so</Name>
+                    <SourceItem z:Ref="i47" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i284" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win32</DestinationRelativePath>
+                    <Name>Win32</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i285" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win32\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i48" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i286" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win64</DestinationRelativePath>
+                    <Name>Win64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i287" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\Plug-Ins\Measurements\CAN-LIN Raw Bus Capture\BuiltUI\Libraries\Win64\labview_grpc_server.dll</DestinationRelativePath>
+                    <Name>labview_grpc_server.dll</Name>
+                    <SourceItem z:Ref="i49" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
             </DistributionItems>
             <Name>Automotive Interface Plugins</Name>
             <OutputDirectory>..\..\..\..\Package Build</OutputDirectory>
             <PluginConfigurationOptions />
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
-            <BuildStatus z:Id="i279">
-                <FileName />
-                <Version>none</Version>
+            <BuildStatus z:Id="i288">
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>automotive-interface-plugins-for-instrumentstudio_0.2.0.0_windows_x64.nipkg</FileName>
+                <Version>0.2.0.0</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
@@ -1911,7 +1965,7 @@
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i280">
+        <DistributionGroup z:Id="i289">
             <Distributions>
                 <Distribution z:Ref="i145" />
             </Distributions>
@@ -1922,59 +1976,59 @@
     </DistributionGroups>
     <TestStandMode>true</TestStandMode>
     <PluginConfigurationOptions>
-        <ConfigurationOption z:Id="i281">
-            <Definition z:Id="i282">
+        <ConfigurationOption z:Id="i290">
+            <Definition z:Id="i291">
                 <Description i:nil="true" />
                 <Name>TestStand Options</Name>
             </Definition>
             <HasDefaultValues>true</HasDefaultValues>
-            <Value z:Id="i283" i:type="DialogConfigurationOptionValue">
+            <Value z:Id="i292" i:type="DialogConfigurationOptionValue">
                 <Values>
-                    <ConfigurationOptionValue z:Id="i284" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i285" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i286" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i287" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i293" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i294" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i295" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i296" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i288" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i297" i:type="StringConfigurationOptionValue">
                         <Value>SupportVIs</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i289" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i290" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i298" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i299" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i291" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i292" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i293" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i294" i:type="BooleanConfigurationOptionValue">
-                        <Value>true</Value>
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i295" i:type="BooleanConfigurationOptionValue">
-                        <Value>true</Value>
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i296" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i297" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i298" i:type="PathConfigurationOptionValue">
-                        <RelativePath />
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i299" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i300" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i301" i:type="StringConfigurationOptionValue">
-                        <Value>[BootVolume]</Value>
+                    <ConfigurationOptionValue z:Id="i301" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i302" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i303" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i302" i:type="StringConfigurationOptionValue">
-                        <Value />
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i303" i:type="StringConfigurationOptionValue">
-                        <Value />
-                    </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i304" i:type="StringConfigurationOptionValue">
-                        <Value />
+                    <ConfigurationOptionValue z:Id="i304" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
                     </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i305" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i306" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i307" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i307" i:type="PathConfigurationOptionValue">
+                        <RelativePath />
+                    </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i308" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i309" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i310" i:type="StringConfigurationOptionValue">
+                        <Value>[BootVolume]</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i311" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i312" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i313" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i314" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i315" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i316" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i317" i:type="BooleanConfigurationOptionValue" />
                 </Values>
             </Value>
         </ConfigurationOption>
