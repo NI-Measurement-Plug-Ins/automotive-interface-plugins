@@ -108,6 +108,10 @@ Select the **CSI‑2 Virtual Channel ID** to demultiplex multiple streams sharin
 
 *   Select which serial input channel to use - only one channel is supported at a time.
 
+### Script (Selected by path)
+
+*   Choose the appropriate script for your camera model
+
 ***
 
 ## Starting & Using the Plugin
