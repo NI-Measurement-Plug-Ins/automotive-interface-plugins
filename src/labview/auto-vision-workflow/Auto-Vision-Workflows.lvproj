@@ -17,9 +17,9 @@
 			<Item Name="Automotive-Vision-OOBService_server.lvlib" Type="Library" URL="../Automotive Vision/Automotive-Vision-OOBService_server/Automotive-Vision-OOBService_server.lvlib"/>
 			<Item Name="Automotive-Vision-OOBService_client.lvlib" Type="Library" URL="../Automotive Vision UI/Automotive-Vision-OOBService_client/Automotive-Vision-OOBService_client.lvlib"/>
 			<Item Name="Automotive-Vision OOB Data Transfer.lvlib" Type="Library" URL="../Automotive Vision/Automotive-Vision OOB Data Transfer/Automotive-Vision OOB Data Transfer.lvlib"/>
-			<Item Name="GettingStarted_Common_148X_Host.lvlib" Type="Library" URL="../../../../../../../Program Files/NI/LVAddons/flexrioii/1/ProjectTemplates/Source/FlexRIO/NI148X/Getting Started/Host/Common/GettingStarted_Common_148X_Host.lvlib"/>
-			<Item Name="GettingStarted_Acq_148X_Host.lvlib" Type="Library" URL="../../../../../../../Program Files/NI/LVAddons/flexrioii/1/ProjectTemplates/Source/FlexRIO/NI148X/Getting Started/Host/Acq/GettingStarted_Acq_148X_Host.lvlib"/>
-			<Item Name="GettingStarted_Common_148X_FPGA.lvlib" Type="Library" URL="../../../../../../../Program Files/NI/LVAddons/flexrioii/1/ProjectTemplates/Source/FlexRIO/NI148X/Getting Started/FPGA/Common/GettingStarted_Common_148X_FPGA.lvlib"/>
+			<Item Name="GettingStarted_Common_148X_Host.lvlib" Type="Library" URL="../../../../../ttashjia/GSE/Host/Common/GettingStarted_Common_148X_Host.lvlib"/>
+			<Item Name="GettingStarted_Acq_148X_Host.lvlib" Type="Library" URL="../../../../../ttashjia/GSE/Host/Acq/GettingStarted_Acq_148X_Host.lvlib"/>
+			<Item Name="GettingStarted_Common_148X_FPGA.lvlib" Type="Library" URL="../../../../../ttashjia/GSE/FPGA/Common/GettingStarted_Common_148X_FPGA.lvlib"/>
 		</Item>
 		<Item Name="Automotive Vision UI.lvlib" Type="Library" URL="../Automotive Vision UI/Automotive Vision UI.lvlib"/>
 		<Item Name="Automotive Vision.lvclass" Type="LVClass" URL="../Automotive Vision/Automotive Vision.lvclass"/>
@@ -42,7 +42,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Automotive Vision.lvclass/Framework Defined/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4272B8A9-E41E-44AA-90F2-44839D21176A}</Property>
-				<Property Name="Bld_version.build" Type="Int">154</Property>
+				<Property Name="Bld_version.build" Type="Int">156</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutomotiveVision.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Automotive Vision/AutomotiveVision.exe</Property>
@@ -81,7 +81,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Automotive Vision UI.lvlib/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3705D344-3456-4B0A-AA11-B06653F26439}</Property>
-				<Property Name="Bld_version.build" Type="Int">180</Property>
+				<Property Name="Bld_version.build" Type="Int">182</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Automotive Vision UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Automotive Vision/BuiltUI/Automotive Vision UI.lvlibp</Property>

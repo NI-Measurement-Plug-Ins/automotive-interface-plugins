@@ -1,0 +1,27 @@
+<Configuration>
+  <Target name="My Computer">
+    <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="Automotive Vision.lvclass:Measurement Logic.vi:6590002">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="654"/>
+          <SignalUID value="8345"/>
+          <SignalUID value="8338"/>
+          <SignalUID value="8342"/>
+          <SignalUID value="8167"/>
+          <SignalUID value="5041"/>
+          <SignalUID value="5031"/>
+          <SignalUID value="5047"/>
+          <SignalUID value="5044"/>
+          <SignalUID value="7918"/>
+        </Generic>
+      </Probes>
+    </VI>
+  </Target>
+</Configuration>
