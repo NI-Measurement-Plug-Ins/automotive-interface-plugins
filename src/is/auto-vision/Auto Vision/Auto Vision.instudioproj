@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="09665A59BD26095B2EC8A1942D56DE56CB255B7C0E34567A1428DBC13D4FC51CBE68CD370FA49F7D0543FDD6B8FF93F9B704927E7CAC0FEC40D7688EDF290E86" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="1C4131555A3007B9042AE8513892AFEE42A52EA1F9877C8AFC5ACB58884C0024A8C7DB07B043341327EE4289F7CC1777CDFD0E988824CE47E905E1BA241F5F2D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.20.0.50038" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="26.3.0.50038" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="26.3.0.50038" />
@@ -12,6 +12,7 @@
 		<NameScopingEnvoy Id="b3695ac313d44dc8a63f94a29aa42ea6" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
 			<SourceFileReference Bindings="EnvoyManager" Id="7a6426a780994c07bfa141e3abc14a9e" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument.sfp" StoragePath="Instrument.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="73fed2f9889a477bb8e2d8c65072f024" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument_2.sfp" StoragePath="Instrument_2.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">
