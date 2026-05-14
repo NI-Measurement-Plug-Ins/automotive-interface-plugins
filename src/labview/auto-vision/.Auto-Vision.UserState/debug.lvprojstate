@@ -1,7 +1,7 @@
 <Configuration>
   <Target name="My Computer">
-    <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
-    <VI name="Automotive Vision.lvclass:Measurement Logic.vi">
+    <EnableDebuggingForAllVIs></EnableDebuggingForAllVIs>
+    <VI name="Automotive Vision.lvclass:Transfer Images Data to UI.vi:1280001">
       <Breakpoints>
         <NodeIndexes>
         </NodeIndexes>
@@ -10,7 +10,7 @@
       </Breakpoints>
       <Probes>
         <Generic>
-          <SignalUID value="8482"/>
+          <SignalUID value="582"/>
         </Generic>
       </Probes>
     </VI>
