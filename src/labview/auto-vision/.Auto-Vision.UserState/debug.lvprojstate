@@ -1,6 +1,6 @@
 <Configuration>
   <Target name="My Computer">
-    <EnableDebuggingForAllVIs></EnableDebuggingForAllVIs>
+    <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
     <VI name="Automotive Vision.lvclass:Transfer Images Data to UI.vi:1280001">
       <Breakpoints>
         <NodeIndexes>
