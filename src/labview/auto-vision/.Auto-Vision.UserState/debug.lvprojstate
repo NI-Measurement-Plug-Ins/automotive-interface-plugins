@@ -1,7 +1,7 @@
 <Configuration>
   <Target name="My Computer">
     <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
-    <VI name="Automotive Vision.lvclass:Transfer Images Data to UI.vi:1280001">
+    <VI name="Automotive Vision.lvclass:Get Image Data.vi:4410001">
       <Breakpoints>
         <NodeIndexes>
         </NodeIndexes>
@@ -10,7 +10,33 @@
       </Breakpoints>
       <Probes>
         <Generic>
-          <SignalUID value="582"/>
+          <SignalUID value="163"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Automotive Vision.lvclass:Read Pixels and Copy to Display Image Array.vi:1900003">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="2981"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Automotive Vision.lvclass:Transfer Images Data to UI.vi:1280002">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="892"/>
         </Generic>
       </Probes>
     </VI>
