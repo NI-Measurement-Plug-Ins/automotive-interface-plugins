@@ -40,5 +40,19 @@
         </Generic>
       </Probes>
     </VI>
+    <VI name="Automotive Vision.lvclass:Transfer Images Data to UI.vi:1280016">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="8198"/>
+          <SignalUID value="3773"/>
+        </Generic>
+      </Probes>
+    </VI>
   </Target>
 </Configuration>
