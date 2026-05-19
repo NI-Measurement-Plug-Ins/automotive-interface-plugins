@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B7B852DD94F976D081EBB84DE435EC4DD6AEDAB775494602D19FA694B30A6622A329741D779A56B62B41BB0A8DC5A280F57D93FAD46497201000A5529F4DDD45" Timestamp="1DCE748835D138D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B7B852DD94F976D081EBB84DE435EC4DD6AEDAB775494602D19FA694B30A6622A329741D779A56B62B41BB0A8DC5A280F57D93FAD46497201000A5529F4DDD45" Timestamp="1DCE7AB541D9385" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.20.0.50038" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.15.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="26.3.0.50038" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />

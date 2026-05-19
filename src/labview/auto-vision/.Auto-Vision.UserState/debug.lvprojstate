@@ -14,6 +14,43 @@
         </Generic>
       </Probes>
     </VI>
+    <VI name="Automotive Vision.lvclass:Measurement Logic.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="8023"/>
+          <SignalUID value="8338"/>
+          <SignalUID value="8071"/>
+          <SignalUID value="7933"/>
+          <SignalUID value="6005"/>
+          <SignalUID value="4845"/>
+          <SignalUID value="3754"/>
+          <SignalUID value="4750"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Automotive Vision.lvclass:Measurement Logic.vi:6590001">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="6300"/>
+          <SignalUID value="3754"/>
+          <SignalUID value="5605"/>
+          <SignalUID value="4666"/>
+          <SignalUID value="4750"/>
+        </Generic>
+      </Probes>
+    </VI>
     <VI name="Automotive Vision.lvclass:Read Pixels and Copy to Display Image Array.vi:1900003">
       <Breakpoints>
         <NodeIndexes>
@@ -24,6 +61,20 @@
       <Probes>
         <Generic>
           <SignalUID value="2981"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Automotive Vision.lvclass:Send Data for UI.vi:5100002">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="599"/>
+          <SignalUID value="384"/>
         </Generic>
       </Probes>
     </VI>
@@ -51,6 +102,9 @@
         <Generic>
           <SignalUID value="8198"/>
           <SignalUID value="3773"/>
+          <SignalUID value="3099"/>
+          <SignalUID value="582"/>
+          <SignalUID value="2338"/>
         </Generic>
       </Probes>
     </VI>
