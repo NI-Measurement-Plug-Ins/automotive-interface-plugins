@@ -14,6 +14,19 @@
         </Generic>
       </Probes>
     </VI>
+    <VI name="Automotive Vision.lvclass:Measurement Logic.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="4914"/>
+        </Generic>
+      </Probes>
+    </VI>
     <VI name="Automotive Vision.lvclass:Read Pixels and Copy to Display Image Array.vi:1900003">
       <Breakpoints>
         <NodeIndexes>
