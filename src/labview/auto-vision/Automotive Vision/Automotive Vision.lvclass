@@ -76,6 +76,14 @@
 	</Item>
 	<Item Name="User Defined" Type="Folder">
 		<Item Name="subVI" Type="Folder">
+			<Item Name="Acq Info.ctl" Type="VI" URL="../Types/Acq Info.ctl">
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+			</Item>
 			<Item Name="Convert Image pixel_v2.vi" Type="VI" URL="../subVI/Convert Image pixel_v2.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -98,7 +106,7 @@
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342710275</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 			</Item>
 			<Item Name="Get Image Data.vi" Type="VI" URL="../subVI/Get Image Data.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -106,7 +114,15 @@
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+			</Item>
+			<Item Name="Image Info.ctl" Type="VI" URL="../Types/Image Info.ctl">
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 			</Item>
 			<Item Name="Initialize Image.vi" Type="VI" URL="../subVI/Initialize Image.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -150,11 +166,19 @@
 			</Item>
 			<Item Name="Send Data for UI.vi" Type="VI" URL="../subVI/Send Data for UI.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+			</Item>
+			<Item Name="Status Data.ctl" Type="VI" URL="../Types/Status Data.ctl">
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 			</Item>
 			<Item Name="Transfer Images Data to UI.vi" Type="VI" URL="../subVI/Transfer Images Data to UI.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -162,7 +186,7 @@
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 			</Item>
 			<Item Name="Wrap Data for Measurement Logic Initialization.vi" Type="VI" URL="../subVI/Wrap Data for Measurement Logic Initialization.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -174,19 +198,19 @@
 			</Item>
 			<Item Name="Wrap Data for UI Update.vi" Type="VI" URL="../subVI/Wrap Data for UI Update.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 			</Item>
 			<Item Name="Wrap Image metadata.vi" Type="VI" URL="../subVI/Wrap Image metadata.vi">
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 				<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 			</Item>
 		</Item>
 		<Item Name="Get Service Descriptor.vi" Type="VI" URL="../Get Service Descriptor.vi">
@@ -224,11 +248,11 @@
 		</Item>
 		<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">17039744</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">262528</Property>
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350836752</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
