@@ -21,6 +21,7 @@
 			<Item Name="GettingStarted_Acq_148X_Host.lvlib" Type="Library" URL="../Automotive Vision/deps/NI148X/Getting Started/Host/Acq/GettingStarted_Acq_148X_Host.lvlib"/>
 			<Item Name="GettingStarted_Common_148X_FPGA.lvlib" Type="Library" URL="../Automotive Vision/deps/NI148X/Getting Started/FPGA/Common/GettingStarted_Common_148X_FPGA.lvlib"/>
 		</Item>
+		<Item Name="Session Management flexrio 148x.lvlib" Type="Library" URL="../../session-management/flexrio148x/Session Management flexrio 148x.lvlib"/>
 		<Item Name="Automotive Vision UI.lvlib" Type="Library" URL="../Automotive Vision UI/Automotive Vision UI.lvlib"/>
 		<Item Name="Automotive Vision.lvclass" Type="LVClass" URL="../Automotive Vision/Automotive Vision.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>

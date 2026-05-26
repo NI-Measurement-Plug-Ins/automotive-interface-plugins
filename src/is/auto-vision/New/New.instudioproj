@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2CA84E446FCFF0AC2D2A8F8B8C40913E88C7DE8854E606F87093968E7FF924C30A74164BDE987D4BA5A15443E104AE8BA717291319857A2004B3F2DC06E70000" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="62B9197A9FCC051DA04F860B3B7493DD0D84BB6220F2913887E6C7C866DE781B447DA104647F87B1ACCFF1AB8D517331FB553F754FF22ADFAB2AB3D6670975E7" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="26.3.0.50038" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.20.0.50038" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="26.3.0.50038" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="26.3.0.50038" />
 	</SourceModelFeatureSet>
@@ -11,7 +12,9 @@
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="dc86796211834bd3a63ad2f2b4be8faf" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
-			<SourceFileReference Bindings="EnvoyManager" Id="3037d458d72a4cb8aefeb1c33bee8769" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument.sfp" StoragePath="Instrument.sfp" />
+			<FileReference Id="7381cdb8502b4a30878ebdd9c7c1f51f" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="Image.pinmap" StoragePath="Image.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+			<FileReference Id="c594fb24a9924ee59a2d14ee4c7102f4" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="PinMap.pinmap" StoragePath="..\..\..\..\..\automotive-interface-plugins Backups\src\workflow\is-project-and-automation\PinMap.pinmap" />
+			<SourceFileReference Bindings="EnvoyManager" Id="e0d5965bf3504ef8b0a822777887ceee" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument.sfp" StoragePath="Instrument.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">
