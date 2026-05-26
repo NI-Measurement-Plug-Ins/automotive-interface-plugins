@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1">
 	<Instruments>
-		<Instrument name="1486_4in_4out" instrumentTypeId="flexrio148x">
-			<Channel id="PXI1Slot4" />
+		<Instrument name="Demo" instrumentTypeId="flexrio148x">
+			<Channel id="Ch0" />
 		</Instrument>
 	</Instruments>
 	<Pins>
@@ -13,6 +13,6 @@
 		<Site siteNumber="0" />
 	</Sites>
 	<Connections>
-		<Connection pin="DUTPin1" siteNumber="0" instrument="1486_4in_4out" channel="PXI1Slot4" />
+		<Connection pin="DUTPin1" siteNumber="0" instrument="Demo" channel="Ch0" />
 	</Connections>
 </PinMap>

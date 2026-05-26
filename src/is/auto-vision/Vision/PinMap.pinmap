@@ -5,14 +5,10 @@
 			<Channel id="PXI1Slot4" />
 		</Instrument>
 	</Instruments>
-	<Pins>
-		<DUTPin name="DUTPin1" />
-	</Pins>
+	<Pins></Pins>
 	<PinGroups></PinGroups>
 	<Sites>
 		<Site siteNumber="0" />
 	</Sites>
-	<Connections>
-		<Connection pin="DUTPin1" siteNumber="0" instrument="1486_4in_4out" channel="PXI1Slot4" />
-	</Connections>
+	<Connections></Connections>
 </PinMap>
