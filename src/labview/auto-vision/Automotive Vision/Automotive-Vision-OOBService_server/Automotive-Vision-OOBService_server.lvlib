@@ -74,6 +74,38 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
+		<Item Name="hwval_GenericRequest" Type="Folder">
+			<Item Name="FlatToRichhwval_GenericRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichhwval_GenericRequest.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Get hwval_GenericRequest.vi" Type="VI" URL="../RPC Messages/Get hwval_GenericRequest.vi"/>
+			<Item Name="hwval_GenericRequest.ctl" Type="VI" URL="../RPC Messages/hwval_GenericRequest.ctl"/>
+			<Item Name="RichToFlathwval_GenericRequest.vi" Type="VI" URL="../RPC Messages/RichToFlathwval_GenericRequest.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Set hwval_GenericRequest.vi" Type="VI" URL="../RPC Messages/Set hwval_GenericRequest.vi"/>
+		</Item>
+		<Item Name="hwval_GenericRequest_Flat" Type="Folder">
+			<Item Name="hwval_GenericRequest_Flat.ctl" Type="VI" URL="../RPC Messages/hwval_GenericRequest_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="hwval_GenericResponse" Type="Folder">
+			<Item Name="FlatToRichhwval_GenericResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichhwval_GenericResponse.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Get hwval_GenericResponse.vi" Type="VI" URL="../RPC Messages/Get hwval_GenericResponse.vi"/>
+			<Item Name="hwval_GenericResponse.ctl" Type="VI" URL="../RPC Messages/hwval_GenericResponse.ctl"/>
+			<Item Name="RichToFlathwval_GenericResponse.vi" Type="VI" URL="../RPC Messages/RichToFlathwval_GenericResponse.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Set hwval_GenericResponse.vi" Type="VI" URL="../RPC Messages/Set hwval_GenericResponse.vi"/>
+		</Item>
+		<Item Name="hwval_GenericResponse_Flat" Type="Folder">
+			<Item Name="hwval_GenericResponse_Flat.ctl" Type="VI" URL="../RPC Messages/hwval_GenericResponse_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
 		<Item Name="hwval_StatusResponse" Type="Folder">
 			<Item Name="FlatToRichhwval_StatusResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichhwval_StatusResponse.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
