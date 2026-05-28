@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="62B9197A9FCC051DA04F860B3B7493DD0D84BB6220F2913887E6C7C866DE781B447DA104647F87B1ACCFF1AB8D517331FB553F754FF22ADFAB2AB3D6670975E7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C0822164E1AA5AE919ECCBF6A26BFA012466DC2447EAEC775347C8390B93442D3B7E56BFD0771B4F5A5FCE3024FE8C7444313872DF622925B1C614F0C6D12C04" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="26.3.0.50038" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.20.0.50038" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -15,6 +15,7 @@
 			<FileReference Id="7381cdb8502b4a30878ebdd9c7c1f51f" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="Image.pinmap" StoragePath="Image.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
 			<FileReference Id="c594fb24a9924ee59a2d14ee4c7102f4" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="PinMap.pinmap" StoragePath="..\..\..\..\..\automotive-interface-plugins Backups\src\workflow\is-project-and-automation\PinMap.pinmap" />
 			<SourceFileReference Bindings="EnvoyManager" Id="e0d5965bf3504ef8b0a822777887ceee" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument.sfp" StoragePath="Instrument.sfp" />
+			<FileReference Bindings=".seq" Id="5100ab84736249e583492ca3f6880dcc" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="New.seq" StoragePath="New.seq" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">
