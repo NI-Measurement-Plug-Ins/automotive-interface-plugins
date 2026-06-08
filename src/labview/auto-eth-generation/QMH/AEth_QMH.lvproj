@@ -62,9 +62,11 @@
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
+			<Item Name="Wrap proxy config.vi" Type="VI" URL="../subVIs/Wrap proxy config.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
+			<Item Name="Wrap iPerf Test.vi" Type="VI" URL="../subVIs/Wrap iPerf Test.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="DUT Info.ctl" Type="VI" URL="../subVIs/DUT Info.ctl"/>

@@ -1,17 +1,33 @@
 <Configuration>
   <Target name="My Computer">
     <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
-    <VI name="Main.vi">
+    <VI name="Wrap iPerf Test.vi">
       <Breakpoints>
         <NodeIndexes>
         </NodeIndexes>
         <SignalIndexes>
-          <Signal index="4261" enabled="1"/>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="6653"/>
+          <SignalUID value="1097"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Wrap proxy config.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
         </SignalIndexes>
       </Breakpoints>
       <Probes>
         <Generic>
         </Generic>
+        <Custom>
+          <Probe signalUID="2066" menuID="186" itemID="3" path="C:\Program Files\National Instruments\LabVIEW 2026\vi.lib\_probes\history\NI.History (U16).vi"/>
+        </Custom>
       </Probes>
     </VI>
   </Target>
