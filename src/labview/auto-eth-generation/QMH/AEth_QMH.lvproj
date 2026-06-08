@@ -54,6 +54,10 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Convert MAC Address.vi" Type="VI" URL="../subVIs/Convert MAC Address.vi"/>
 			<Item Name="DUT Info.vi" Type="VI" URL="../subVIs/DUT Info.vi"/>
+			<Item Name="Link Speed Test.vi" Type="VI" URL="../subVIs/Link Speed Test.vi"/>
+			<Item Name="Wrap iPerf Test.vi" Type="VI" URL="../subVIs/Wrap iPerf Test.vi"/>
+			<Item Name="Wrap Ping Test.vi" Type="VI" URL="../subVIs/Wrap Ping Test.vi"/>
+			<Item Name="Wrap proxy config.vi" Type="VI" URL="../subVIs/Wrap proxy config.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -62,14 +66,11 @@
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
-			<Item Name="Wrap proxy config.vi" Type="VI" URL="../subVIs/Wrap proxy config.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
-			<Item Name="Wrap iPerf Test.vi" Type="VI" URL="../subVIs/Wrap iPerf Test.vi"/>
-		</Item>
-		<Item Name="Types" Type="Folder">
+			<Item Name="Device Info.ctl" Type="VI" URL="../subVIs/Device Info.ctl"/>
 			<Item Name="DUT Info.ctl" Type="VI" URL="../subVIs/DUT Info.ctl"/>
+			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>

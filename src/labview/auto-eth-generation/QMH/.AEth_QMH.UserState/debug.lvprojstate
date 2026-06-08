@@ -1,6 +1,23 @@
 <Configuration>
   <Target name="My Computer">
     <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="Main.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="6030"/>
+          <SignalUID value="5159"/>
+          <SignalUID value="4832"/>
+          <SignalUID value="5186"/>
+          <SignalUID value="5067"/>
+        </Generic>
+      </Probes>
+    </VI>
     <VI name="Wrap iPerf Test.vi">
       <Breakpoints>
         <NodeIndexes>
