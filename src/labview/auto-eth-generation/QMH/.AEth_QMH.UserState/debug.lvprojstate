@@ -41,6 +41,7 @@
       </Breakpoints>
       <Probes>
         <Generic>
+          <SignalUID value="1054"/>
         </Generic>
         <Custom>
           <Probe signalUID="2066" menuID="186" itemID="3" path="C:\Program Files\National Instruments\LabVIEW 2026\vi.lib\_probes\history\NI.History (U16).vi"/>

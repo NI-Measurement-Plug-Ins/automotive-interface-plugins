@@ -66,6 +66,9 @@
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
+			<Item Name="Proxy Config.ctl" Type="VI" URL="../subVIs/Proxy Config.ctl"/>
+			<Item Name="XNET Example IP Stack Config - Add Proxy Server Extended.vi" Type="VI" URL="../subVIs/XNET Example IP Stack Config - Add Proxy Server Extended.vi"/>
+			<Item Name="XNET Example IP Stack Config - Proxy Server Extended.ctl" Type="VI" URL="../subVIs/XNET Example IP Stack Config - Proxy Server Extended.ctl"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Device Info.ctl" Type="VI" URL="../subVIs/Device Info.ctl"/>
