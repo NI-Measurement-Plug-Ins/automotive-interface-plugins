@@ -65,6 +65,12 @@
 			<Item Name="Update Table.vi" Type="VI" URL="../Update Table.vi"/>
 			<Item Name="Open Help PDF.vi" Type="VI" URL="../Open Help PDF.vi"/>
 		</Item>
+		<Item Name="Tree" Type="Folder">
+			<Item Name="Frame convert.vi" Type="VI" URL="../Tree/Frame convert.vi"/>
+			<Item Name="Populate Tree.vi" Type="VI" URL="../Tree/Populate Tree.vi"/>
+			<Item Name="Update Trace Tree.vi" Type="VI" URL="../Tree/Update Trace Tree.vi"/>
+			<Item Name="XNET.vi" Type="VI" URL="../Tree/XNET.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 </Library>
