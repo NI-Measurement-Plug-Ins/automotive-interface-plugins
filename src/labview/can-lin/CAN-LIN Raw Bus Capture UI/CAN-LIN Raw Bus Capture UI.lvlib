@@ -70,6 +70,7 @@
 			<Item Name="Populate Tree.vi" Type="VI" URL="../Tree/Populate Tree.vi"/>
 			<Item Name="Update Trace Tree.vi" Type="VI" URL="../Tree/Update Trace Tree.vi"/>
 			<Item Name="Convert RAW data with DBC.vi" Type="VI" URL="../Tree/Convert RAW data with DBC.vi"/>
+			<Item Name="Auto Scroll Tree.vi" Type="VI" URL="../Tree/Auto Scroll Tree.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
