@@ -71,6 +71,7 @@
 			<Item Name="Update Trace Tree.vi" Type="VI" URL="../Tree/Update Trace Tree.vi"/>
 			<Item Name="Convert RAW data with DBC.vi" Type="VI" URL="../Tree/Convert RAW data with DBC.vi"/>
 			<Item Name="Auto Scroll Tree.vi" Type="VI" URL="../Tree/Auto Scroll Tree.vi"/>
+			<Item Name="Map the Signals and Frames.vi" Type="VI" URL="../Tree/Map the Signals and Frames.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
