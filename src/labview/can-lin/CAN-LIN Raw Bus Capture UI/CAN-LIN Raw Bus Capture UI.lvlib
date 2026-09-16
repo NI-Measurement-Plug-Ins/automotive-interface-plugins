@@ -75,4 +75,5 @@
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="Get Tree Data.vi" Type="VI" URL="../Tree/Get Tree Data.vi"/>
 </Library>
