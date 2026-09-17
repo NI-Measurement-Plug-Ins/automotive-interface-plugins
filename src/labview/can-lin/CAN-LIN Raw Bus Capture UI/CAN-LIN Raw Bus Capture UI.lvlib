@@ -72,8 +72,9 @@
 			<Item Name="Convert RAW data with DBC.vi" Type="VI" URL="../Tree/Convert RAW data with DBC.vi"/>
 			<Item Name="Auto Scroll Tree.vi" Type="VI" URL="../Tree/Auto Scroll Tree.vi"/>
 			<Item Name="Map the Signals and Frames.vi" Type="VI" URL="../Tree/Map the Signals and Frames.vi"/>
+			<Item Name="Get Tree Data.vi" Type="VI" URL="../Tree/Get Tree Data.vi"/>
+			<Item Name="Re-Populate Tree.vi" Type="VI" URL="../Tree/Re-Populate Tree.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
-	<Item Name="Get Tree Data.vi" Type="VI" URL="../Tree/Get Tree Data.vi"/>
 </Library>
