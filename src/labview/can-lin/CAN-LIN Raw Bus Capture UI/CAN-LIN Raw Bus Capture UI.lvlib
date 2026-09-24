@@ -74,6 +74,8 @@
 			<Item Name="Map the Signals and Frames.vi" Type="VI" URL="../Tree/Map the Signals and Frames.vi"/>
 			<Item Name="Get Tree Data.vi" Type="VI" URL="../Tree/Get Tree Data.vi"/>
 			<Item Name="Re-Populate Tree.vi" Type="VI" URL="../Tree/Re-Populate Tree.vi"/>
+			<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Tree/Defer Panel Updates.vi"/>
+			<Item Name="Clear maps and sessions.vi" Type="VI" URL="../Tree/Clear maps and sessions.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
