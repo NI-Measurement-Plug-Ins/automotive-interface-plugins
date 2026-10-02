@@ -80,6 +80,8 @@
 			<Item Name="Clear maps and sessions.vi" Type="VI" URL="../Tree/Clear maps and sessions.vi"/>
 			<Item Name="Build table.vi" Type="VI" URL="../Tree/Build table.vi"/>
 			<Item Name="Re-Populate Tree for Filter.vi" Type="VI" URL="../Tree/Re-Populate Tree for Filter.vi"/>
+			<Item Name="Filter new data.vi" Type="VI" URL="../Tree/Filter new data.vi"/>
+			<Item Name="Sort tree items.vi" Type="VI" URL="../Tree/Sort tree items.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
